@@ -21,17 +21,25 @@ export default class Blogs extends Component {
             <div className="section-head">
               <h1 className="line-heading h2">Blogs</h1>
             </div>
-            <ul className="blogs-list">
+            <ul
+              className={`blogs-list ${
+                data.allContentfulBlogs.edges.length < 5 ? "few-blogs" : ""
+              }`}
+            >
               {data.allContentfulBlogs.edges.map((item, index) => {
                 return (
                   <li key={index} className="item">
                     <div className="inner">
                       <Link className="link" to={item.node.slug} />
-                      <Img
-                        fixed={item.node.featureImage.fluid}
-                        objectFit="cover"
-                        objectPosition="50% 50%"
-                      />
+                      {item.node.featureImage ? (
+                        <Img
+                          fixed={item.node.featureImage.fluid}
+                          objectFit="cover"
+                          objectPosition="50% 50%"
+                        />
+                      ) : (
+                        <div className="no-image"></div>
+                      )}
                       <div className="details">
                         <h3 className="title">{item.node.title}</h3>
                         <span className="date">
@@ -53,7 +61,7 @@ export default class Blogs extends Component {
 
 export const pageQuery = graphql`
   query BlogsQuery {
-    allContentfulBlogs {
+    allContentfulBlogs(sort: {fields: createdAt, order: DESC}) {
       edges {
         node {
           title

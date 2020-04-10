@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 export default class Contact extends Component {
   render() {
-    console.log("const:", this.props.data);
     return (
       <div className="contact section" id="Contact">
         <div className="container">
@@ -17,17 +16,17 @@ export default class Contact extends Component {
           >
             <div>
               <label>
-                Your Name: <input type="text" name="name" />
+                Your Name: <input type="text" name="name" required />
               </label>
             </div>
             <div>
               <label>
-                Your Email: <input type="email" name="email" />
+                Your Email: <input type="email" name="email" required />
               </label>
             </div>
             <div>
               <label>
-                Message: <textarea name="message"></textarea>
+                Message: <textarea name="message" required></textarea>
               </label>
             </div>
             <div>

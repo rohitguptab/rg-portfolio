@@ -41,12 +41,17 @@ export default class blogPost extends Component {
         />
         <div className="site-container blog-post">
           <div className="container">
-            <Img
-              className="feature-img"
-              fixed={data.featureImage.fluid}
-              objectFit="cover"
-              objectPosition="50% 50%"
-            />
+            {data.featureImage ? (
+              <Img
+                className="feature-img"
+                fixed={data.featureImage.fluid}
+                objectFit="cover"
+                objectPosition="50% 50%"
+              />
+            ) : (
+              <div className="no-image"></div>
+            )}
+
             <div className="details">
               <h1 className="title">{data.title}</h1>
               <span className="date">
