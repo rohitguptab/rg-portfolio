@@ -1,55 +1,9 @@
 {
   "contentTypes": [
     {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "4bwt4pzmqo4p"
-          }
-        },
-        "id": "aboutMe",
-        "type": "ContentType",
-        "createdAt": "2020-02-18T07:36:33.261Z",
-        "updatedAt": "2020-02-19T06:00:39.968Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 23,
-        "publishedAt": "2020-02-19T06:00:39.968Z",
-        "firstPublishedAt": "2020-02-18T07:36:34.590Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "4Mscy9eAqHKGabWpFykEav"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "4Mscy9eAqHKGabWpFykEav"
-          }
-        },
-        "publishedCounter": 12,
-        "version": 24,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "4Mscy9eAqHKGabWpFykEav"
-          }
-        }
-      },
-      "displayField": "name",
       "name": "About Me",
       "description": "About me Details",
+      "displayField": "name",
       "fields": [
         {
           "id": "name",
@@ -104,6 +58,16 @@
           "omitted": false
         },
         {
+          "id": "age",
+          "name": "Age",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": true,
+          "omitted": true
+        },
+        {
           "id": "bannerImage",
           "name": "Banner Image",
           "type": "Link",
@@ -139,16 +103,6 @@
           "omitted": false
         },
         {
-          "id": "email",
-          "name": "Email",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
           "id": "gmail",
           "name": "Gmail",
           "type": "Symbol",
@@ -165,8 +119,8 @@
           "localized": false,
           "required": false,
           "validations": [],
-          "disabled": false,
-          "omitted": false
+          "disabled": true,
+          "omitted": true
         },
         {
           "id": "twitter",
@@ -205,10 +159,73 @@
           "localized": false,
           "required": false,
           "validations": [],
+          "disabled": true,
+          "omitted": true
+        },
+        {
+          "id": "email",
+          "name": "Email",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "regexp": {
+                "pattern": "^\\w[\\w.-]*@([\\w-]+\\.)+[\\w-]+$",
+                "flags": null
+              }
+            }
+          ],
           "disabled": false,
           "omitted": false
         }
-      ]
+      ],
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "osgq3t7fqwab"
+          }
+        },
+        "id": "aboutMe",
+        "type": "ContentType",
+        "createdAt": "2020-07-27T12:55:28.172Z",
+        "updatedAt": "2020-07-27T20:06:21.339Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2020-07-27T20:06:21.339Z",
+        "firstPublishedAt": "2020-07-27T12:55:30.196Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3Bodhp13zihiYiXAGlbUp4"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3Bodhp13zihiYiXAGlbUp4"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3Bodhp13zihiYiXAGlbUp4"
+          }
+        }
+      }
     },
     {
       "sys": {
