@@ -39,7 +39,7 @@ const Header = ({ data }) => (
               <li>
                 <strong>Email</strong>
                 <p>
-                  <a href={`mailto:${data.gmail}`}>{data.gmail}</a>
+                  <a href={`mailto:${data.email}`}>{data.email}</a>
                 </p>
               </li>
             </ul>
