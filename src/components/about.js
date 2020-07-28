@@ -28,10 +28,6 @@ const Header = ({ data }) => (
                 <strong>Full Name</strong>
                 <p>{data.name}</p>
               </li>
-              {/* <li>
-                <strong>Age</strong>
-                <p>{data.age} Years</p>
-              </li> */}
               <li>
                 <strong>Location</strong>
                 <p>{data.location}</p>
@@ -39,20 +35,12 @@ const Header = ({ data }) => (
               <li>
                 <strong>Email</strong>
                 <p>
-                  <a href={`mailto:${data.email}`}>{data.email}</a>
+                  <a href={`mailto:${data.gmail}`}>{data.gmail}</a>
                 </p>
               </li>
             </ul>
             <div className="socials">
               <ul>
-                {/* <li>
-                  <a
-                    className="fab fa-facebook-f"
-                    href={data.facebook}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  ></a>
-                </li> */}
                 <li>
                   <a
                     className="fab fa-twitter"
@@ -77,14 +65,6 @@ const Header = ({ data }) => (
                     rel="noopener noreferrer"
                   ></a>
                 </li>
-                {/* <li>
-                  <a
-                    className="fab fa-github"
-                    href={data.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  ></a>
-                </li> */}
               </ul>
             </div>
           </div>
