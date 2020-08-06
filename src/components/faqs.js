@@ -26,7 +26,7 @@ export default class Faqs extends Component {
     const { data } = this.props;
 
     return (
-      <div className="faq section" id="Photos">
+      <div className="faq section" id="faqs">
         <div className="container">
           <div className="section-head">
             <h2>FAQs</h2>

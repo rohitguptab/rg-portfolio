@@ -1046,3 +1046,13 @@ code {
     height: 400px;
   }
 }
+
+.faq-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.faq-list .item {
+  margin-bottom: 1.5rem;
+}
