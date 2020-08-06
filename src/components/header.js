@@ -66,7 +66,11 @@ export default class Header extends Component {
                       );
                     })}
                   {data.menus
+<<<<<<< HEAD
                     .filter((item) => item === "Faqs")
+=======
+                    .filter((item) => item === "Faq")
+>>>>>>> 61ba9f8ed160fee9f255caae4a1fc10edbbc0679
                     .map((t) => {
                       return (
                         <li>
