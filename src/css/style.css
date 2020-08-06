@@ -1058,7 +1058,7 @@ code {
 }
 
 .faq-list .item .divider {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dadada;
   width: 40%;
   height: 1px;
   display: block;
