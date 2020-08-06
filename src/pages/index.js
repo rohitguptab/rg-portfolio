@@ -12,25 +12,24 @@ import Blogs from "../components/blogs";
 import Testimonial from "../components/testimonial";
 import Contact from "../components/contact";
 import Photos from "../components/photos";
+import Faqs from "../components/faqs";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
     <SEO
       title={data.contentfulAboutMe.designation}
       keywords={[
-        `Rohit Gupta`,
+        `Interactive Physiotherapy`,
         `Frontend Developer`,
         `Developer`,
       ]} /** TODO: make from config */
     />
     <Banner data={data.contentfulAboutMe}></Banner>
-
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "About")
       .map((t) => {
         return <About data={data.contentfulAboutMe}></About>;
       })}
-
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Service")
       .map((t) => {
@@ -38,17 +37,10 @@ const IndexPage = ({ data }) => (
       })}
 
     {data.contentfulSiteInformation.menus
-      .filter((item) => item === "Blogs")
-      .map((t) => {
-        return <Blogs data={data.allContentfulBlogs}></Blogs>;
-      })}
-
-    {data.contentfulSiteInformation.menus
       .filter((item) => item === "Work")
       .map((t) => {
         return <Work data={data.allContentfulWorks}></Work>;
       })}
-
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Testimonials")
       .map((t) => {
@@ -56,22 +48,27 @@ const IndexPage = ({ data }) => (
           <Testimonial data={data.allContentfulTestimonials}></Testimonial>
         );
       })}
-
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Photos")
       .map((t) => {
         return <Photos data={data.contentfulPhotos}></Photos>;
       })}
-
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Contact")
       .map((t) => {
-        return (
-          <Contact
-            data1={data.contentfulAboutMe.gmail}
-            data={`xjvajdyk`}
-          ></Contact>
-        );
+        return <Contact data={data.contentfulIds.formspree}></Contact>;
+      })}
+
+    {data.contentfulSiteInformation.menus
+      .filter((item) => item === "Faqs")
+      .map((t) => {
+        return <Faqs data={data.allContentfulFaq}></Faqs>;
+      })}
+
+    {data.contentfulSiteInformation.menus
+      .filter((item) => item === "Blogs")
+      .map((t) => {
+        return <Blogs data={data.allContentfulBlogs}></Blogs>;
       })}
   </Layout>
 );
@@ -80,6 +77,21 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query AboutQuery {
+    contentfulIds {
+      formspree
+    }
+    allContentfulFaq {
+      edges {
+        node {
+          question
+          ans {
+            childMarkdownRemark {
+              html
+            }
+          }
+        }
+      }
+    }
     contentfulAboutMe {
       name
       photo {
@@ -101,6 +113,7 @@ export const pageQuery = graphql`
       facebook
       github
       gmail
+      email
       id
       instagram
       linkdin

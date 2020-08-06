@@ -13,22 +13,22 @@ export default class Banner extends Component {
         />
         <div className="container">
           <div className="banner-details">
-            <span>Hello...</span>
-            <h1>I'm {data.designation}.</h1>
+            <h1>{data.name}</h1>
+            <span>{data.designation}.</span>
             <ul className="sub-data">
               {data.bannerList.map((item, index) => {
                 return <li key={index}>{item}</li>;
               })}
             </ul>
             <ul className="social">
-              {/* <li>
+              <li>
                 <a
-                  className="fab fa-facebook-f"
-                  href={data.facebook}
-                  target="_blank"
+                  className="far fa-envelope"
+                  href={`mailto:` + data.email}
                   rel="noopener noreferrer"
                 ></a>
-              </li> */}
+              </li>
+
               <li>
                 <a
                   className="fab fa-twitter"

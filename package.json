@@ -1,9 +1,9 @@
 {
-  "name": "rohit-gupta",
+  "name": "interactive-physio",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Rohit Gupta <rohitguptab33@gmail.com>",
+  "author": "hredmond",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "disqus-react": "^1.0.7",
