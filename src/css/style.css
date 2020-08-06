@@ -1056,3 +1056,12 @@ code {
 .faq-list .item {
   margin-bottom: 1.5rem;
 }
+
+.faq-list .item .divider {
+  border-bottom: 1px solid black;
+  width: 40%;
+  height: 1px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}

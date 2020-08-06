@@ -44,6 +44,7 @@ export default class Faqs extends Component {
                             __html: item.node.ans.childMarkdownRemark.html,
                           }}
                         />
+                        <span class="divider"></span>
                       </span>
                     </div>
                   </div>
