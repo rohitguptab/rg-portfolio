@@ -37,6 +37,12 @@ const IndexPage = ({ data }) => (
       })}
 
     {data.contentfulSiteInformation.menus
+      .filter((item) => item === "Faqs")
+      .map((t) => {
+        return <Faqs data={data.allContentfulFaq}></Faqs>;
+      })}
+
+    {data.contentfulSiteInformation.menus
       .filter((item) => item === "Work")
       .map((t) => {
         return <Work data={data.allContentfulWorks}></Work>;
@@ -57,12 +63,6 @@ const IndexPage = ({ data }) => (
       .filter((item) => item === "Contact")
       .map((t) => {
         return <Contact data={data.contentfulIds.formspree}></Contact>;
-      })}
-
-    {data.contentfulSiteInformation.menus
-      .filter((item) => item === "Faqs")
-      .map((t) => {
-        return <Faqs data={data.allContentfulFaq}></Faqs>;
       })}
 
     {data.contentfulSiteInformation.menus
