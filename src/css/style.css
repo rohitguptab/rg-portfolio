@@ -182,6 +182,7 @@ body {
 }
 .site-header .header-main .menu ul li {
   margin: 0 10px;
+  border-radius: 50%;
 }
 .site-header .header-main .menu ul li a {
   position: relative;
