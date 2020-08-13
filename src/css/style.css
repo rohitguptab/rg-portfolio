@@ -182,13 +182,13 @@ body {
 }
 .site-header .header-main .menu ul li {
   margin: 0 10px;
-  border-radius: 50%;
 }
 .site-header .header-main .menu ul li a {
   position: relative;
   color: #fff;
   overflow: hidden;
   text-decoration: none;
+  border-radius: 50%;
 }
 .site-header .header-main .menu ul li a:after {
   content: "";
