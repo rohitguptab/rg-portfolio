@@ -188,7 +188,6 @@ body {
   color: #fff;
   overflow: hidden;
   text-decoration: none;
-  border-radius: 50%;
 }
 .site-header .header-main .menu ul li a:after {
   content: "";
@@ -256,6 +255,7 @@ body {
   color: #333;
   position: relative;
   overflow: hidden;
+  border-radius: 50%;
 }
 .about-details .socials ul li a:before {
   position: relative;
