@@ -5,7 +5,7 @@ export default class Banner extends Component {
   render() {
     const { data } = this.props;
     return (
-      <div className="banner">
+      <div className="banner" id="home">
         <Img
           class="full"
           fixed={data.bannerImage.fluid}
@@ -24,8 +24,8 @@ export default class Banner extends Component {
               <span></span>
             )}
             <span class="companyName">
-              {data.name.split(" ")[0]}{" "}
-              <strong>{data.name.split(" ")[1]}</strong>
+              <span class="light">{data.name.split(" ")[0]}</span>{" "}
+              <span class="heavy">{data.name.split(" ")[1]}</span>
             </span>
             <span>{data.designation}.</span>
             <ul className="sub-data">

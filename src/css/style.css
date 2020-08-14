@@ -1,12 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@100;400;900&display=swap");
 * {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.heavy {
+  font-weight: 900;
+}
+.light {
+  font-weight: 100;
 }
 img {
   max-width: 100%;
 }
 .site-header {
-  background: rgb(255 255 255 / 68%);
+  background: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -37,9 +44,13 @@ h5 {
 p {
   font-size: 14px;
 }
+main {
+  margin-top: 55px;
+}
 .banner {
   position: relative;
-  height: 100vh;
+  height: 750px;
+  overflow: hidden;
 }
 a:hover {
   color: #d83d0a;
@@ -162,7 +173,7 @@ body {
   top: 0;
 }
 
-.banner .banner-details .companyName {
+.banner .banner-details .companyName span {
   font-size: 60px;
 }
 .banner .banner-details .companylogo {
