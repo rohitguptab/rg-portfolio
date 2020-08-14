@@ -6,6 +6,7 @@ const Header = ({ data }) => (
     <div className="container">
       <div className="about-main row">
         <div className="left col-md-5 col-lg-4 mb-3">
+          <h2>About</h2>
           <Img
             fixed={data.photo.fluid}
             objectFit="cover"
@@ -21,23 +22,7 @@ const Header = ({ data }) => (
                 __html: data.description.childMarkdownRemark.html,
               }}
             />
-            <h2>About me</h2>
-            <ul className="details">
-              <li>
-                <strong>Full Name</strong>
-                <p>{data.name}</p>
-              </li>
-              <li>
-                <strong>Location</strong>
-                <p>{data.location}</p>
-              </li>
-              <li>
-                <strong>Email</strong>
-                <p>
-                  <a href={`mailto:${data.email}`}>{data.email}</a>
-                </p>
-              </li>
-            </ul>
+
             <div className="socials">
               <ul>
                 <li>
