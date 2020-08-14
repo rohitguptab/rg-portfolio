@@ -6,7 +6,7 @@ img {
   max-width: 100%;
 }
 .site-header {
-  background: rgb(48 59 103 / 68%);
+  background: rgb(255 255 255 / 68%);
   position: fixed;
   top: 0;
   left: 0;
@@ -62,12 +62,13 @@ a:hover {
   width: 90%;
   color: #fff;
 }
-.banner img {
+.banner img.full {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
+
 body {
   margin: 0;
   background: #fafafe;
@@ -140,6 +141,7 @@ body {
   color: #fff;
   position: relative;
   overflow: hidden;
+  border-radius: 50%;
 }
 .banner .banner-details .social li a:after {
   content: "";
@@ -159,6 +161,14 @@ body {
 .banner .banner-details .social li a:hover:after {
   top: 0;
 }
+
+.banner .banner-details .companyName {
+  font-size: 60px;
+}
+.banner .banner-details .companylogo {
+  height: 150px;
+}
+
 .site-header .header-main {
   display: flex;
   justify-content: center;
@@ -166,6 +176,10 @@ body {
 }
 .site-header .header-main .logo {
   width: 10%;
+}
+
+.site-header .header-main .logo img {
+  max-height: 40px;
 }
 .site-header .header-main .menu {
   width: 90%;
@@ -181,11 +195,11 @@ body {
   list-style: none;
 }
 .site-header .header-main .menu ul li {
-  margin: 0 10px;
+  margin: 0 25px;
 }
 .site-header .header-main .menu ul li a {
   position: relative;
-  color: #fff;
+  color: #1b1b1b;
   overflow: hidden;
   text-decoration: none;
 }
@@ -196,7 +210,7 @@ body {
   position: absolute;
   bottom: -3px;
   left: 0;
-  background: #fff;
+  background: #1b1b1b;
   transition: 0.5s all;
 }
 .site-header .header-main .menu ul li a:hover:after {
@@ -204,7 +218,7 @@ body {
   transition: 0.5s all;
 }
 .section {
-  padding: 50px 0;
+  padding: 55px 0 50px;
 }
 .section:nth-child(even) {
   background: #fff;
@@ -255,7 +269,6 @@ body {
   color: #333;
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
 }
 .about-details .socials ul li a:before {
   position: relative;
@@ -771,7 +784,7 @@ pre {
   align-items: center;
 }
 .responsive-menu span {
-  background: #fff;
+  background: #1b1b1b;
   display: block;
   height: 2px;
   position: relative;
@@ -786,7 +799,7 @@ pre {
 }
 .responsive-menu span:before,
 .responsive-menu span:after {
-  background: #fff;
+  background: #1b1b1b;
   content: "";
   display: block;
   height: 100%;
@@ -985,6 +998,10 @@ code {
   .site-header .header-main .menu ul li {
     margin: 0;
   }
+  .site-header .header-main .menu ul li a {
+    color: #fff;
+  }
+
   .container {
     max-width: 100%;
   }

@@ -29,8 +29,7 @@ const Layout = ({ children, header }) => (
         }
       }
     `}
-    
-    render={data => (
+    render={(data) => (
       <>
         <Header
           data={data.contentfulSiteInformation}
@@ -47,7 +46,7 @@ const Layout = ({ children, header }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

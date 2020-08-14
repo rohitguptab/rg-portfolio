@@ -7,7 +7,7 @@ if (process.env.ENVIRONMENT !== "production") {
 const { spaceId, accessToken } = process.env;
 
 module.exports = {
-  pathPrefix: `/physio`,
+  pathPrefix: `/`,
   siteMetadata: {
     title: `Interactive Physio`,
     description: `Interactive Physiotherapy service for Your recovery Home`,
@@ -37,7 +37,7 @@ module.exports = {
       options: {
         name: `Interactive Physio`,
         short_name: `iP`,
-        start_url: `/physio`,
+        start_url: `/`,
         background_color: `#663399`,
         theme_color: `#333`,
         icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.

@@ -12,7 +12,7 @@
         "id": "service",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.717Z",
-        "updatedAt": "2020-08-05T20:17:27.442Z",
+        "updatedAt": "2020-08-13T21:14:51.935Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 31,
-        "publishedAt": "2020-08-05T20:17:27.442Z",
+        "publishedVersion": 35,
+        "publishedAt": "2020-08-13T21:14:51.935Z",
         "firstPublishedAt": "2020-08-04T10:36:21.133Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 16,
-        "version": 32,
+        "publishedCounter": 18,
+        "version": 36,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -87,7 +87,7 @@
         "id": "blogs",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.720Z",
-        "updatedAt": "2020-08-05T20:17:30.567Z",
+        "updatedAt": "2020-08-13T21:14:55.200Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -95,8 +95,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 31,
-        "publishedAt": "2020-08-05T20:17:30.567Z",
+        "publishedVersion": 35,
+        "publishedAt": "2020-08-13T21:14:55.200Z",
         "firstPublishedAt": "2020-08-04T10:36:20.820Z",
         "createdBy": {
           "sys": {
@@ -112,8 +112,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 16,
-        "version": 32,
+        "publishedCounter": 18,
+        "version": 36,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -185,7 +185,7 @@
         "id": "photos",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.799Z",
-        "updatedAt": "2020-08-05T20:17:30.232Z",
+        "updatedAt": "2020-08-13T21:14:54.780Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -193,8 +193,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 31,
-        "publishedAt": "2020-08-05T20:17:30.232Z",
+        "publishedVersion": 35,
+        "publishedAt": "2020-08-13T21:14:54.780Z",
         "firstPublishedAt": "2020-08-04T10:36:19.842Z",
         "createdBy": {
           "sys": {
@@ -210,8 +210,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 16,
-        "version": 32,
+        "publishedCounter": 18,
+        "version": 36,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -266,7 +266,7 @@
         "id": "works",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.822Z",
-        "updatedAt": "2020-08-05T20:17:29.812Z",
+        "updatedAt": "2020-08-13T21:14:54.419Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -274,8 +274,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 31,
-        "publishedAt": "2020-08-05T20:17:29.812Z",
+        "publishedVersion": 35,
+        "publishedAt": "2020-08-13T21:14:54.419Z",
         "firstPublishedAt": "2020-08-04T10:36:20.157Z",
         "createdBy": {
           "sys": {
@@ -291,8 +291,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 16,
-        "version": 32,
+        "publishedCounter": 18,
+        "version": 36,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -353,7 +353,7 @@
         "id": "aboutMe",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.850Z",
-        "updatedAt": "2020-08-05T20:17:29.512Z",
+        "updatedAt": "2020-08-13T21:38:21.966Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -361,8 +361,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 33,
-        "publishedAt": "2020-08-05T20:17:29.512Z",
+        "publishedVersion": 39,
+        "publishedAt": "2020-08-13T21:38:21.966Z",
         "firstPublishedAt": "2020-08-04T10:36:19.128Z",
         "createdBy": {
           "sys": {
@@ -378,8 +378,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 17,
-        "version": 34,
+        "publishedCounter": 20,
+        "version": 40,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -581,6 +581,23 @@
           ],
           "disabled": false,
           "omitted": false
+        },
+        {
+          "id": "bannerLogo",
+          "name": "Banner Logo",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
         }
       ]
     },
@@ -596,7 +613,7 @@
         "id": "testimonials",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:18.683Z",
-        "updatedAt": "2020-08-05T20:17:29.161Z",
+        "updatedAt": "2020-08-13T21:14:53.823Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -604,8 +621,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 31,
-        "publishedAt": "2020-08-05T20:17:29.161Z",
+        "publishedVersion": 35,
+        "publishedAt": "2020-08-13T21:14:53.823Z",
         "firstPublishedAt": "2020-08-04T10:36:20.491Z",
         "createdBy": {
           "sys": {
@@ -621,8 +638,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 16,
-        "version": 32,
+        "publishedCounter": 18,
+        "version": 36,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -694,7 +711,7 @@
         "id": "siteInformation",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:18.819Z",
-        "updatedAt": "2020-08-05T20:40:31.254Z",
+        "updatedAt": "2020-08-13T21:39:49.598Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -702,8 +719,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 33,
-        "publishedAt": "2020-08-05T20:40:31.254Z",
+        "publishedVersion": 43,
+        "publishedAt": "2020-08-13T21:39:49.598Z",
         "firstPublishedAt": "2020-08-04T10:36:19.504Z",
         "createdBy": {
           "sys": {
@@ -719,8 +736,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 17,
-        "version": 34,
+        "publishedCounter": 22,
+        "version": 44,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -831,7 +848,7 @@
         "id": "contentIds",
         "type": "ContentType",
         "createdAt": "2020-08-04T11:50:23.937Z",
-        "updatedAt": "2020-08-05T20:17:28.383Z",
+        "updatedAt": "2020-08-13T21:14:52.739Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -839,8 +856,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 35,
-        "publishedAt": "2020-08-05T20:17:28.383Z",
+        "publishedVersion": 39,
+        "publishedAt": "2020-08-13T21:14:52.739Z",
         "firstPublishedAt": "2020-08-04T11:50:24.277Z",
         "createdBy": {
           "sys": {
@@ -856,8 +873,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 18,
-        "version": 36,
+        "publishedCounter": 20,
+        "version": 40,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -895,7 +912,7 @@
         "id": "faq",
         "type": "ContentType",
         "createdAt": "2020-08-05T20:11:15.440Z",
-        "updatedAt": "2020-08-05T20:17:27.926Z",
+        "updatedAt": "2020-08-13T21:14:52.329Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -903,8 +920,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2020-08-05T20:17:27.926Z",
+        "publishedVersion": 19,
+        "publishedAt": "2020-08-13T21:14:52.329Z",
         "firstPublishedAt": "2020-08-05T20:11:39.330Z",
         "createdBy": {
           "sys": {
@@ -920,8 +937,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 2,
-        "version": 6,
+        "publishedCounter": 9,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -932,7 +949,7 @@
       },
       "displayField": "question",
       "name": "FAQ",
-      "description": "",
+      "description": "Faqs",
       "fields": [
         {
           "id": "question",
@@ -946,9 +963,9 @@
           "omitted": false
         },
         {
-          "id": "answer",
+          "id": "ans",
           "name": "Answer",
-          "type": "RichText",
+          "type": "Text",
           "localized": false,
           "required": false,
           "validations": [
@@ -973,7 +990,7 @@
             "linkType": "Space"
           }
         },
-        "version": 32,
+        "version": 37,
         "createdAt": "2020-08-04T10:36:21.218Z",
         "createdBy": {
           "sys": {
@@ -982,7 +999,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-05T20:17:33.419Z",
+        "updatedAt": "2020-08-13T21:14:57.614Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1005,6 +1022,40 @@
           }
         }
       },
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
       "controls": [
         {
           "fieldId": "title",
@@ -1029,7 +1080,7 @@
             "linkType": "Space"
           }
         },
-        "version": 32,
+        "version": 37,
         "createdAt": "2020-08-04T10:36:20.908Z",
         "createdBy": {
           "sys": {
@@ -1038,7 +1089,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-05T20:17:33.053Z",
+        "updatedAt": "2020-08-13T21:14:59.526Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1061,6 +1112,40 @@
           }
         }
       },
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
       "controls": [
         {
           "fieldId": "title",
@@ -1095,7 +1180,7 @@
             "linkType": "Space"
           }
         },
-        "version": 32,
+        "version": 37,
         "createdAt": "2020-08-04T10:36:19.932Z",
         "createdBy": {
           "sys": {
@@ -1104,7 +1189,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-05T20:17:31.175Z",
+        "updatedAt": "2020-08-13T21:14:59.627Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1127,6 +1212,40 @@
           }
         }
       },
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
       "controls": [
         {
           "fieldId": "title",
@@ -1151,7 +1270,7 @@
             "linkType": "Space"
           }
         },
-        "version": 32,
+        "version": 37,
         "createdAt": "2020-08-04T10:36:20.269Z",
         "createdBy": {
           "sys": {
@@ -1160,7 +1279,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-05T20:17:32.939Z",
+        "updatedAt": "2020-08-13T21:14:59.636Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1183,6 +1302,40 @@
           }
         }
       },
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
       "controls": [
         {
           "fieldId": "siteName",
@@ -1212,7 +1365,7 @@
             "linkType": "Space"
           }
         },
-        "version": 34,
+        "version": 41,
         "createdAt": "2020-08-04T10:36:19.229Z",
         "createdBy": {
           "sys": {
@@ -1221,7 +1374,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-05T20:17:31.157Z",
+        "updatedAt": "2020-08-13T21:38:22.516Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1244,6 +1397,40 @@
           }
         }
       },
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
       "controls": [
         {
           "fieldId": "name",
@@ -1319,6 +1506,16 @@
           "fieldId": "github",
           "widgetId": "urlEditor",
           "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "email",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "bannerLogo",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -1333,7 +1530,7 @@
             "linkType": "Space"
           }
         },
-        "version": 32,
+        "version": 37,
         "createdAt": "2020-08-04T10:36:20.590Z",
         "createdBy": {
           "sys": {
@@ -1342,7 +1539,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-05T20:17:31.170Z",
+        "updatedAt": "2020-08-13T21:14:59.465Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1365,6 +1562,40 @@
           }
         }
       },
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
       "controls": [
         {
           "fieldId": "avatarImage",
@@ -1399,7 +1630,7 @@
             "linkType": "Space"
           }
         },
-        "version": 34,
+        "version": 45,
         "createdAt": "2020-08-04T10:36:19.623Z",
         "createdBy": {
           "sys": {
@@ -1408,7 +1639,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-05T20:40:31.790Z",
+        "updatedAt": "2020-08-13T21:39:50.046Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1431,6 +1662,40 @@
           }
         }
       },
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
       "controls": [
         {
           "fieldId": "siteName",
@@ -1475,7 +1740,7 @@
             "linkType": "Space"
           }
         },
-        "version": 31,
+        "version": 36,
         "createdAt": "2020-08-04T11:50:24.410Z",
         "createdBy": {
           "sys": {
@@ -1484,7 +1749,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-05T20:17:33.108Z",
+        "updatedAt": "2020-08-13T21:14:57.616Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1507,6 +1772,40 @@
           }
         }
       },
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
       "controls": [
         {
           "fieldId": "formspree",
@@ -1526,7 +1825,7 @@
             "linkType": "Space"
           }
         },
-        "version": 4,
+        "version": 19,
         "createdAt": "2020-08-05T20:11:39.419Z",
         "createdBy": {
           "sys": {
@@ -1535,7 +1834,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-05T20:17:33.108Z",
+        "updatedAt": "2020-08-13T21:14:57.714Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1558,6 +1857,40 @@
           }
         }
       },
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
       "controls": [
         {
           "fieldId": "question",
@@ -1565,8 +1898,8 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "answer",
-          "widgetId": "richTextEditor",
+          "fieldId": "ans",
+          "widgetId": "markdown",
           "widgetNamespace": "builtin"
         }
       ]
@@ -1585,7 +1918,7 @@
         "id": "2MEkguSekmXg1wtgqfEaXV",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:00.947Z",
-        "updatedAt": "2020-08-05T20:18:25.062Z",
+        "updatedAt": "2020-08-13T21:15:52.108Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1593,8 +1926,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 69,
-        "publishedAt": "2020-08-05T20:18:25.062Z",
+        "publishedVersion": 75,
+        "publishedAt": "2020-08-13T21:15:52.108Z",
         "firstPublishedAt": "2020-08-04T10:38:14.163Z",
         "createdBy": {
           "sys": {
@@ -1610,8 +1943,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 13,
-        "version": 70,
+        "publishedCounter": 16,
+        "version": 76,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1632,7 +1965,7 @@
           "en-US": "Treatment Options"
         },
         "description": {
-          "en-US": "Technology offers the potential to for you as a patient to perform the exercises in your home and for the therapist to monitor the progress, adjusting the settings in the programme as required.  With support and advice alongside the use of technology a patients physiotherapy programme caters for all their needs.\n\nPhysiotherapy advice and support is offered for therapeutic gaming (Using MIRA Rehab) or through off the shelf consoles such as Nintendo Switch/Wii and Xbox Kinect gaming.  \n\nAdvice regarding other systems and approaches is also offered, to find what suits individuals most appropriately to achieve the best rehabilitation results. \n\nContact me for more information regarding the services offered."
+          "en-US": "Technology offers the potential to for you as a patient to perform the exercises in your home and for the therapist to monitor the progress, adjusting the settings in the programme as required.  With support and advice alongside the use of technology a patients physiotherapy programme caters for all their needs.\n\n"
         }
       }
     },
@@ -1648,7 +1981,7 @@
         "id": "5rrD15RhF8dMqpeLktOozn",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:00.974Z",
-        "updatedAt": "2020-08-05T20:18:32.434Z",
+        "updatedAt": "2020-08-13T21:15:59.083Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1656,8 +1989,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 21,
-        "publishedAt": "2020-08-05T20:18:32.434Z",
+        "publishedVersion": 75,
+        "publishedAt": "2020-08-13T21:15:59.083Z",
         "firstPublishedAt": "2020-08-04T10:38:13.842Z",
         "createdBy": {
           "sys": {
@@ -1673,8 +2006,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 11,
-        "version": 22,
+        "publishedCounter": 14,
+        "version": 76,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1692,10 +2025,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Develop"
+          "en-US": "Physiotherapy at home"
         },
         "description": {
-          "en-US": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          "en-US": "Using a special camera plugged into your computer you can access exercises through therapeutic games, set specifically for you following an assessment.  The results of your therapeutic 'gameplay' are analysed by a physiotherapist who then adjusts the levels and games according to your need.  \nOngoing physiotherapy support via email, text or video conferencing is available alongside the interactive therapeutic gaming to ensure that all your needs are being met.\n\nPay once a month for daily home access to online interactive physiotherapy exercises, guidance and support. \n\nAll for the price of a 30min face to face physiotherapy session."
         }
       }
     },
@@ -1711,7 +2044,7 @@
         "id": "3ESYbkZtWyPnPy6nDQFAHg",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:01.060Z",
-        "updatedAt": "2020-08-05T20:18:31.989Z",
+        "updatedAt": "2020-08-13T21:15:58.472Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1719,8 +2052,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 25,
-        "publishedAt": "2020-08-05T20:18:31.989Z",
+        "publishedVersion": 46,
+        "publishedAt": "2020-08-13T21:15:58.472Z",
         "firstPublishedAt": "2020-08-04T10:38:05.874Z",
         "createdBy": {
           "sys": {
@@ -1736,8 +2069,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 11,
-        "version": 26,
+        "publishedCounter": 14,
+        "version": 47,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1755,10 +2088,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Research"
+          "en-US": "Physiotherapy Consultancy"
         },
         "description": {
-          "en-US": "R. Redmond and M. Parrish\nVariables Influencing Physiotherapy Adherence Among Young Adults With Cerebral Palsy.Qual Health Res, November 1, 2008; \nhttps://journals.sagepub.com/doi/abs/10.1177/1049732308325538\n\nMii-vitaliSe: a pilot randomised controlled trial of a home gaming system (Nintendo Wii) to increase activity levels, vitality and well-being in people with multiple sclerosis  S. Thomas, R.Scott et al  https://bmjopen.bmj.com/content/7/9/e016966"
+          "en-US": "Physiotherapy advice and support is offered for therapeutic gaming (Using MIRA Rehab) or through off the shelf consoles such as Nintendo Switch/Wii and Xbox Kinect gaming.  \n\nAdvice regarding other systems and approaches is also offered to either Health Professionals or private clients. Assistance and advice is available to find what suits individuals most appropriately to achieve the best rehabilitation results. \n\nContact me for more information regarding either of the above services."
         }
       }
     },
@@ -1774,7 +2107,7 @@
         "id": "4JrBcqVYRay1QiJH6zc7qO",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:01.146Z",
-        "updatedAt": "2020-08-05T20:19:42.389Z",
+        "updatedAt": "2020-08-13T21:15:57.921Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1782,8 +2115,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 37,
-        "publishedAt": "2020-08-05T20:19:42.389Z",
+        "publishedVersion": 41,
+        "publishedAt": "2020-08-13T21:15:57.921Z",
         "firstPublishedAt": "2020-08-04T10:38:13.380Z",
         "createdBy": {
           "sys": {
@@ -1799,8 +2132,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 9,
-        "version": 38,
+        "publishedCounter": 11,
+        "version": 42,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1849,7 +2182,7 @@
         "id": "5yj9TpsOj2xAzKI7tBMdxh",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:01.291Z",
-        "updatedAt": "2020-08-05T20:18:30.838Z",
+        "updatedAt": "2020-08-13T21:15:57.614Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1857,8 +2190,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 22,
-        "publishedAt": "2020-08-05T20:18:30.838Z",
+        "publishedVersion": 26,
+        "publishedAt": "2020-08-13T21:15:57.614Z",
         "firstPublishedAt": "2020-08-04T10:38:06.676Z",
         "createdBy": {
           "sys": {
@@ -1874,8 +2207,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 9,
-        "version": 23,
+        "publishedCounter": 11,
+        "version": 27,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1921,7 +2254,7 @@
         "id": "6caZg1KgLxQN4VE2QOJbCk",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:01.327Z",
-        "updatedAt": "2020-08-05T20:26:20.375Z",
+        "updatedAt": "2020-08-13T21:39:14.747Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1929,8 +2262,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 134,
-        "publishedAt": "2020-08-05T20:26:20.375Z",
+        "publishedVersion": 142,
+        "publishedAt": "2020-08-13T21:39:14.747Z",
         "firstPublishedAt": "2020-08-04T10:38:06.290Z",
         "createdBy": {
           "sys": {
@@ -1946,8 +2279,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 16,
-        "version": 135,
+        "publishedCounter": 19,
+        "version": 143,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2033,6 +2366,15 @@
         },
         "email": {
           "en-US": "hello@interactivephysio.com"
+        },
+        "bannerLogo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1yX6hM0mnqyryOSgmJFhmi"
+            }
+          }
         }
       }
     },
@@ -2048,7 +2390,7 @@
         "id": "1vaZauN3G1LbRsJutH3AU9",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:03.713Z",
-        "updatedAt": "2020-08-05T20:40:43.277Z",
+        "updatedAt": "2020-08-13T21:39:43.545Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2056,8 +2398,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 46,
-        "publishedAt": "2020-08-05T20:40:43.277Z",
+        "publishedVersion": 58,
+        "publishedAt": "2020-08-13T21:15:56.620Z",
         "firstPublishedAt": "2020-08-04T10:38:11.852Z",
         "createdBy": {
           "sys": {
@@ -2073,8 +2415,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 15,
-        "version": 47,
+        "publishedCounter": 20,
+        "version": 60,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2095,14 +2437,14 @@
           "en-US": "Interactive Physiotherapist"
         },
         "siteUrl": {
-          "en-US": "http://www.interactivephysio.com"
+          "en-US": "https://gallant-beaver-ffcfb4.netlify.app"
         },
         "logo": {
           "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "5muaHWBU6yQDqousP4gvdW"
+              "id": "75Leoghg6YZaKokilrTROx"
             }
           }
         },
@@ -2110,7 +2452,7 @@
           "en-US": "@rebeccatphysio"
         },
         "siteDescription": {
-          "en-US": "Physiotherapy using technology"
+          "en-US": "Physiotherapy using technology blah"
         },
         "menus": {
           "en-US": [
@@ -2135,7 +2477,7 @@
         "id": "3PgxStGrnRqEN9L1miJyJM",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:05.582Z",
-        "updatedAt": "2020-08-05T20:18:29.740Z",
+        "updatedAt": "2020-08-13T21:15:55.847Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2143,8 +2485,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 21,
-        "publishedAt": "2020-08-05T20:18:29.740Z",
+        "publishedVersion": 25,
+        "publishedAt": "2020-08-13T21:15:55.847Z",
         "firstPublishedAt": "2020-08-04T10:38:12.318Z",
         "createdBy": {
           "sys": {
@@ -2160,8 +2502,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 9,
-        "version": 22,
+        "publishedCounter": 11,
+        "version": 26,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2206,7 +2548,7 @@
         "id": "6dPFHmvvwRLTmishla3Y55",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:05.608Z",
-        "updatedAt": "2020-08-05T20:18:29.220Z",
+        "updatedAt": "2020-08-13T21:15:55.352Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2214,8 +2556,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 23,
-        "publishedAt": "2020-08-05T20:18:29.220Z",
+        "publishedVersion": 27,
+        "publishedAt": "2020-08-13T21:15:55.352Z",
         "firstPublishedAt": "2020-08-04T10:38:11.287Z",
         "createdBy": {
           "sys": {
@@ -2231,8 +2573,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 12,
-        "version": 24,
+        "publishedCounter": 14,
+        "version": 28,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2281,7 +2623,7 @@
         "id": "6qVDIGeRZLZzz7TxUl9II8",
         "type": "Entry",
         "createdAt": "2020-08-04T11:54:28.596Z",
-        "updatedAt": "2020-08-05T20:18:28.910Z",
+        "updatedAt": "2020-08-13T21:15:55.056Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2289,8 +2631,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 20,
-        "publishedAt": "2020-08-05T20:18:28.910Z",
+        "publishedVersion": 24,
+        "publishedAt": "2020-08-13T21:15:55.056Z",
         "firstPublishedAt": "2020-08-04T11:54:51.573Z",
         "createdBy": {
           "sys": {
@@ -2306,8 +2648,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 10,
-        "version": 21,
+        "publishedCounter": 12,
+        "version": 25,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2341,7 +2683,7 @@
         "id": "5xIETxUDh8ubWUjxvVFLVZ",
         "type": "Entry",
         "createdAt": "2020-08-04T20:06:05.678Z",
-        "updatedAt": "2020-08-05T20:18:28.371Z",
+        "updatedAt": "2020-08-13T21:15:54.563Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2349,8 +2691,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 10,
-        "publishedAt": "2020-08-05T20:18:28.371Z",
+        "publishedVersion": 14,
+        "publishedAt": "2020-08-13T21:15:54.563Z",
         "firstPublishedAt": "2020-08-04T20:06:45.836Z",
         "createdBy": {
           "sys": {
@@ -2366,8 +2708,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 4,
-        "version": 11,
+        "publishedCounter": 6,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2404,7 +2746,7 @@
         "id": "2BUjJ2eNK4QjoQCyyamKuu",
         "type": "Entry",
         "createdAt": "2020-08-05T20:12:37.525Z",
-        "updatedAt": "2020-08-05T20:18:28.004Z",
+        "updatedAt": "2020-08-13T21:15:54.173Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2412,8 +2754,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2020-08-05T20:18:28.004Z",
+        "publishedVersion": 13,
+        "publishedAt": "2020-08-13T21:15:54.173Z",
         "firstPublishedAt": "2020-08-05T20:12:46.388Z",
         "createdBy": {
           "sys": {
@@ -2429,8 +2771,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 2,
-        "version": 6,
+        "publishedCounter": 6,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2450,59 +2792,8 @@
         "question": {
           "en-US": "Aren’t games just for fun?"
         },
-        "answer": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Games are fun but the software has been designed to require specific movements and when used with a physiotherapists support these can promote rehab from the comfort of your own home.  Research has demonstrated that games help motivate activity, which is a key element in rehabilitation.  The software allows the physiotherapist to be specific with which movements are being targeted and worked on.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "\n\n\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              }
-            ]
-          }
+        "ans": {
+          "en-US": "Games are fun but the software has been designed to require specific movements and when used with a physiotherapists support these can promote rehab from the comfort of your own home.  Research has demonstrated that games help motivate activity, which is a key element in rehabilitation.  The software allows the physiotherapist to be specific with which movements are being targeted and worked on.\n"
         }
       }
     },
@@ -2518,7 +2809,7 @@
         "id": "6K49w3rC28YE2x2aUoUAur",
         "type": "Entry",
         "createdAt": "2020-08-05T20:12:57.313Z",
-        "updatedAt": "2020-08-05T20:18:27.689Z",
+        "updatedAt": "2020-08-13T21:15:53.866Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2526,8 +2817,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2020-08-05T20:18:27.689Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-08-13T21:15:53.866Z",
         "firstPublishedAt": "2020-08-05T20:13:08.342Z",
         "createdBy": {
           "sys": {
@@ -2543,8 +2834,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 2,
-        "version": 6,
+        "publishedCounter": 5,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2564,44 +2855,8 @@
         "question": {
           "en-US": "Is there any research or evidence to show that this approach works?"
         },
-        "answer": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Yes, there are many research papers now that provide evidence that the camera tracks movement accurately and that games that use the camera promote activity and boost health.  Areas of research include Stroke, Parkinsons, MS, Cerebral Palsy, Acquired Brain Injury, Hemiplegia, Balance retraining.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "\n\n\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              }
-            ]
-          }
+        "ans": {
+          "en-US": "Yes, there are many research papers now that provide evidence that the camera tracks movement accurately and that games that use the camera promote activity and boost health.  Areas of research include Stroke, Parkinsons, MS, Cerebral Palsy, Acquired Brain Injury, Hemiplegia, Balance retraining."
         }
       }
     },
@@ -2617,7 +2872,7 @@
         "id": "3WKEAAeVrJ1ReWd5rvw9TR",
         "type": "Entry",
         "createdAt": "2020-08-05T20:13:16.771Z",
-        "updatedAt": "2020-08-05T20:18:27.391Z",
+        "updatedAt": "2020-08-13T21:15:53.524Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2625,8 +2880,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2020-08-05T20:18:27.391Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-08-13T21:15:53.524Z",
         "firstPublishedAt": "2020-08-05T20:13:25.447Z",
         "createdBy": {
           "sys": {
@@ -2642,8 +2897,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 2,
-        "version": 6,
+        "publishedCounter": 5,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2663,44 +2918,8 @@
         "question": {
           "en-US": "What if I can’t do the exercises?"
         },
-        "answer": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "If you are unable to do the exercises that the games require then a simple consultation with the physiotherapist will help adjust the level of the required movement.  This makes the games easier and therefore more achievable.  However, following an initial assessment via video consultation this should not happen as the games will be set up specifically for your needs and ability.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "\n\n\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              }
-            ]
-          }
+        "ans": {
+          "en-US": "If you are unable to do the exercises that the games require then a simple consultation with the physiotherapist will help adjust the level of the required movement.  This makes the games easier and therefore more achievable.  However, following an initial assessment via video consultation this should not happen as the games will be set up specifically for your needs and ability.\n"
         }
       }
     },
@@ -2716,7 +2935,7 @@
         "id": "5b0gRpMuh7Za7hK6RmydbX",
         "type": "Entry",
         "createdAt": "2020-08-05T20:14:36.113Z",
-        "updatedAt": "2020-08-05T20:18:27.085Z",
+        "updatedAt": "2020-08-13T21:15:53.173Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2724,8 +2943,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 6,
-        "publishedAt": "2020-08-05T20:18:27.085Z",
+        "publishedVersion": 12,
+        "publishedAt": "2020-08-13T21:15:53.173Z",
         "firstPublishedAt": "2020-08-05T20:15:02.963Z",
         "createdBy": {
           "sys": {
@@ -2741,8 +2960,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 2,
-        "version": 7,
+        "publishedCounter": 5,
+        "version": 13,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2762,44 +2981,8 @@
         "question": {
           "en-US": "What if the software or camera doesn’t work?"
         },
-        "answer": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "If the software or camera doesn’t work then we offer technical support over the phone or via video consultation.  Technology can be tricky at times but is easily resolved with some guidance.  All instructions given on the outset are clear and straightforward to help avoid issues.  Assistance is available if required.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "\n\n\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              }
-            ]
-          }
+        "ans": {
+          "en-US": "If the software or camera doesn’t work then we offer technical support over the phone or via video consultation.  Technology can be tricky at times but is easily resolved with some guidance.  All instructions given on the outset are clear and straightforward to help avoid issues.  Assistance is available if required.\n"
         }
       }
     },
@@ -2815,7 +2998,7 @@
         "id": "77Pqq2Tye6bQU3GrjkxJ3R",
         "type": "Entry",
         "createdAt": "2020-08-05T20:15:14.681Z",
-        "updatedAt": "2020-08-05T20:18:26.720Z",
+        "updatedAt": "2020-08-13T21:15:52.718Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2823,8 +3006,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2020-08-05T20:18:26.720Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-08-13T21:15:52.718Z",
         "firstPublishedAt": "2020-08-05T20:15:41.885Z",
         "createdBy": {
           "sys": {
@@ -2840,8 +3023,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 2,
-        "version": 6,
+        "publishedCounter": 5,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2861,44 +3044,8 @@
         "question": {
           "en-US": "What if I don’t like the games or program?"
         },
-        "answer": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "If you find that you don’t enjoy or like the program then contact us and we can either offer a different gaming set of exercises or offer more traditional physiotherapy options to you, depending upon your need.  ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "\n\n\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              }
-            ]
-          }
+        "ans": {
+          "en-US": "If you find that you don’t enjoy or like the program then contact us and we can either offer a different gaming set of exercises or offer more traditional physiotherapy options to you, depending upon your need.  "
         }
       }
     },
@@ -2914,7 +3061,7 @@
         "id": "P9n25Ucnz6xPEYNaEz09H",
         "type": "Entry",
         "createdAt": "2020-08-05T20:15:54.292Z",
-        "updatedAt": "2020-08-05T20:18:25.434Z",
+        "updatedAt": "2020-08-13T21:15:52.396Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2922,8 +3069,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2020-08-05T20:18:25.434Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-08-13T21:15:52.396Z",
         "firstPublishedAt": "2020-08-05T20:16:04.025Z",
         "createdBy": {
           "sys": {
@@ -2939,8 +3086,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 2,
-        "version": 6,
+        "publishedCounter": 5,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2960,44 +3107,8 @@
         "question": {
           "en-US": "What is calibration?"
         },
-        "answer": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Calibration is the process in the program where the camera is looking for you and your limbs.  If you are in a wheelchair the settings with reflect this and the camera will adjust accordingly.  If space is limited then the calibration can be skipped all together, with only minimal impact on the sensitivity of the exercises and games.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "\n\n\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              }
-            ]
-          }
+        "ans": {
+          "en-US": "Calibration is the process in the program where the camera is looking for you and your limbs.  If you are in a wheelchair the settings with reflect this and the camera will adjust accordingly.  If space is limited then the calibration can be skipped all together, with only minimal impact on the sensitivity of the exercises and games.\n"
         }
       }
     }
@@ -3015,7 +3126,7 @@
         "id": "2Gax9Z3IKfQta7MO65Pcwg",
         "type": "Asset",
         "createdAt": "2020-08-04T18:16:29.024Z",
-        "updatedAt": "2020-08-05T20:18:19.580Z",
+        "updatedAt": "2020-08-13T21:15:46.167Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3023,8 +3134,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 27,
-        "publishedAt": "2020-08-05T20:18:19.580Z",
+        "publishedVersion": 33,
+        "publishedAt": "2020-08-13T21:15:46.167Z",
         "firstPublishedAt": "2020-08-04T18:16:55.573Z",
         "createdBy": {
           "sys": {
@@ -3040,8 +3151,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 9,
-        "version": 28,
+        "publishedCounter": 11,
+        "version": 34,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3056,7 +3167,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/2Gax9Z3IKfQta7MO65Pcwg/717573c093ef4f64750c8ba8b5dadeca/y_garn.jpg",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/2Gax9Z3IKfQta7MO65Pcwg/9d907a239f0dd5074ee1b0368c2c9e74/y_garn.jpg",
             "details": {
               "size": 106201,
               "image": {
@@ -3079,77 +3190,10 @@
             "id": "j2xr2f1tr781"
           }
         },
-        "id": "5muaHWBU6yQDqousP4gvdW",
-        "type": "Asset",
-        "createdAt": "2020-08-04T18:23:38.455Z",
-        "updatedAt": "2020-08-05T20:18:21.792Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 44,
-        "publishedAt": "2020-08-05T20:18:21.792Z",
-        "firstPublishedAt": "2020-08-04T18:26:52.867Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0SOMroktuhfdVo0dnhGhvc"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0SOMroktuhfdVo0dnhGhvc"
-          }
-        },
-        "publishedCounter": 12,
-        "version": 45,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0SOMroktuhfdVo0dnhGhvc"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "ip logo"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/5muaHWBU6yQDqousP4gvdW/388dc4380e4c2d98151edc81dfccbcb7/ip.png",
-            "details": {
-              "size": 1354,
-              "image": {
-                "width": 28,
-                "height": 40
-              }
-            },
-            "fileName": "ip.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "j2xr2f1tr781"
-          }
-        },
         "id": "UCqv5f3mTCt4j6YxEekSy",
         "type": "Asset",
         "createdAt": "2020-08-04T19:17:50.825Z",
-        "updatedAt": "2020-08-05T20:18:21.530Z",
+        "updatedAt": "2020-08-13T21:15:48.697Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3157,8 +3201,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 22,
-        "publishedAt": "2020-08-05T20:18:21.530Z",
+        "publishedVersion": 28,
+        "publishedAt": "2020-08-13T21:15:48.697Z",
         "firstPublishedAt": "2020-08-04T19:18:40.519Z",
         "createdBy": {
           "sys": {
@@ -3174,8 +3218,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 7,
-        "version": 23,
+        "publishedCounter": 9,
+        "version": 29,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3190,7 +3234,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/UCqv5f3mTCt4j6YxEekSy/8a6da29be3b718736c8e5b44db155600/DSC00009.JPG",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/UCqv5f3mTCt4j6YxEekSy/f9a94e93a92cca63638af5452c919c53/DSC00009.JPG",
             "details": {
               "size": 6320879,
               "image": {
@@ -3216,7 +3260,7 @@
         "id": "4M9FfUh3EVnlwOjJTox97K",
         "type": "Asset",
         "createdAt": "2020-08-04T19:27:56.798Z",
-        "updatedAt": "2020-08-05T20:18:21.258Z",
+        "updatedAt": "2020-08-13T21:15:48.307Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3224,8 +3268,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 15,
-        "publishedAt": "2020-08-05T20:18:21.258Z",
+        "publishedVersion": 25,
+        "publishedAt": "2020-08-13T21:15:48.307Z",
         "firstPublishedAt": "2020-08-04T19:28:13.050Z",
         "createdBy": {
           "sys": {
@@ -3241,8 +3285,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 5,
-        "version": 16,
+        "publishedCounter": 8,
+        "version": 26,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3257,15 +3301,15 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/4M9FfUh3EVnlwOjJTox97K/3f057b4c4124509933a6f1dac770f0fe/hero-bg.jpg",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/4M9FfUh3EVnlwOjJTox97K/256800dab0e7825f05d61b869ff6c053/pexels-karolina-grabowska-4506163.jpg",
             "details": {
-              "size": 296179,
+              "size": 1753216,
               "image": {
-                "width": 1920,
-                "height": 1143
+                "width": 6720,
+                "height": 4480
               }
             },
-            "fileName": "hero-bg.jpg",
+            "fileName": "pexels-karolina-grabowska-4506163.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -3283,7 +3327,7 @@
         "id": "7AbYNvxuJQIxuoMS6pdHET",
         "type": "Asset",
         "createdAt": "2020-08-04T19:29:39.570Z",
-        "updatedAt": "2020-08-05T20:18:20.976Z",
+        "updatedAt": "2020-08-13T21:15:48.055Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3291,8 +3335,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 15,
-        "publishedAt": "2020-08-05T20:18:20.976Z",
+        "publishedVersion": 21,
+        "publishedAt": "2020-08-13T21:15:48.055Z",
         "firstPublishedAt": "2020-08-04T19:30:37.285Z",
         "createdBy": {
           "sys": {
@@ -3308,8 +3352,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 5,
-        "version": 16,
+        "publishedCounter": 7,
+        "version": 22,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3324,7 +3368,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/7AbYNvxuJQIxuoMS6pdHET/5ab3f3d64087610a8823b190a89fbd9d/Monument_Valley_1920.jpg",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/7AbYNvxuJQIxuoMS6pdHET/1eb7fdaed7f530471ca9b0b7ce34e62a/Monument_Valley_1920.jpg",
             "details": {
               "size": 871852,
               "image": {
@@ -3350,7 +3394,7 @@
         "id": "3e25VCZaJoQDT48BlirZpO",
         "type": "Asset",
         "createdAt": "2020-08-04T19:32:22.635Z",
-        "updatedAt": "2020-08-05T20:18:20.538Z",
+        "updatedAt": "2020-08-13T21:15:47.652Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3358,8 +3402,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 15,
-        "publishedAt": "2020-08-05T20:18:20.538Z",
+        "publishedVersion": 21,
+        "publishedAt": "2020-08-13T21:15:47.652Z",
         "firstPublishedAt": "2020-08-04T19:32:37.373Z",
         "createdBy": {
           "sys": {
@@ -3375,8 +3419,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 5,
-        "version": 16,
+        "publishedCounter": 7,
+        "version": 22,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3391,7 +3435,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/3e25VCZaJoQDT48BlirZpO/a991f15ed588ef9c18015565266f68e8/myAvatar.png",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/3e25VCZaJoQDT48BlirZpO/679a6f49c90d570e13a995d41ee0e925/myAvatar.png",
             "details": {
               "size": 41386,
               "image": {
@@ -3417,7 +3461,7 @@
         "id": "1NzAxjgOXRgVwY5bI87cvu",
         "type": "Asset",
         "createdAt": "2020-08-04T19:32:54.023Z",
-        "updatedAt": "2020-08-05T20:18:20.196Z",
+        "updatedAt": "2020-08-13T21:15:47.418Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3425,8 +3469,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 18,
-        "publishedAt": "2020-08-05T20:18:20.196Z",
+        "publishedVersion": 24,
+        "publishedAt": "2020-08-13T21:15:47.418Z",
         "firstPublishedAt": "2020-08-04T19:33:19.619Z",
         "createdBy": {
           "sys": {
@@ -3442,8 +3486,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 5,
-        "version": 19,
+        "publishedCounter": 7,
+        "version": 25,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3458,7 +3502,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/1NzAxjgOXRgVwY5bI87cvu/beebe0f1840c48b9aac340b5998481cd/DSC_1461-002.JPG",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/1NzAxjgOXRgVwY5bI87cvu/5fdc8f576ac4ae946bbd6475f8f78c15/DSC_1461-002.JPG",
             "details": {
               "size": 463868,
               "image": {
@@ -3484,7 +3528,7 @@
         "id": "46QEmK3xbFrmRTSNvRrYBG",
         "type": "Asset",
         "createdAt": "2020-08-04T19:33:25.727Z",
-        "updatedAt": "2020-08-05T20:18:19.966Z",
+        "updatedAt": "2020-08-13T21:15:47.101Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3492,8 +3536,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 22,
-        "publishedAt": "2020-08-05T20:18:19.966Z",
+        "publishedVersion": 28,
+        "publishedAt": "2020-08-13T21:15:47.101Z",
         "firstPublishedAt": "2020-08-04T19:33:46.010Z",
         "createdBy": {
           "sys": {
@@ -3509,8 +3553,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 7,
-        "version": 23,
+        "publishedCounter": 9,
+        "version": 29,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3525,7 +3569,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/46QEmK3xbFrmRTSNvRrYBG/64b4761509ee9494ee4bfa5454fffd34/DSC_1461-002.JPG",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/46QEmK3xbFrmRTSNvRrYBG/1b8865e01813dccb1dddebdcffd7bfa7/DSC_1461-002.JPG",
             "details": {
               "size": 463868,
               "image": {
@@ -3535,6 +3579,140 @@
             },
             "fileName": "DSC_1461-002.JPG",
             "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "75Leoghg6YZaKokilrTROx",
+        "type": "Asset",
+        "createdAt": "2020-08-06T20:10:16.209Z",
+        "updatedAt": "2020-08-13T21:15:46.792Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 44,
+        "publishedAt": "2020-08-13T21:15:46.792Z",
+        "firstPublishedAt": "2020-08-06T20:10:38.034Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 45,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "ip-logo-red"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/j2xr2f1tr781/75Leoghg6YZaKokilrTROx/335be347d23fd0056ec8b975f1adc29f/IP_simple-01.png",
+            "details": {
+              "size": 34999,
+              "image": {
+                "width": 1042,
+                "height": 1042
+              }
+            },
+            "fileName": "IP_simple-01.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "1yX6hM0mnqyryOSgmJFhmi",
+        "type": "Asset",
+        "createdAt": "2020-08-13T21:06:54.272Z",
+        "updatedAt": "2020-08-13T21:15:46.412Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2020-08-13T21:15:46.412Z",
+        "firstPublishedAt": "2020-08-13T21:07:36.129Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "IP Main Banner Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/j2xr2f1tr781/1yX6hM0mnqyryOSgmJFhmi/365c4e51ae9fb217285e64c15cdd9f4a/IP__1_.png",
+            "details": {
+              "size": 22978,
+              "image": {
+                "width": 805,
+                "height": 530
+              }
+            },
+            "fileName": "IP (1).png",
+            "contentType": "image/png"
           }
         }
       }

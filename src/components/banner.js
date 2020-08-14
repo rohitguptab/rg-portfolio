@@ -7,13 +7,26 @@ export default class Banner extends Component {
     return (
       <div className="banner">
         <Img
+          class="full"
           fixed={data.bannerImage.fluid}
           objectFit="cover"
           objectPosition="50% 50%"
         />
         <div className="container">
           <div className="banner-details">
-            <h1>{data.name}</h1>
+            {data.bannerLogo.file.url ? (
+              <img
+                src={data.bannerLogo.file.url}
+                alt="logo"
+                class="companylogo"
+              />
+            ) : (
+              <span></span>
+            )}
+            <span class="companyName">
+              {data.name.split(" ")[0]}{" "}
+              <strong>{data.name.split(" ")[1]}</strong>
+            </span>
             <span>{data.designation}.</span>
             <ul className="sub-data">
               {data.bannerList.map((item, index) => {

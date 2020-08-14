@@ -124,6 +124,11 @@ export const pageQuery = graphql`
           html
         }
       }
+      bannerLogo {
+        file {
+          url
+        }
+      }
       bannerImage {
         fluid(maxWidth: 1500) {
           base64
