@@ -12,7 +12,7 @@
         "id": "service",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.717Z",
-        "updatedAt": "2020-08-13T21:14:51.935Z",
+        "updatedAt": "2020-08-15T19:39:56.973Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 35,
-        "publishedAt": "2020-08-13T21:14:51.935Z",
+        "publishedVersion": 53,
+        "publishedAt": "2020-08-15T19:39:56.973Z",
         "firstPublishedAt": "2020-08-04T10:36:21.133Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 18,
-        "version": 36,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -87,7 +87,7 @@
         "id": "blogs",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.720Z",
-        "updatedAt": "2020-08-13T21:14:55.200Z",
+        "updatedAt": "2020-08-15T19:40:00.712Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -95,8 +95,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 35,
-        "publishedAt": "2020-08-13T21:14:55.200Z",
+        "publishedVersion": 53,
+        "publishedAt": "2020-08-15T19:40:00.712Z",
         "firstPublishedAt": "2020-08-04T10:36:20.820Z",
         "createdBy": {
           "sys": {
@@ -112,8 +112,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 18,
-        "version": 36,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -185,7 +185,7 @@
         "id": "photos",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.799Z",
-        "updatedAt": "2020-08-13T21:14:54.780Z",
+        "updatedAt": "2020-08-15T19:40:00.259Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -193,8 +193,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 35,
-        "publishedAt": "2020-08-13T21:14:54.780Z",
+        "publishedVersion": 53,
+        "publishedAt": "2020-08-15T19:40:00.259Z",
         "firstPublishedAt": "2020-08-04T10:36:19.842Z",
         "createdBy": {
           "sys": {
@@ -210,8 +210,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 18,
-        "version": 36,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -266,7 +266,7 @@
         "id": "works",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.822Z",
-        "updatedAt": "2020-08-13T21:14:54.419Z",
+        "updatedAt": "2020-08-15T19:39:59.685Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -274,8 +274,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 35,
-        "publishedAt": "2020-08-13T21:14:54.419Z",
+        "publishedVersion": 53,
+        "publishedAt": "2020-08-15T19:39:59.685Z",
         "firstPublishedAt": "2020-08-04T10:36:20.157Z",
         "createdBy": {
           "sys": {
@@ -291,8 +291,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 18,
-        "version": 36,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -353,7 +353,7 @@
         "id": "aboutMe",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:16.850Z",
-        "updatedAt": "2020-08-13T21:38:21.966Z",
+        "updatedAt": "2020-08-15T19:39:59.391Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -361,8 +361,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 39,
-        "publishedAt": "2020-08-13T21:38:21.966Z",
+        "publishedVersion": 69,
+        "publishedAt": "2020-08-15T19:39:59.391Z",
         "firstPublishedAt": "2020-08-04T10:36:19.128Z",
         "createdBy": {
           "sys": {
@@ -378,8 +378,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 20,
-        "version": 40,
+        "publishedCounter": 35,
+        "version": 70,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -442,17 +442,6 @@
           "id": "description",
           "name": "Description",
           "type": "Text",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "age",
-          "name": "Age",
-          "type": "Symbol",
           "localized": false,
           "required": false,
           "validations": [
@@ -555,17 +544,6 @@
           "omitted": false
         },
         {
-          "id": "github",
-          "name": "Github",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
           "id": "email",
           "name": "Email",
           "type": "Symbol",
@@ -581,23 +559,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "bannerLogo",
-          "name": "Banner Logo",
-          "type": "Link",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "linkMimetypeGroup": [
-                "image"
-              ]
-            }
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Asset"
         }
       ]
     },
@@ -613,7 +574,7 @@
         "id": "testimonials",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:18.683Z",
-        "updatedAt": "2020-08-13T21:14:53.823Z",
+        "updatedAt": "2020-08-15T19:39:58.951Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -621,8 +582,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 35,
-        "publishedAt": "2020-08-13T21:14:53.823Z",
+        "publishedVersion": 53,
+        "publishedAt": "2020-08-15T19:39:58.951Z",
         "firstPublishedAt": "2020-08-04T10:36:20.491Z",
         "createdBy": {
           "sys": {
@@ -638,8 +599,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 18,
-        "version": 36,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -711,7 +672,7 @@
         "id": "siteInformation",
         "type": "ContentType",
         "createdAt": "2020-08-04T10:36:18.819Z",
-        "updatedAt": "2020-08-13T21:39:49.598Z",
+        "updatedAt": "2020-08-15T19:39:58.638Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -719,8 +680,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 43,
-        "publishedAt": "2020-08-13T21:39:49.598Z",
+        "publishedVersion": 63,
+        "publishedAt": "2020-08-15T19:39:58.638Z",
         "firstPublishedAt": "2020-08-04T10:36:19.504Z",
         "createdBy": {
           "sys": {
@@ -736,8 +697,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 22,
-        "version": 44,
+        "publishedCounter": 32,
+        "version": 64,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -821,14 +782,14 @@
             "validations": [
               {
                 "in": [
-                  "About",
                   "Service",
-                  "Blogs",
                   "Work",
+                  "Faqs",
+                  "About",
                   "Testimonials",
                   "Photos",
-                  "Contact",
-                  "Faqs"
+                  "Blogs",
+                  "Contact"
                 ]
               }
             ]
@@ -848,7 +809,7 @@
         "id": "contentIds",
         "type": "ContentType",
         "createdAt": "2020-08-04T11:50:23.937Z",
-        "updatedAt": "2020-08-13T21:14:52.739Z",
+        "updatedAt": "2020-08-15T19:39:58.205Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -856,8 +817,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 39,
-        "publishedAt": "2020-08-13T21:14:52.739Z",
+        "publishedVersion": 57,
+        "publishedAt": "2020-08-15T19:39:58.205Z",
         "firstPublishedAt": "2020-08-04T11:50:24.277Z",
         "createdBy": {
           "sys": {
@@ -873,8 +834,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 20,
-        "version": 40,
+        "publishedCounter": 29,
+        "version": 58,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -912,7 +873,7 @@
         "id": "faq",
         "type": "ContentType",
         "createdAt": "2020-08-05T20:11:15.440Z",
-        "updatedAt": "2020-08-13T21:14:52.329Z",
+        "updatedAt": "2020-08-15T19:39:57.921Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -920,8 +881,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 19,
-        "publishedAt": "2020-08-13T21:14:52.329Z",
+        "publishedVersion": 37,
+        "publishedAt": "2020-08-15T19:39:57.921Z",
         "firstPublishedAt": "2020-08-05T20:11:39.330Z",
         "createdBy": {
           "sys": {
@@ -937,8 +898,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 9,
-        "version": 20,
+        "publishedCounter": 18,
+        "version": 38,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -974,6 +935,196 @@
           "omitted": false
         }
       ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "seo",
+        "type": "ContentType",
+        "createdAt": "2020-08-15T14:02:36.095Z",
+        "updatedAt": "2020-08-15T19:39:57.602Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 21,
+        "publishedAt": "2020-08-15T19:39:57.602Z",
+        "firstPublishedAt": "2020-08-15T14:02:37.122Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 11,
+        "version": 22,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        }
+      },
+      "displayField": "page",
+      "name": "SEO",
+      "description": "Search Engine Optimisation values",
+      "fields": [
+        {
+          "id": "keywords",
+          "name": "Keywords",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "page",
+          "name": "Page",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "pages",
+        "type": "ContentType",
+        "createdAt": "2020-08-15T18:15:01.919Z",
+        "updatedAt": "2020-08-15T21:06:45.191Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2020-08-15T21:06:45.191Z",
+        "firstPublishedAt": "2020-08-15T18:15:02.273Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 7,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        }
+      },
+      "displayField": "page",
+      "name": "Pages",
+      "description": "",
+      "fields": [
+        {
+          "id": "page",
+          "name": "Page",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "seo",
+          "name": "SEO",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "bannerImage",
+          "name": "BannerImage",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
     }
   ],
   "tags": [
@@ -990,7 +1141,7 @@
             "linkType": "Space"
           }
         },
-        "version": 37,
+        "version": 55,
         "createdAt": "2020-08-04T10:36:21.218Z",
         "createdBy": {
           "sys": {
@@ -999,7 +1150,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-13T21:14:57.614Z",
+        "updatedAt": "2020-08-15T19:40:01.513Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1080,7 +1231,7 @@
             "linkType": "Space"
           }
         },
-        "version": 37,
+        "version": 55,
         "createdAt": "2020-08-04T10:36:20.908Z",
         "createdBy": {
           "sys": {
@@ -1089,7 +1240,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-13T21:14:59.526Z",
+        "updatedAt": "2020-08-15T19:40:01.425Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1180,7 +1331,7 @@
             "linkType": "Space"
           }
         },
-        "version": 37,
+        "version": 55,
         "createdAt": "2020-08-04T10:36:19.932Z",
         "createdBy": {
           "sys": {
@@ -1189,7 +1340,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-13T21:14:59.627Z",
+        "updatedAt": "2020-08-15T19:40:02.966Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1270,7 +1421,7 @@
             "linkType": "Space"
           }
         },
-        "version": 37,
+        "version": 55,
         "createdAt": "2020-08-04T10:36:20.269Z",
         "createdBy": {
           "sys": {
@@ -1279,7 +1430,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-13T21:14:59.636Z",
+        "updatedAt": "2020-08-15T19:40:01.377Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1365,7 +1516,7 @@
             "linkType": "Space"
           }
         },
-        "version": 41,
+        "version": 71,
         "createdAt": "2020-08-04T10:36:19.229Z",
         "createdBy": {
           "sys": {
@@ -1374,7 +1525,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-13T21:38:22.516Z",
+        "updatedAt": "2020-08-15T19:40:03.075Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1458,11 +1609,6 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "age",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
           "fieldId": "bannerImage",
           "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
@@ -1503,18 +1649,8 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "github",
-          "widgetId": "urlEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
           "fieldId": "email",
           "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "bannerLogo",
-          "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -1530,7 +1666,7 @@
             "linkType": "Space"
           }
         },
-        "version": 37,
+        "version": 55,
         "createdAt": "2020-08-04T10:36:20.590Z",
         "createdBy": {
           "sys": {
@@ -1539,7 +1675,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-13T21:14:59.465Z",
+        "updatedAt": "2020-08-15T19:40:01.526Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1630,7 +1766,7 @@
             "linkType": "Space"
           }
         },
-        "version": 45,
+        "version": 65,
         "createdAt": "2020-08-04T10:36:19.623Z",
         "createdBy": {
           "sys": {
@@ -1639,7 +1775,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-13T21:39:50.046Z",
+        "updatedAt": "2020-08-15T19:40:01.514Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1740,7 +1876,7 @@
             "linkType": "Space"
           }
         },
-        "version": 36,
+        "version": 54,
         "createdAt": "2020-08-04T11:50:24.410Z",
         "createdBy": {
           "sys": {
@@ -1749,7 +1885,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-13T21:14:57.616Z",
+        "updatedAt": "2020-08-15T19:40:03.098Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1825,7 +1961,7 @@
             "linkType": "Space"
           }
         },
-        "version": 19,
+        "version": 37,
         "createdAt": "2020-08-05T20:11:39.419Z",
         "createdBy": {
           "sys": {
@@ -1834,7 +1970,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-08-13T21:14:57.714Z",
+        "updatedAt": "2020-08-15T19:40:01.525Z",
         "updatedBy": {
           "sys": {
             "id": "0SOMroktuhfdVo0dnhGhvc",
@@ -1903,6 +2039,137 @@
           "widgetNamespace": "builtin"
         }
       ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "j2xr2f1tr781",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 22,
+        "createdAt": "2020-08-15T14:02:37.220Z",
+        "createdBy": {
+          "sys": {
+            "id": "0SOMroktuhfdVo0dnhGhvc",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-08-15T19:40:04.970Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0SOMroktuhfdVo0dnhGhvc",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "seo",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "keywords",
+          "widgetId": "listInput",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "page",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "j2xr2f1tr781",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 14,
+        "createdAt": "2020-08-15T18:15:02.393Z",
+        "createdBy": {
+          "sys": {
+            "id": "0SOMroktuhfdVo0dnhGhvc",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-08-15T21:06:45.760Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0SOMroktuhfdVo0dnhGhvc",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "pages",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "page",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "seo",
+          "settings": {
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "bannerImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
     }
   ],
   "entries": [
@@ -1918,7 +2185,7 @@
         "id": "2MEkguSekmXg1wtgqfEaXV",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:00.947Z",
-        "updatedAt": "2020-08-13T21:15:52.108Z",
+        "updatedAt": "2020-08-15T19:40:38.981Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1926,8 +2193,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 75,
-        "publishedAt": "2020-08-13T21:15:52.108Z",
+        "publishedVersion": 93,
+        "publishedAt": "2020-08-15T19:40:38.980Z",
         "firstPublishedAt": "2020-08-04T10:38:14.163Z",
         "createdBy": {
           "sys": {
@@ -1943,8 +2210,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 16,
-        "version": 76,
+        "publishedCounter": 25,
+        "version": 94,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1981,7 +2248,7 @@
         "id": "5rrD15RhF8dMqpeLktOozn",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:00.974Z",
-        "updatedAt": "2020-08-13T21:15:59.083Z",
+        "updatedAt": "2020-08-15T19:40:46.563Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1989,8 +2256,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 75,
-        "publishedAt": "2020-08-13T21:15:59.083Z",
+        "publishedVersion": 93,
+        "publishedAt": "2020-08-15T19:40:46.563Z",
         "firstPublishedAt": "2020-08-04T10:38:13.842Z",
         "createdBy": {
           "sys": {
@@ -2006,8 +2273,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 14,
-        "version": 76,
+        "publishedCounter": 23,
+        "version": 94,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2044,7 +2311,7 @@
         "id": "3ESYbkZtWyPnPy6nDQFAHg",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:01.060Z",
-        "updatedAt": "2020-08-13T21:15:58.472Z",
+        "updatedAt": "2020-08-15T19:40:46.237Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2052,8 +2319,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 46,
-        "publishedAt": "2020-08-13T21:15:58.472Z",
+        "publishedVersion": 64,
+        "publishedAt": "2020-08-15T19:40:46.237Z",
         "firstPublishedAt": "2020-08-04T10:38:05.874Z",
         "createdBy": {
           "sys": {
@@ -2069,8 +2336,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 14,
-        "version": 47,
+        "publishedCounter": 23,
+        "version": 65,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2107,7 +2374,7 @@
         "id": "4JrBcqVYRay1QiJH6zc7qO",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:01.146Z",
-        "updatedAt": "2020-08-13T21:15:57.921Z",
+        "updatedAt": "2020-08-15T19:40:45.924Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2115,8 +2382,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 41,
-        "publishedAt": "2020-08-13T21:15:57.921Z",
+        "publishedVersion": 59,
+        "publishedAt": "2020-08-15T19:40:45.924Z",
         "firstPublishedAt": "2020-08-04T10:38:13.380Z",
         "createdBy": {
           "sys": {
@@ -2132,8 +2399,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 11,
-        "version": 42,
+        "publishedCounter": 20,
+        "version": 60,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2182,7 +2449,7 @@
         "id": "5yj9TpsOj2xAzKI7tBMdxh",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:01.291Z",
-        "updatedAt": "2020-08-13T21:15:57.614Z",
+        "updatedAt": "2020-08-15T19:40:45.615Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2190,8 +2457,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 26,
-        "publishedAt": "2020-08-13T21:15:57.614Z",
+        "publishedVersion": 44,
+        "publishedAt": "2020-08-15T19:40:45.615Z",
         "firstPublishedAt": "2020-08-04T10:38:06.676Z",
         "createdBy": {
           "sys": {
@@ -2207,8 +2474,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 11,
-        "version": 27,
+        "publishedCounter": 20,
+        "version": 45,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2254,7 +2521,7 @@
         "id": "6caZg1KgLxQN4VE2QOJbCk",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:01.327Z",
-        "updatedAt": "2020-08-13T21:39:14.747Z",
+        "updatedAt": "2020-08-15T19:40:45.302Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2262,8 +2529,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 142,
-        "publishedAt": "2020-08-13T21:39:14.747Z",
+        "publishedVersion": 167,
+        "publishedAt": "2020-08-15T19:40:45.302Z",
         "firstPublishedAt": "2020-08-04T10:38:06.290Z",
         "createdBy": {
           "sys": {
@@ -2279,8 +2546,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 19,
-        "version": 143,
+        "publishedCounter": 31,
+        "version": 168,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2301,7 +2568,7 @@
           "en-US": "Interactive Physio"
         },
         "designation": {
-          "en-US": "Cutting edge Physiotherapy at home with the use of everyday technology"
+          "en-US": "Cutting edge Physiotherapy at home using everyday technology"
         },
         "photo": {
           "en-US": {
@@ -2323,9 +2590,6 @@
         },
         "description": {
           "en-US": "I am a physiotherapist with an interested and developed speciality in the use of technology as part of therapy.  Technology is already an integrated part of most of our lives and the innovation of technology within physiotherapy is no exception. \nWith 20+ years of physiotherapy expereince I have spent the last 15 years researching and applying technology into my practice.  As the years have progressed, the technology has rapidly advanced in its sensitivity to movement and in how pateints can interact with it. There are numerous fantastic options  to make physical rehabilitation for a vast array of conditions fun, enjoyable and engaging.  Conditions range from brain injury to sprained ankle ligaments with most ailments that benefit from physiotherapy also benefiting from the interactive technology approach.\n\nSuccess in your rehabilitation is the ultimate goal and Interactive Physio will assist you with any issues or queries you may have.  The beauty of technology and therapeutic gaming is that the options are endless for rehabilitation and you don’t need to leave your sitting room to benefit from it."
-        },
-        "age": {
-          "en-US": "REMOVE PLEASE"
         },
         "bannerImage": {
           "en-US": {
@@ -2361,20 +2625,8 @@
         "linkdin": {
           "en-US": "https://www.linkedin.com/in/rebecca-scott-b8848820/"
         },
-        "github": {
-          "en-US": "#"
-        },
         "email": {
           "en-US": "hello@interactivephysio.com"
-        },
-        "bannerLogo": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "1yX6hM0mnqyryOSgmJFhmi"
-            }
-          }
         }
       }
     },
@@ -2390,7 +2642,7 @@
         "id": "1vaZauN3G1LbRsJutH3AU9",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:03.713Z",
-        "updatedAt": "2020-08-13T21:39:43.545Z",
+        "updatedAt": "2020-08-15T19:40:44.964Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2398,8 +2650,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 58,
-        "publishedAt": "2020-08-13T21:15:56.620Z",
+        "publishedVersion": 79,
+        "publishedAt": "2020-08-15T19:40:44.964Z",
         "firstPublishedAt": "2020-08-04T10:38:11.852Z",
         "createdBy": {
           "sys": {
@@ -2415,8 +2667,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 20,
-        "version": 60,
+        "publishedCounter": 30,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2434,7 +2686,7 @@
       },
       "fields": {
         "siteName": {
-          "en-US": "Interactive Physiotherapist"
+          "en-US": "Interactive Physio"
         },
         "siteUrl": {
           "en-US": "https://gallant-beaver-ffcfb4.netlify.app"
@@ -2477,7 +2729,7 @@
         "id": "3PgxStGrnRqEN9L1miJyJM",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:05.582Z",
-        "updatedAt": "2020-08-13T21:15:55.847Z",
+        "updatedAt": "2020-08-15T19:40:44.625Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2485,8 +2737,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 25,
-        "publishedAt": "2020-08-13T21:15:55.847Z",
+        "publishedVersion": 43,
+        "publishedAt": "2020-08-15T19:40:44.625Z",
         "firstPublishedAt": "2020-08-04T10:38:12.318Z",
         "createdBy": {
           "sys": {
@@ -2502,8 +2754,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 11,
-        "version": 26,
+        "publishedCounter": 20,
+        "version": 44,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2548,7 +2800,7 @@
         "id": "6dPFHmvvwRLTmishla3Y55",
         "type": "Entry",
         "createdAt": "2020-08-04T10:38:05.608Z",
-        "updatedAt": "2020-08-13T21:15:55.352Z",
+        "updatedAt": "2020-08-15T19:40:44.161Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2556,8 +2808,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 27,
-        "publishedAt": "2020-08-13T21:15:55.352Z",
+        "publishedVersion": 45,
+        "publishedAt": "2020-08-15T19:40:44.161Z",
         "firstPublishedAt": "2020-08-04T10:38:11.287Z",
         "createdBy": {
           "sys": {
@@ -2573,8 +2825,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 14,
-        "version": 28,
+        "publishedCounter": 23,
+        "version": 46,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2623,7 +2875,7 @@
         "id": "6qVDIGeRZLZzz7TxUl9II8",
         "type": "Entry",
         "createdAt": "2020-08-04T11:54:28.596Z",
-        "updatedAt": "2020-08-13T21:15:55.056Z",
+        "updatedAt": "2020-08-15T19:40:43.556Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2631,8 +2883,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 24,
-        "publishedAt": "2020-08-13T21:15:55.056Z",
+        "publishedVersion": 42,
+        "publishedAt": "2020-08-15T19:40:43.556Z",
         "firstPublishedAt": "2020-08-04T11:54:51.573Z",
         "createdBy": {
           "sys": {
@@ -2648,8 +2900,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 12,
-        "version": 25,
+        "publishedCounter": 21,
+        "version": 43,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2683,7 +2935,7 @@
         "id": "5xIETxUDh8ubWUjxvVFLVZ",
         "type": "Entry",
         "createdAt": "2020-08-04T20:06:05.678Z",
-        "updatedAt": "2020-08-13T21:15:54.563Z",
+        "updatedAt": "2020-08-15T19:40:43.251Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2691,8 +2943,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 14,
-        "publishedAt": "2020-08-13T21:15:54.563Z",
+        "publishedVersion": 32,
+        "publishedAt": "2020-08-15T19:40:43.251Z",
         "firstPublishedAt": "2020-08-04T20:06:45.836Z",
         "createdBy": {
           "sys": {
@@ -2708,8 +2960,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 6,
-        "version": 15,
+        "publishedCounter": 15,
+        "version": 33,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2746,7 +2998,7 @@
         "id": "2BUjJ2eNK4QjoQCyyamKuu",
         "type": "Entry",
         "createdAt": "2020-08-05T20:12:37.525Z",
-        "updatedAt": "2020-08-13T21:15:54.173Z",
+        "updatedAt": "2020-08-15T19:40:42.909Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2754,8 +3006,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 13,
-        "publishedAt": "2020-08-13T21:15:54.173Z",
+        "publishedVersion": 31,
+        "publishedAt": "2020-08-15T19:40:42.909Z",
         "firstPublishedAt": "2020-08-05T20:12:46.388Z",
         "createdBy": {
           "sys": {
@@ -2771,8 +3023,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 6,
-        "version": 14,
+        "publishedCounter": 15,
+        "version": 32,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2809,7 +3061,7 @@
         "id": "6K49w3rC28YE2x2aUoUAur",
         "type": "Entry",
         "createdAt": "2020-08-05T20:12:57.313Z",
-        "updatedAt": "2020-08-13T21:15:53.866Z",
+        "updatedAt": "2020-08-15T19:40:42.422Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2817,8 +3069,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2020-08-13T21:15:53.866Z",
+        "publishedVersion": 29,
+        "publishedAt": "2020-08-15T19:40:42.422Z",
         "firstPublishedAt": "2020-08-05T20:13:08.342Z",
         "createdBy": {
           "sys": {
@@ -2834,8 +3086,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 5,
-        "version": 12,
+        "publishedCounter": 14,
+        "version": 30,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2872,7 +3124,7 @@
         "id": "3WKEAAeVrJ1ReWd5rvw9TR",
         "type": "Entry",
         "createdAt": "2020-08-05T20:13:16.771Z",
-        "updatedAt": "2020-08-13T21:15:53.524Z",
+        "updatedAt": "2020-08-15T19:40:42.125Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2880,8 +3132,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2020-08-13T21:15:53.524Z",
+        "publishedVersion": 29,
+        "publishedAt": "2020-08-15T19:40:42.125Z",
         "firstPublishedAt": "2020-08-05T20:13:25.447Z",
         "createdBy": {
           "sys": {
@@ -2897,8 +3149,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 5,
-        "version": 12,
+        "publishedCounter": 14,
+        "version": 30,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2935,7 +3187,7 @@
         "id": "5b0gRpMuh7Za7hK6RmydbX",
         "type": "Entry",
         "createdAt": "2020-08-05T20:14:36.113Z",
-        "updatedAt": "2020-08-13T21:15:53.173Z",
+        "updatedAt": "2020-08-15T19:40:41.859Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2943,8 +3195,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 12,
-        "publishedAt": "2020-08-13T21:15:53.173Z",
+        "publishedVersion": 30,
+        "publishedAt": "2020-08-15T19:40:41.859Z",
         "firstPublishedAt": "2020-08-05T20:15:02.963Z",
         "createdBy": {
           "sys": {
@@ -2960,8 +3212,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 5,
-        "version": 13,
+        "publishedCounter": 14,
+        "version": 31,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2998,7 +3250,7 @@
         "id": "77Pqq2Tye6bQU3GrjkxJ3R",
         "type": "Entry",
         "createdAt": "2020-08-05T20:15:14.681Z",
-        "updatedAt": "2020-08-13T21:15:52.718Z",
+        "updatedAt": "2020-08-15T19:40:41.574Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3006,8 +3258,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2020-08-13T21:15:52.718Z",
+        "publishedVersion": 29,
+        "publishedAt": "2020-08-15T19:40:41.574Z",
         "firstPublishedAt": "2020-08-05T20:15:41.885Z",
         "createdBy": {
           "sys": {
@@ -3023,8 +3275,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 5,
-        "version": 12,
+        "publishedCounter": 14,
+        "version": 30,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3061,7 +3313,7 @@
         "id": "P9n25Ucnz6xPEYNaEz09H",
         "type": "Entry",
         "createdAt": "2020-08-05T20:15:54.292Z",
-        "updatedAt": "2020-08-13T21:15:52.396Z",
+        "updatedAt": "2020-08-15T19:40:41.274Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3069,8 +3321,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2020-08-13T21:15:52.396Z",
+        "publishedVersion": 29,
+        "publishedAt": "2020-08-15T19:40:41.274Z",
         "firstPublishedAt": "2020-08-05T20:16:04.025Z",
         "createdBy": {
           "sys": {
@@ -3086,8 +3338,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 5,
-        "version": 12,
+        "publishedCounter": 14,
+        "version": 30,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3111,6 +3363,435 @@
           "en-US": "Calibration is the process in the program where the camera is looking for you and your limbs.  If you are in a wheelchair the settings with reflect this and the camera will adjust accordingly.  If space is limited then the calibration can be skipped all together, with only minimal impact on the sensitivity of the exercises and games.\n"
         }
       }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "7JSWF0CRr07a454VGneAUP",
+        "type": "Entry",
+        "createdAt": "2020-08-15T14:04:23.542Z",
+        "updatedAt": "2020-08-15T19:40:40.954Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2020-08-15T19:40:40.954Z",
+        "firstPublishedAt": "2020-08-15T14:05:26.337Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "seo"
+          }
+        }
+      },
+      "fields": {
+        "keywords": {
+          "en-US": [
+            "About Interactive Physio"
+          ]
+        },
+        "page": {
+          "en-US": "About"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "2rLXIctCylt8jZvVTZoMRM",
+        "type": "Entry",
+        "createdAt": "2020-08-15T18:15:08.932Z",
+        "updatedAt": "2020-08-15T21:07:00.242Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2020-08-15T21:07:00.242Z",
+        "firstPublishedAt": "2020-08-15T19:12:17.428Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "pages"
+          }
+        }
+      },
+      "fields": {
+        "page": {
+          "en-US": "About"
+        },
+        "seo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2rLXIctCylt8jZvVTZoMRM"
+            }
+          }
+        },
+        "bannerImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7AbYNvxuJQIxuoMS6pdHET"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "5VBKYtZ07aXxCgV0XiHPte",
+        "type": "Entry",
+        "createdAt": "2020-08-15T19:12:30.234Z",
+        "updatedAt": "2020-08-15T21:07:13.994Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 31,
+        "publishedAt": "2020-08-15T21:07:13.994Z",
+        "firstPublishedAt": "2020-08-15T19:14:19.573Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 32,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "pages"
+          }
+        }
+      },
+      "fields": {
+        "page": {
+          "en-US": "Faqs"
+        },
+        "seo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6AhVXmGKnhnzVKrSvUro1E"
+            }
+          }
+        },
+        "description": {
+          "en-US": "Interactive Physio is a new concept, combining traditional Physio approaches with technology, as both a method of communication AND treatment. \n\nIf it's something you havent come across before, you probably will have questions about how it works, so we've answered some FAQs to help. "
+        },
+        "bannerImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "UCqv5f3mTCt4j6YxEekSy"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "6AhVXmGKnhnzVKrSvUro1E",
+        "type": "Entry",
+        "createdAt": "2020-08-15T19:12:40.770Z",
+        "updatedAt": "2020-08-15T19:40:40.192Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 14,
+        "publishedAt": "2020-08-15T19:40:40.192Z",
+        "firstPublishedAt": "2020-08-15T19:13:30.692Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 15,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "seo"
+          }
+        }
+      },
+      "fields": {
+        "keywords": {
+          "en-US": [
+            "FAQs"
+          ]
+        },
+        "page": {
+          "en-US": "Faqs"
+        },
+        "description": {
+          "en-US": "FAQs to help understand what Interactive Physio offers and how it can work"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "7uaM4ZGYsWBuO6YZDbWWn3",
+        "type": "Entry",
+        "createdAt": "2020-08-15T19:16:02.175Z",
+        "updatedAt": "2020-08-15T20:57:32.399Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2020-08-15T20:57:32.399Z",
+        "firstPublishedAt": "2020-08-15T20:57:32.399Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "pages"
+          }
+        }
+      },
+      "fields": {
+        "page": {
+          "en-US": "Index"
+        },
+        "seo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4KblDWdeAuA4jacwkSWXmp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "j2xr2f1tr781"
+          }
+        },
+        "id": "4KblDWdeAuA4jacwkSWXmp",
+        "type": "Entry",
+        "createdAt": "2020-08-15T19:16:09.377Z",
+        "updatedAt": "2020-08-15T19:40:39.891Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2020-08-15T19:40:39.891Z",
+        "firstPublishedAt": "2020-08-15T19:17:32.965Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0SOMroktuhfdVo0dnhGhvc"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "seo"
+          }
+        }
+      },
+      "fields": {
+        "keywords": {
+          "en-US": [
+            "Interactive Physio"
+          ]
+        },
+        "page": {
+          "en-US": "Index"
+        },
+        "description": {
+          "en-US": "The interactive physio combines traditional Physiotherapy treatment with cutting edge technologies to provide a fun and motivating path to recovery. "
+        }
+      }
     }
   ],
   "assets": [
@@ -3126,7 +3807,7 @@
         "id": "2Gax9Z3IKfQta7MO65Pcwg",
         "type": "Asset",
         "createdAt": "2020-08-04T18:16:29.024Z",
-        "updatedAt": "2020-08-13T21:15:46.167Z",
+        "updatedAt": "2020-08-15T19:40:31.401Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3134,8 +3815,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 33,
-        "publishedAt": "2020-08-13T21:15:46.167Z",
+        "publishedVersion": 60,
+        "publishedAt": "2020-08-15T19:40:31.401Z",
         "firstPublishedAt": "2020-08-04T18:16:55.573Z",
         "createdBy": {
           "sys": {
@@ -3151,8 +3832,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 11,
-        "version": 34,
+        "publishedCounter": 20,
+        "version": 61,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3167,7 +3848,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/2Gax9Z3IKfQta7MO65Pcwg/9d907a239f0dd5074ee1b0368c2c9e74/y_garn.jpg",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/2Gax9Z3IKfQta7MO65Pcwg/ddf7e34a4b0376b59c4201f5f6eb3c39/y_garn.jpg",
             "details": {
               "size": 106201,
               "image": {
@@ -3193,7 +3874,7 @@
         "id": "UCqv5f3mTCt4j6YxEekSy",
         "type": "Asset",
         "createdAt": "2020-08-04T19:17:50.825Z",
-        "updatedAt": "2020-08-13T21:15:48.697Z",
+        "updatedAt": "2020-08-15T19:40:33.569Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3201,8 +3882,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 28,
-        "publishedAt": "2020-08-13T21:15:48.697Z",
+        "publishedVersion": 55,
+        "publishedAt": "2020-08-15T19:40:33.569Z",
         "firstPublishedAt": "2020-08-04T19:18:40.519Z",
         "createdBy": {
           "sys": {
@@ -3218,8 +3899,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 9,
-        "version": 29,
+        "publishedCounter": 18,
+        "version": 56,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3234,7 +3915,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/UCqv5f3mTCt4j6YxEekSy/f9a94e93a92cca63638af5452c919c53/DSC00009.JPG",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/UCqv5f3mTCt4j6YxEekSy/d3162d8f2a1931a9b7326314f42e4fdb/DSC00009.JPG",
             "details": {
               "size": 6320879,
               "image": {
@@ -3260,7 +3941,7 @@
         "id": "4M9FfUh3EVnlwOjJTox97K",
         "type": "Asset",
         "createdAt": "2020-08-04T19:27:56.798Z",
-        "updatedAt": "2020-08-13T21:15:48.307Z",
+        "updatedAt": "2020-08-15T19:40:33.332Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3268,8 +3949,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 25,
-        "publishedAt": "2020-08-13T21:15:48.307Z",
+        "publishedVersion": 52,
+        "publishedAt": "2020-08-15T19:40:33.332Z",
         "firstPublishedAt": "2020-08-04T19:28:13.050Z",
         "createdBy": {
           "sys": {
@@ -3285,8 +3966,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 8,
-        "version": 26,
+        "publishedCounter": 17,
+        "version": 53,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3301,7 +3982,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/4M9FfUh3EVnlwOjJTox97K/256800dab0e7825f05d61b869ff6c053/pexels-karolina-grabowska-4506163.jpg",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/4M9FfUh3EVnlwOjJTox97K/0fd7373c7c3bb481b6555cfae726a053/pexels-karolina-grabowska-4506163.jpg",
             "details": {
               "size": 1753216,
               "image": {
@@ -3327,7 +4008,7 @@
         "id": "7AbYNvxuJQIxuoMS6pdHET",
         "type": "Asset",
         "createdAt": "2020-08-04T19:29:39.570Z",
-        "updatedAt": "2020-08-13T21:15:48.055Z",
+        "updatedAt": "2020-08-15T19:40:33.021Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3335,8 +4016,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 21,
-        "publishedAt": "2020-08-13T21:15:48.055Z",
+        "publishedVersion": 48,
+        "publishedAt": "2020-08-15T19:40:33.021Z",
         "firstPublishedAt": "2020-08-04T19:30:37.285Z",
         "createdBy": {
           "sys": {
@@ -3352,8 +4033,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 7,
-        "version": 22,
+        "publishedCounter": 16,
+        "version": 49,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3368,7 +4049,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/7AbYNvxuJQIxuoMS6pdHET/1eb7fdaed7f530471ca9b0b7ce34e62a/Monument_Valley_1920.jpg",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/7AbYNvxuJQIxuoMS6pdHET/23861881a63d08708ba27e06f71ec4b0/Monument_Valley_1920.jpg",
             "details": {
               "size": 871852,
               "image": {
@@ -3394,7 +4075,7 @@
         "id": "3e25VCZaJoQDT48BlirZpO",
         "type": "Asset",
         "createdAt": "2020-08-04T19:32:22.635Z",
-        "updatedAt": "2020-08-13T21:15:47.652Z",
+        "updatedAt": "2020-08-15T19:40:32.632Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3402,8 +4083,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 21,
-        "publishedAt": "2020-08-13T21:15:47.652Z",
+        "publishedVersion": 48,
+        "publishedAt": "2020-08-15T19:40:32.632Z",
         "firstPublishedAt": "2020-08-04T19:32:37.373Z",
         "createdBy": {
           "sys": {
@@ -3419,8 +4100,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 7,
-        "version": 22,
+        "publishedCounter": 16,
+        "version": 49,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3435,7 +4116,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/3e25VCZaJoQDT48BlirZpO/679a6f49c90d570e13a995d41ee0e925/myAvatar.png",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/3e25VCZaJoQDT48BlirZpO/ac3b71c372654817a49c1f874754ab4d/myAvatar.png",
             "details": {
               "size": 41386,
               "image": {
@@ -3461,7 +4142,7 @@
         "id": "1NzAxjgOXRgVwY5bI87cvu",
         "type": "Asset",
         "createdAt": "2020-08-04T19:32:54.023Z",
-        "updatedAt": "2020-08-13T21:15:47.418Z",
+        "updatedAt": "2020-08-15T19:40:32.393Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3469,8 +4150,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 24,
-        "publishedAt": "2020-08-13T21:15:47.418Z",
+        "publishedVersion": 51,
+        "publishedAt": "2020-08-15T19:40:32.393Z",
         "firstPublishedAt": "2020-08-04T19:33:19.619Z",
         "createdBy": {
           "sys": {
@@ -3486,8 +4167,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 7,
-        "version": 25,
+        "publishedCounter": 16,
+        "version": 52,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3502,7 +4183,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/1NzAxjgOXRgVwY5bI87cvu/5fdc8f576ac4ae946bbd6475f8f78c15/DSC_1461-002.JPG",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/1NzAxjgOXRgVwY5bI87cvu/3226792f5baf73ccde5e756e755727c6/DSC_1461-002.JPG",
             "details": {
               "size": 463868,
               "image": {
@@ -3528,7 +4209,7 @@
         "id": "46QEmK3xbFrmRTSNvRrYBG",
         "type": "Asset",
         "createdAt": "2020-08-04T19:33:25.727Z",
-        "updatedAt": "2020-08-13T21:15:47.101Z",
+        "updatedAt": "2020-08-15T19:40:32.143Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3536,8 +4217,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 28,
-        "publishedAt": "2020-08-13T21:15:47.101Z",
+        "publishedVersion": 58,
+        "publishedAt": "2020-08-15T19:40:32.143Z",
         "firstPublishedAt": "2020-08-04T19:33:46.010Z",
         "createdBy": {
           "sys": {
@@ -3553,8 +4234,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 9,
-        "version": 29,
+        "publishedCounter": 19,
+        "version": 59,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3569,12 +4250,12 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/46QEmK3xbFrmRTSNvRrYBG/1b8865e01813dccb1dddebdcffd7bfa7/DSC_1461-002.JPG",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/46QEmK3xbFrmRTSNvRrYBG/7f9e85627972dec7ddca5be8f817e4f7/DSC_1461-002.JPG",
             "details": {
-              "size": 463868,
+              "size": 16478,
               "image": {
-                "width": 768,
-                "height": 800
+                "width": 200,
+                "height": 208
               }
             },
             "fileName": "DSC_1461-002.JPG",
@@ -3595,7 +4276,7 @@
         "id": "75Leoghg6YZaKokilrTROx",
         "type": "Asset",
         "createdAt": "2020-08-06T20:10:16.209Z",
-        "updatedAt": "2020-08-13T21:15:46.792Z",
+        "updatedAt": "2020-08-15T19:40:31.677Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3603,8 +4284,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 44,
-        "publishedAt": "2020-08-13T21:15:46.792Z",
+        "publishedVersion": 71,
+        "publishedAt": "2020-08-15T19:40:31.677Z",
         "firstPublishedAt": "2020-08-06T20:10:38.034Z",
         "createdBy": {
           "sys": {
@@ -3620,8 +4301,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 10,
-        "version": 45,
+        "publishedCounter": 19,
+        "version": 72,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3636,7 +4317,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/75Leoghg6YZaKokilrTROx/335be347d23fd0056ec8b975f1adc29f/IP_simple-01.png",
+            "url": "//images.ctfassets.net/j2xr2f1tr781/75Leoghg6YZaKokilrTROx/668b7a3bb426e0eff4d87d04b591bddb/IP_simple-01.png",
             "details": {
               "size": 34999,
               "image": {
@@ -3662,7 +4343,7 @@
         "id": "1yX6hM0mnqyryOSgmJFhmi",
         "type": "Asset",
         "createdAt": "2020-08-13T21:06:54.272Z",
-        "updatedAt": "2020-08-13T21:15:46.412Z",
+        "updatedAt": "2020-08-15T19:40:05.495Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3670,8 +4351,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 8,
-        "publishedAt": "2020-08-13T21:15:46.412Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-08-13T21:42:04.507Z",
         "firstPublishedAt": "2020-08-13T21:07:36.129Z",
         "createdBy": {
           "sys": {
@@ -3687,8 +4368,8 @@
             "id": "0SOMroktuhfdVo0dnhGhvc"
           }
         },
-        "publishedCounter": 2,
-        "version": 9,
+        "publishedCounter": 3,
+        "version": 21,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3700,20 +4381,6 @@
       "fields": {
         "title": {
           "en-US": "IP Main Banner Logo"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/j2xr2f1tr781/1yX6hM0mnqyryOSgmJFhmi/365c4e51ae9fb217285e64c15cdd9f4a/IP__1_.png",
-            "details": {
-              "size": 22978,
-              "image": {
-                "width": 805,
-                "height": 530
-              }
-            },
-            "fileName": "IP (1).png",
-            "contentType": "image/png"
-          }
         }
       }
     }

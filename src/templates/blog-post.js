@@ -14,7 +14,7 @@ export default class blogPost extends Component {
     const disqusShortname = "RohitGupta";
     const disqusConfig = {
       identifier: data.id,
-      title: data.title
+      title: data.title,
     };
 
     const siteurl = this.props.data.contentfulSiteInformation.siteUrl + "/";
@@ -22,23 +22,15 @@ export default class blogPost extends Component {
       .twiteerHandle;
     const socialConfigss = {
       site: {
-        siteMetadata: { siteurl, twiteerhandle }
+        siteMetadata: { siteurl, twiteerhandle },
       },
       title: data.title,
-      slug: data.slug
+      slug: data.slug,
     };
 
     return (
       <Layout>
-        <SEO
-          title={data.title}
-          keywords={[
-            `Rohit Gupta`,
-            `Frontend Developer`,
-            `Developer`,
-            `${data.title}`
-          ]}
-        />
+        <SEO title={data.title} keywords={[`${data.title}`]} />
         <div className="site-container blog-post">
           <div className="container">
             {data.featureImage ? (
@@ -60,7 +52,7 @@ export default class blogPost extends Component {
               </span>
               <div
                 dangerouslySetInnerHTML={{
-                  __html: data.description.childMarkdownRemark.html
+                  __html: data.description.childMarkdownRemark.html,
                 }}
               />
             </div>
@@ -69,8 +61,8 @@ export default class blogPost extends Component {
                 ...socialConfigss.site.siteMetadata.twiteerhandletitle,
                 config: {
                   url: `${siteurl}${socialConfigss.slug}`,
-                  title: `${socialConfigss.title}`
-                }
+                  title: `${socialConfigss.title}`,
+                },
               }}
             />
             <DiscussionEmbed

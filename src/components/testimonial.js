@@ -8,7 +8,7 @@ var settings = {
   slidesToScroll: 1,
   autoplay: true,
   pauseOnHover: true,
-  autoplaySpeed: 6000
+  autoplaySpeed: 6000,
 };
 
 export default class Testimonial extends Component {
@@ -19,22 +19,21 @@ export default class Testimonial extends Component {
         <div className="container">
           <div className="section-head text-center">
             <h2>Testimonials</h2>
-            <p>People I've worked with have said some nice things...</p>
           </div>
           <Slider {...settings}>
             {data.edges.map((item, index) => {
               return (
                 <div key={index} className="testimonials-item">
                   <div className="testi-inner">
-                    <Img
+                    {/* <Img
                       className="avatar"
                       fixed={item.node.avatarImage.fluid}
                       objectFit="cover"
                       objectPosition="50% 50%"
-                    />
+                    /> */}
                     <div
                       dangerouslySetInnerHTML={{
-                        __html: item.node.description.childMarkdownRemark.html
+                        __html: item.node.description.childMarkdownRemark.html,
                       }}
                     />
                     <h3 className="name">{item.node.name}</h3>

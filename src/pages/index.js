@@ -5,7 +5,6 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import Banner from "../components/banner";
-import About from "../components/about";
 import Service from "../components/service";
 import Work from "../components/work";
 import Blogs from "../components/blogs";
@@ -17,19 +16,17 @@ import Faqs from "../components/faqs";
 const IndexPage = ({ data }) => (
   <Layout header="home">
     <SEO
-      title={data.contentfulAboutMe.designation}
-      keywords={[
-        `Interactive Physiotherapy`,
-        `Frontend Developer`,
-        `Developer`,
-      ]} /** TODO: make from config */
+      title={data.allContentfulSeo.edges[0].node.page}
+      keywords={data.allContentfulSeo.edges[0].node.keywords}
+      description={data.allContentfulSeo.edges[0].node.description}
     />
-    <Banner data={data.contentfulAboutMe}></Banner>
-    {data.contentfulSiteInformation.menus
-      .filter((item) => item === "About")
-      .map((t) => {
-        return <About data={data.contentfulAboutMe}></About>;
-      })}
+    <Banner
+      data={data.contentfulAboutMe}
+      site={data.contentfulSiteInformation}
+      main={true}
+      image={data.contentfulAboutMe.bannerImage.fluid}
+    ></Banner>
+
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Service")
       .map((t) => {
@@ -39,7 +36,19 @@ const IndexPage = ({ data }) => (
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Faqs")
       .map((t) => {
-        return <Faqs data={data.allContentfulFaq}></Faqs>;
+        return (
+          <Faqs
+            data={
+              data.allContentfulPages.edges
+                .map(function(x) {
+                  return x.node;
+                })
+                .filter(function(v) {
+                  return v.page == "Faqs";
+                })[0]
+            }
+          ></Faqs>
+        );
       })}
 
     {data.contentfulSiteInformation.menus
@@ -47,6 +56,11 @@ const IndexPage = ({ data }) => (
       .map((t) => {
         return <Work data={data.allContentfulWorks}></Work>;
       })}
+    {/* {data.contentfulSiteInformation.menus
+      .filter((item) => item === "About")
+      .map((t) => {
+        return <About data={data.contentfulAboutMe}></About>;
+      })} */}
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Testimonials")
       .map((t) => {
@@ -76,7 +90,7 @@ const IndexPage = ({ data }) => (
 export default IndexPage;
 
 export const pageQuery = graphql`
-  query AboutQuery {
+  query IndexQuery {
     contentfulIds {
       formspree
     }
@@ -88,6 +102,16 @@ export const pageQuery = graphql`
             childMarkdownRemark {
               html
             }
+          }
+        }
+      }
+    }
+    allContentfulPages {
+      edges {
+        node {
+          page
+          childContentfulPagesDescriptionTextNode {
+            description
           }
         }
       }
@@ -109,9 +133,7 @@ export const pageQuery = graphql`
         }
       }
       designation
-      age
       facebook
-      github
       gmail
       email
       id
@@ -124,11 +146,7 @@ export const pageQuery = graphql`
           html
         }
       }
-      bannerLogo {
-        file {
-          url
-        }
-      }
+
       bannerImage {
         fluid(maxWidth: 1500) {
           base64
@@ -230,8 +248,22 @@ export const pageQuery = graphql`
         }
       }
     }
+    allContentfulSeo(filter: { page: { eq: "Index" } }) {
+      edges {
+        node {
+          description
+          page
+          keywords
+        }
+      }
+    }
     contentfulSiteInformation {
       menus
+      logo {
+        file {
+          url
+        }
+      }
     }
   }
 `;

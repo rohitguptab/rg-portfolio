@@ -42,7 +42,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1", 
+    "update": "contentful space --space-id j2xr2f1tr781 export  --content-file contentful-data-ip.json && contentful space --space-id j2xr2f1tr781 import  --content-file contentful-data-ip.json"
   },
   "repository": {
     "type": "git",

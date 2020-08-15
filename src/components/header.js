@@ -10,8 +10,9 @@ export default class Header extends Component {
   }
 
   render() {
-    const { data, header } = this.props;
+    const { data, header, active } = this.props;
     const { menu } = this.state;
+
     return (
       <header className={`site-header ${menu ? "active" : ""}`}>
         <div className="container">
@@ -35,7 +36,7 @@ export default class Header extends Component {
             >
               <span></span>
             </div>
-            {header === "home" ? (
+            {header === "home" || active !== null ? (
               <div className="menu">
                 <ul
                   onClick={() => {
@@ -47,15 +48,6 @@ export default class Header extends Component {
                   <li>
                     <Link to="/#home">Home</Link>
                   </li>
-                  {data.menus
-                    .filter((item) => item === "About")
-                    .map((t) => {
-                      return (
-                        <li>
-                          <Link to={`/#About`}>About</Link>
-                        </li>
-                      );
-                    })}
                   {data.menus
                     .filter((item) => item === "Service")
                     .map((t) => {
@@ -70,10 +62,20 @@ export default class Header extends Component {
                     .map((t) => {
                       return (
                         <li>
-                          <Link to={`/#Faqs`}>FAQs</Link>
+                          <Link to={`faqs`}>FAQs</Link>
                         </li>
                       );
                     })}
+                  {data.menus
+                    .filter((item) => item === "About")
+                    .map((t) => {
+                      return (
+                        <li>
+                          <Link to={`about`}>About</Link>
+                        </li>
+                      );
+                    })}
+
                   {data.menus
                     .filter((item) => item === "Blogs")
                     .map((t) => {

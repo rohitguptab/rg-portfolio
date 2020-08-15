@@ -53,6 +53,11 @@ main {
   height: 750px;
   overflow: hidden;
 }
+.banner.secondary {
+  height: 450px;
+  margin-bottom: 30px;
+}
+
 a:hover {
   color: #d83d0a;
   text-decoration: underline;
@@ -802,13 +807,13 @@ pre {
   height: 2px;
   position: relative;
   transition: background 0.2s ease-out;
-  width: 18px;
+  width: 25px;
 }
 .responsive-menu span:after {
-  top: -5px;
+  top: -7px;
 }
 .responsive-menu span:before {
-  top: 5px;
+  top: 7px;
 }
 .responsive-menu span:before,
 .responsive-menu span:after {
@@ -955,6 +960,10 @@ code {
   .blog-post .feature-img {
     height: 400px;
   }
+
+  .banner.secondary {
+    height: 350px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .site-header .header-main .logo {
@@ -973,9 +982,9 @@ code {
     bottom: 0;
     width: 100%;
     z-index: 1;
-    background: #000000c9;
+    background: #fff;
     z-index: 999;
-    padding: 80px 0 0 0;
+    padding: 60px 0 0 0;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
   }
@@ -1012,7 +1021,7 @@ code {
     margin: 0;
   }
   .site-header .header-main .menu ul li a {
-    color: #fff;
+    color: #1b1b1b;
   }
 
   .container {
@@ -1031,12 +1040,18 @@ code {
     float: right;
   }
   .site-header .header-main .menu ul li a {
-    padding: 6px 20px;
+    padding: 6px 20px 12px;
     display: inline-block;
     width: 100%;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #ababab;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 18px;
+    color: #424242;
+  }
+
+  .site-header .header-main .menu ul li:first-child a {
+    border-top: 1px solid #ababab;
+    padding-top: 12px;
   }
 }
 @media only screen and (max-width: 568px) {
@@ -1048,6 +1063,9 @@ code {
   }
   .blogs-list .item {
     width: 100% !important;
+  }
+  .banner.secondary {
+    height: 200px;
   }
   .banner .banner-details h1 {
     font-size: 34px;
