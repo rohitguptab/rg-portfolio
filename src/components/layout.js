@@ -17,6 +17,22 @@ const Layout = ({ children, header }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
+        contentfulAboutMe {
+          name
+          facebook
+          gmail
+          email
+          id
+          instagram
+          linkdin
+          twitter
+          location
+          description {
+            childMarkdownRemark {
+              html
+            }
+          }
+        }
         contentfulSiteInformation {
           siteName
           siteDescription
@@ -39,7 +55,10 @@ const Layout = ({ children, header }) => (
         <div>
           <main>{children}</main>
         </div>
-        <Footer siteName={data.contentfulSiteInformation.siteName} />
+        <Footer
+          siteName={data.contentfulSiteInformation.siteName}
+          data={data.contentfulAboutMe}
+        />
       </>
     )}
   />

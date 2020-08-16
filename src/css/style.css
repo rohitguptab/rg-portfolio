@@ -139,16 +139,17 @@ body {
 .banner .banner-details .sub-data li:last-child:after {
   display: none;
 }
-.banner .banner-details .social {
+.site-footer .social {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
+  justify-content: center;
 }
-.banner .banner-details .social li {
+.site-footer .social li {
   margin: 0 10px;
 }
-.banner .banner-details .social li a {
+.site-footer .social li a {
   text-decoration: none;
   width: 40px;
   height: 40px;
@@ -161,7 +162,7 @@ body {
   overflow: hidden;
   border-radius: 50%;
 }
-.banner .banner-details .social li a:after {
+.site-footer .social li a:after {
   content: "";
   background: #ef5826;
   position: absolute;
@@ -172,11 +173,11 @@ body {
   height: 100%;
   width: 100%;
 }
-.banner .banner-details .social li a:before {
+.site-footer .social li a:before {
   position: relative;
   z-index: 1;
 }
-.banner .banner-details .social li a:hover:after {
+.site-footer .social li a:hover:after {
   top: 0;
 }
 
@@ -449,6 +450,10 @@ form > div {
 .section-head {
   margin-bottom: 20px;
 }
+.section-head h2 {
+  text-align: center;
+  width: 100%;
+}
 .section:nth-child(odd) form input,
 .section:nth-child(odd) form textarea {
   background: #fff !important;
@@ -546,7 +551,7 @@ h2,
   display: inline-block;
   position: relative;
 }
-h2:after,
+
 .line-heading:after {
   content: "";
   width: 25px;
@@ -615,7 +620,7 @@ h2:after,
 .site-footer {
   padding: 20px;
   background: #333;
-  margin-bottom: 10px;
+
   text-align: center;
   color: #fff;
 }

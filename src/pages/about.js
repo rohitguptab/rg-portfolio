@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
 import { graphql } from "gatsby";
-import About from "../components/about";
+import Img from "gatsby-image";
+
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Banner from "../components/banner";
@@ -26,9 +27,66 @@ export default class AboutPage extends Component {
 
         <div className="container about-page" id="About">
           <div className="section-head">
-            <h1 className="line-heading h2">About</h1>
+            <h1 className="line-heading h2">Meet the Team</h1>
+            <div className="about section" id="About">
+              <div className="container">
+                <div className="about-main row">
+                  <div className="left col-md-5 col-lg-4 mb-3">
+                    <Img
+                      fixed={data.contentfulAboutMe.photo.fluid}
+                      objectFit="cover"
+                      objectPosition="top center"
+                    />
+                  </div>
+                  <div className="left col-md-7 col-lg-8">
+                    <div className="about-details">
+                      <span className="name">
+                        Welcome to {data.contentfulAboutMe.name}.
+                      </span>
+                      <h2 className="sub-position">
+                        {data.contentfulAboutMe.designation}.
+                      </h2>
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html:
+                            data.contentfulAboutMe.description
+                              .childMarkdownRemark.html,
+                        }}
+                      />
 
-            <About data={data.contentfulAboutMe}></About>
+                      <div className="socials">
+                        <ul>
+                          <li>
+                            <a
+                              className="fab fa-twitter"
+                              href={data.contentfulAboutMe.twitter}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            ></a>
+                          </li>
+                          <li>
+                            <a
+                              className="fab fa-instagram"
+                              href={data.contentfulAboutMe.instagram}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            ></a>
+                          </li>
+                          <li>
+                            <a
+                              className="fab fa-linkedin-in"
+                              href={data.contentfulAboutMe.linkdin}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Layout>

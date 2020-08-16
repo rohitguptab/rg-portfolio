@@ -12,6 +12,7 @@ import Testimonial from "../components/testimonial";
 import Contact from "../components/contact";
 import Photos from "../components/photos";
 import Faqs from "../components/faqs";
+import About from "../components/about";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
@@ -56,11 +57,23 @@ const IndexPage = ({ data }) => (
       .map((t) => {
         return <Work data={data.allContentfulWorks}></Work>;
       })}
-    {/* {data.contentfulSiteInformation.menus
+    {data.contentfulSiteInformation.menus
       .filter((item) => item === "About")
       .map((t) => {
-        return <About data={data.contentfulAboutMe}></About>;
-      })} */}
+        return (
+          <About
+            data={
+              data.allContentfulPages.edges
+                .map(function(x) {
+                  return x.node;
+                })
+                .filter(function(v) {
+                  return v.page == "About";
+                })[0]
+            }
+          ></About>
+        );
+      })}
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Testimonials")
       .map((t) => {
