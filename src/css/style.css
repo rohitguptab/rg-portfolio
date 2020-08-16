@@ -322,12 +322,12 @@ body {
 }
 .service-main {
   text-align: justify;
-  box-shadow: 3px 3px 8px 2px #0000000a;
+
   padding: 30px 30px;
   transition: 0.5s all;
   background: #fff;
   border-radius: 10px;
-  border: 1px solid #bdbdbd;
+  border: 1px solid #f3f3f3;
 }
 
 .service-main .icon {
@@ -347,10 +347,7 @@ body {
 .section:nth-child(even) .service-main {
   background: #fafafe;
 }
-.service-main:hover {
-  box-shadow: 3px 3px 8px 2px #0000002b;
-  transition: 0.5s all;
-}
+
 .slick-slider .slick-list div {
   display: flex;
   width: 100%;
