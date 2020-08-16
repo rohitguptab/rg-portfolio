@@ -39,7 +39,7 @@ export default class FAQs extends Component {
                             __html: item.node.ans.childMarkdownRemark.html,
                           }}
                         />
-                        <span class="divider"></span>
+                        <span className="divider"></span>
                       </span>
                     </div>
                   </div>

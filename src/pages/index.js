@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => (
                   return x.node;
                 })
                 .filter(function(v) {
-                  return v.page == "Faqs";
+                  return v.page === "Faqs";
                 })[0]
             }
           ></Faqs>
@@ -68,7 +68,7 @@ const IndexPage = ({ data }) => (
                   return x.node;
                 })
                 .filter(function(v) {
-                  return v.page == "About";
+                  return v.page === "About";
                 })[0]
             }
           ></About>
@@ -180,6 +180,11 @@ export const pageQuery = graphql`
           description {
             childMarkdownRemark {
               html
+            }
+          }
+          icon {
+            file {
+              url
             }
           }
         }

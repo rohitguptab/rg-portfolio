@@ -9,6 +9,16 @@
 .light {
   font-weight: 100;
 }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 img {
   max-width: 100%;
 }
@@ -311,11 +321,28 @@ body {
   color: #fff;
 }
 .service-main {
-  text-align: center;
+  text-align: justify;
   box-shadow: 3px 3px 8px 2px #0000000a;
   padding: 30px 30px;
   transition: 0.5s all;
   background: #fff;
+  border-radius: 10px;
+  border: 1px solid #bdbdbd;
+}
+
+.service-main .icon {
+  width: 30px;
+}
+
+.service-main .service-header {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.service-main .service-header .icon + h3 {
+  padding-left: 20px;
+  align-self: center;
+  text-align: start;
 }
 .section:nth-child(even) .service-main {
   background: #fafafe;
@@ -448,7 +475,11 @@ form > div {
   margin-bottom: 15px;
 }
 .section-head {
-  margin-bottom: 20px;
+  margin: 20px 0;
+  border: 1px solid #fafafe;
+  border-left-width: 0;
+  border-right-width: 0;
+  padding-top: 10px;
 }
 .section-head h2 {
   text-align: center;

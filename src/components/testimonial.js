@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import Img from "gatsby-image";
+
 var settings = {
   dots: true,
   speed: 500,

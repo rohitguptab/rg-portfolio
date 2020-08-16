@@ -62,7 +62,11 @@ export default class AboutPage extends Component {
                               href={data.contentfulAboutMe.twitter}
                               target="_blank"
                               rel="noopener noreferrer"
-                            ></a>
+                            >
+                              <span className="sr-only">
+                                twitter link {data.contentfulAboutMe.twitter}
+                              </span>
+                            </a>
                           </li>
                           <li>
                             <a
@@ -70,7 +74,12 @@ export default class AboutPage extends Component {
                               href={data.contentfulAboutMe.instagram}
                               target="_blank"
                               rel="noopener noreferrer"
-                            ></a>
+                            >
+                              <span className="sr-only">
+                                instagram link{" "}
+                                {data.contentfulAboutMe.instagram}
+                              </span>
+                            </a>
                           </li>
                           <li>
                             <a
@@ -78,7 +87,11 @@ export default class AboutPage extends Component {
                               href={data.contentfulAboutMe.linkdin}
                               target="_blank"
                               rel="noopener noreferrer"
-                            ></a>
+                            >
+                              <span className="sr-only">
+                                linkdin link {data.contentfulAboutMe.linkdin}
+                              </span>
+                            </a>
                           </li>
                         </ul>
                       </div>

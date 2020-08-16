@@ -11,10 +11,22 @@ export default class service extends Component {
           </div>
           <div className="row">
             {data.edges.map((item, index) => {
+              console.log(item);
               return (
                 <div key={index} className="col-md-4 mb-3">
                   <div className="service-main">
-                    <h3>{item.node.title}</h3>
+                    <div className="service-header">
+                      {item.node.icon && (
+                        <object
+                          type="image/svg+xml"
+                          data={item.node.icon.file.url}
+                          className="icon"
+                        >
+                          {item.node.title} icon
+                        </object>
+                      )}
+                      <h3>{item.node.title}</h3>
+                    </div>
                     <div
                       dangerouslySetInnerHTML={{
                         __html: item.node.description.childMarkdownRemark.html,
