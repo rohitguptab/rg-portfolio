@@ -2,16 +2,15 @@ import React, { Component } from "react";
 
 export default class service extends Component {
   render() {
-    const { data } = this.props;
+    const { data, page } = this.props;
     return (
       <div className="service section" id="Service">
         <div className="container">
           <div className="section-head">
-            <h2>What We offer</h2>
+            <h2>Our Services</h2>
           </div>
           <div className="row">
             {data.edges.map((item, index) => {
-              console.log(item);
               return (
                 <div key={index} className="col-md-4 mb-3">
                   <div className="service-main">
