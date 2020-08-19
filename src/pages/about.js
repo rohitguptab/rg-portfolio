@@ -28,76 +28,32 @@ export default class AboutPage extends Component {
         <div className="container about-page" id="About">
           <div className="section-head">
             <h1 className="line-heading h2">Meet the Team</h1>
-            <div className="about section" id="About">
-              <div className="container">
-                <div className="about-main row">
-                  <div className="left col-md-5 col-lg-4 mb-3">
-                    <Img
-                      fixed={data.contentfulAboutMe.photo.fluid}
-                      objectFit="cover"
-                      objectPosition="top center"
-                    />
-                  </div>
-                  <div className="left col-md-7 col-lg-8">
-                    <div className="about-details">
-                      <span className="name">
-                        Welcome to {data.contentfulAboutMe.name}.
-                      </span>
-                      <h2 className="sub-position">
-                        {data.contentfulAboutMe.designation}.
-                      </h2>
-                      <div
-                        dangerouslySetInnerHTML={{
-                          __html:
-                            data.contentfulAboutMe.description
-                              .childMarkdownRemark.html,
-                        }}
-                      />
-
-                      <div className="socials">
-                        <ul>
-                          <li>
-                            <a
-                              className="fab fa-twitter"
-                              href={data.contentfulAboutMe.twitter}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="sr-only">
-                                twitter link {data.contentfulAboutMe.twitter}
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              className="fab fa-instagram"
-                              href={data.contentfulAboutMe.instagram}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="sr-only">
-                                instagram link{" "}
-                                {data.contentfulAboutMe.instagram}
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              className="fab fa-linkedin-in"
-                              href={data.contentfulAboutMe.linkdin}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="sr-only">
-                                linkdin link {data.contentfulAboutMe.linkdin}
-                              </span>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div
+              dangerouslySetInnerHTML={{
+                __html:
+                  data.allContentfulPages.nodes[0].description
+                    .childMarkdownRemark.html,
+              }}
+            />
+            <div className="left col-md-5 col-lg-4 mb-3">
+              <Img
+                fixed={data.contentfulAboutMe.photo.fluid}
+                objectFit="cover"
+                objectPosition="top center"
+              />
+            </div>
+            <div className="left col-md-7 col-lg-8">
+              <div className="about-details">
+                <h2 className="sub-position">
+                  {data.contentfulAboutMe.designation}.
+                </h2>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      data.contentfulAboutMe.description.childMarkdownRemark
+                        .html,
+                  }}
+                />
               </div>
             </div>
           </div>
@@ -108,6 +64,9 @@ export default class AboutPage extends Component {
 }
 export const pageQuery = graphql`
   query AboutPageQuery {
+    contentfulIds {
+      formspree
+    }
     allContentfulPages(filter: { page: { eq: "About" } }) {
       nodes {
         description {

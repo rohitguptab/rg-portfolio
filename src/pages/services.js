@@ -27,6 +27,13 @@ export default class Services extends Component {
             <h1 className="line-heading h2">Services</h1>
           </div>
 
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                data.allContentfulPages.nodes[0].description.childMarkdownRemark
+                  .html,
+            }}
+          />
           {data.allContentfulService.edges.map((item, index) => {
             return (
               <div>
@@ -48,6 +55,9 @@ export default class Services extends Component {
 
 export const pageQuery = graphql`
   query ServicesPageQuery {
+    contentfulIds {
+      formspree
+    }
     contentfulSiteInformation {
       menus
       logo {

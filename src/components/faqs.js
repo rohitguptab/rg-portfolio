@@ -10,6 +10,7 @@ export default class Faqs extends Component {
             <h2>FAQs</h2>
           </div>
           <div
+            className="description"
             dangerouslySetInnerHTML={{
               __html: data.childContentfulPagesDescriptionTextNode.description,
             }}

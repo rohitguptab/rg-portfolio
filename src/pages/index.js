@@ -86,11 +86,11 @@ const IndexPage = ({ data }) => (
       .map((t) => {
         return <Photos data={data.contentfulPhotos}></Photos>;
       })}
-    {data.contentfulSiteInformation.menus
+    {/* {data.contentfulSiteInformation.menus
       .filter((item) => item === "Contact")
       .map((t) => {
         return <Contact data={data.contentfulIds.formspree}></Contact>;
-      })}
+      })} */}
 
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Blogs")

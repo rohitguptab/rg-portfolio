@@ -33,6 +33,9 @@ const Layout = ({ children, header }) => (
             }
           }
         }
+        contentfulIds {
+          formspree
+        }
         contentfulSiteInformation {
           siteName
           siteDescription
@@ -58,6 +61,7 @@ const Layout = ({ children, header }) => (
         <Footer
           siteName={data.contentfulSiteInformation.siteName}
           data={data.contentfulAboutMe}
+          site={data.contentfulIds}
         />
       </>
     )}

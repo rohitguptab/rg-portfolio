@@ -26,6 +26,13 @@ export default class FAQs extends Component {
           <div className="section-head">
             <h1 className="line-heading h2">FAQs</h1>
           </div>
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                data.allContentfulPages.nodes[0].description.childMarkdownRemark
+                  .html,
+            }}
+          />
           <ul className={`faq-list`}>
             {data.allContentfulFaq.edges.map((item, index) => {
               return (
@@ -55,6 +62,10 @@ export default class FAQs extends Component {
 
 export const pageQuery = graphql`
   query FAQPageQuery {
+    contentfulIds {
+      formspree
+    }
+
     contentfulSiteInformation {
       menus
       logo {

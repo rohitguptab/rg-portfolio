@@ -149,6 +149,36 @@ body {
 .banner .banner-details .sub-data li:last-child:after {
   display: none;
 }
+.site-footer .container {
+  padding: 0;
+}
+.site-footer section {
+  padding: 20px 0;
+}
+
+.site-footer .connect {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.site-footer .copyright {
+  display: flex;
+  padding: 20px 0;
+  margin: 0 auto;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.site-footer span {
+  flex: 1;
+}
+.site-footer .copyright span:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+.site-footer .copyright span:last-child {
+  text-align: right;
+  padding-right: 20px;
+}
+
 .site-footer .social {
   display: flex;
   margin: 0;
@@ -161,24 +191,23 @@ body {
 }
 .site-footer .social li a {
   text-decoration: none;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #fff;
   color: #fff;
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
+  font-size: 20px;
 }
 .site-footer .social li a:after {
   content: "";
-  background: #ef5826;
-  position: absolute;
-  top: -100%;
-  left: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
   -webkit-transition: 0.3s all;
+  position: absolute;
+  left: 0;
   transition: 0.3s all;
   height: 100%;
   width: 100%;
@@ -188,7 +217,7 @@ body {
   z-index: 1;
 }
 .site-footer .social li a:hover:after {
-  top: 0;
+  border: 2px solid #fff;
 }
 
 .banner .banner-details .companyName span {
@@ -647,7 +676,6 @@ h2,
   outline: none !important;
 }
 .site-footer {
-  padding: 20px;
   background: #333;
 
   text-align: center;
@@ -1135,6 +1163,22 @@ code {
   }
 }
 
+.faq.section {
+  background: url("../images/red-squares-bg.png") no-repeat;
+  background-position-x: right;
+  background-size: 575px 250px;
+}
+
+.faq .section-head {
+  border-width: 0;
+}
+.faq .section-head h2 {
+  text-align: left;
+}
+
+.faq .description {
+  width: 75%;
+}
 .faq-list {
   margin: 0;
   padding: 0;
