@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import { Link } from "gatsby";
 
 export default class service extends Component {
   render() {
-    const { data, page } = this.props;
+    const { data } = this.props;
     return (
       <div className="service section" id="Service">
         <div className="container">
@@ -26,11 +27,17 @@ export default class service extends Component {
                       )}
                       <h3>{item.node.title}</h3>
                     </div>
-                    <div
+                    <div>{item.node.strapLine}</div>
+                    {/* <div
                       dangerouslySetInnerHTML={{
                         __html: item.node.description.childMarkdownRemark.html,
                       }}
-                    />
+                    />*/}
+                    <div className="see-more">
+                      <Link to="/services">
+                        <span>Find out more</span>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               );

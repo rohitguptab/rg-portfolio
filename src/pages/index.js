@@ -182,6 +182,7 @@ export const pageQuery = graphql`
               html
             }
           }
+          strapLine
           icon {
             file {
               url
