@@ -15,7 +15,7 @@ export default class Faqs extends Component {
           </div>
           <div className="layout">
             <div
-              className="description"
+              className="page-description"
               dangerouslySetInnerHTML={{
                 __html:
                   page.childContentfulPagesDescriptionTextNode.description,

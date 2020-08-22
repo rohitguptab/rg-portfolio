@@ -21,7 +21,7 @@ export default class Contact extends Component {
               data-netlify="true"
             >
               <div
-                className="description"
+                className="page-description description"
                 dangerouslySetInnerHTML={{
                   __html:
                     page.childContentfulPagesDescriptionTextNode.description,

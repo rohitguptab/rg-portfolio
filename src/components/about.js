@@ -17,6 +17,7 @@ export default class About extends Component {
               </div>
 
               <div
+                className="page-description"
                 dangerouslySetInnerHTML={{
                   __html:
                     data.childContentfulPagesDescriptionTextNode.description,
