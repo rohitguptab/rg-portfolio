@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@100;400;900&display=swap");
+
+:root {
+  --ired: #f05726;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -35,7 +40,7 @@ img {
   color: #fff;
 }
 a {
-  color: #ef5826;
+  color: var(--ired);
 }
 h2 {
   font-size: 28px;
@@ -69,7 +74,7 @@ main {
 }
 
 a:hover {
-  color: #d83d0a;
+  color: var(--ired);
   text-decoration: underline;
 }
 .banner .banner-details {
@@ -404,7 +409,7 @@ body {
 }
 .service-main .service-header .icon + h4 span:last-child {
   font-weight: 700;
-  color: red;
+  color: var(--ired);
 }
 
 .slick-slider .slick-list div {
@@ -510,24 +515,24 @@ form textarea {
   height: 100px;
 }
 form button {
-  text-indent: -10px;
+  text-indent: 0px;
   background: #fff;
   color: #333;
   border-radius: 30px;
   line-height: 1px;
-  padding: 23px;
+  padding: 20px;
   text-transform: capitalize;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  min-width: 186px;
+  min-width: 140px;
   overflow: hidden;
   font-size: 15px;
 
   display: inline-block;
-  border: 2px solid #ef5826;
+  border: 2px solid var(--ired);
 }
 form button:hover {
-  background: #ef5826;
+  background: var(--ired);
   color: #fff;
 }
 form > div {
@@ -553,7 +558,7 @@ form > div {
 }
 .section-head span:last-child {
   font-weight: 700;
-  color: red;
+  color: var(--ired);
 }
 
 .section:nth-child(odd) form input,
@@ -660,7 +665,7 @@ h2,
   height: 1px;
   display: inline-block;
   position: absolute;
-  background: #ef5826;
+  background: var(--ired);
   top: 100%;
   left: 0;
 }
@@ -674,7 +679,7 @@ h2,
   text-decoration: none;
   width: auto;
   height: auto;
-  border: 2px solid #ef5826;
+  border: 2px solid var(--ired);
   color: #333;
   position: relative;
   overflow: hidden;
@@ -685,7 +690,7 @@ h2,
 }
 .see-more a:after {
   content: "";
-  background: #ef5826;
+  background: var(--ired);
   position: absolute;
   top: -100%;
   left: 0;
@@ -1284,7 +1289,7 @@ code {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.15;
+  opacity: 0.4;
   background-repeat: no-repeat;
   background-size: cover;
   width: 50%;
@@ -1331,7 +1336,6 @@ code {
 
 .contact .layout {
   display: flex;
-
   flex-direction: row;
   justify-content: center;
 }
@@ -1343,38 +1347,3 @@ code {
 .contact .submit {
   text-align: right;
 }
-/* .contact .submit button {
-  text-decoration: none;
-  width: auto;
-  height: auto;
-  border: 2px solid #ef5826;
-  color: #333;
-  position: relative;
-  overflow: hidden;
-  padding: 8px 20px;
-  display: inline-block;
-  font-weight: 600;
-  border-radius: 30px;
-}
-.contact .submit button:after {
-  content: "";
-  background: #ef5826;
-  position: absolute;
-  top: -100%;
-  left: 0;
-  -webkit-transition: 0.3s all;
-  transition: 0.3s all;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-}
-.contact .submit button:hover:after {
-  top: 0;
-}
-.contact .submit button:hover {
-  color: #fff;
-}
-.contact .submit button span {
-  position: relative;
-  z-index: 1; 
-}*/

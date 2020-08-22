@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import Img from "gatsby-image";
 
 var settings = {
   dots: true,
@@ -25,12 +26,12 @@ export default class Testimonial extends Component {
               return (
                 <div key={index} className="testimonials-item">
                   <div className="testi-inner">
-                    {/* <Img
+                    <Img
                       className="avatar"
                       fixed={item.node.avatarImage.fluid}
                       objectFit="cover"
                       objectPosition="50% 50%"
-                    /> */}
+                    />
                     <div
                       dangerouslySetInnerHTML={{
                         __html: item.node.description.childMarkdownRemark.html,
