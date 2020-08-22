@@ -31,7 +31,20 @@ const IndexPage = ({ data }) => (
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Service")
       .map((t) => {
-        return <Service data={data.allContentfulService}></Service>;
+        return (
+          <Service
+            data={data.allContentfulService}
+            page={
+              data.allContentfulPages.edges
+                .map(function(x) {
+                  return x.node;
+                })
+                .filter(function(v) {
+                  return v.page === "Services";
+                })[0]
+            }
+          ></Service>
+        );
       })}
 
     {data.contentfulSiteInformation.menus
@@ -198,6 +211,8 @@ export const pageQuery = graphql`
             }
           }
           strapLine
+          order
+          forHealthCareProfessionals
           icon {
             file {
               url

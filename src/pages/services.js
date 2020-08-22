@@ -36,7 +36,7 @@ export default class Services extends Component {
           />
           {data.allContentfulService.edges.map((item, index) => {
             return (
-              <div>
+              <div id={item.node.title.split(" ").join("_")}>
                 <h3>{item.node.title}</h3>
                 <div
                   dangerouslySetInnerHTML={{

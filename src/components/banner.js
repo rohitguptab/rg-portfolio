@@ -16,13 +16,17 @@ export default class Banner extends Component {
           <div className="container">
             <div className="banner-details">
               {site.logo.file.url ? (
-                <img src={site.logo.file.url} alt="logo" class="companylogo" />
+                <img
+                  src={site.logo.file.url}
+                  alt="logo"
+                  className="companylogo"
+                />
               ) : (
                 <span></span>
               )}
-              <span class="companyName">
-                <span class="light">{data.name.split(" ")[0]}</span>{" "}
-                <span class="heavy">{data.name.split(" ")[1]}</span>
+              <span className="companyName">
+                <span className="light">{data.name.split(" ")[0]}</span>{" "}
+                <span className="heavy">{data.name.split(" ")[1]}</span>
               </span>
               <span>{data.designation}.</span>
               <ul className="sub-data">

@@ -6,6 +6,7 @@
   "author": "hredmond",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
     "disqus-react": "^1.0.7",
     "dotenv": "^8.2.0",
     "gatsby": "^2.19.7",
@@ -42,7 +43,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1", 
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "update": "contentful space --space-id j2xr2f1tr781 export  --content-file contentful-data-ip.json && contentful space --space-id j2xr2f1tr781 import  --content-file contentful-data-ip.json"
   },
   "repository": {
