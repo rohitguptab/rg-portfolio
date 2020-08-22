@@ -7,7 +7,7 @@ export default class About extends Component {
       <div className="about section" id="About">
         <div className="container">
           <div className="section-head">
-            <h2>About</h2>
+            <h2>Who We Are</h2>
           </div>
           <div
             dangerouslySetInnerHTML={{

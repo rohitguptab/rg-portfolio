@@ -9,17 +9,20 @@ export default class Faqs extends Component {
           <div className="section-head">
             <h2>FAQs</h2>
           </div>
-          <div
-            className="description"
-            dangerouslySetInnerHTML={{
-              __html: data.childContentfulPagesDescriptionTextNode.description,
-            }}
-          ></div>
+          <div className="layout">
+            <div
+              className="description"
+              dangerouslySetInnerHTML={{
+                __html:
+                  data.childContentfulPagesDescriptionTextNode.description,
+              }}
+            ></div>
 
-          <div className="see-more">
-            <Link to="/faqs">
-              <span>Read FAQs</span>
-            </Link>
+            <div className="see-more">
+              <Link to="/faqs">
+                <span>Read the FAQs</span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

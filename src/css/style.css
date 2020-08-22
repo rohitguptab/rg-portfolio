@@ -355,8 +355,26 @@ body {
   padding: 30px 30px;
   transition: 0.5s all;
   background: #fff;
-  border-radius: 10px;
-  border: 1px solid #f3f3f3;
+  position: relative;
+  font-weight: 100;
+  /* border-radius: 10px;
+  border: 1px solid #f3f3f3; */
+}
+.service-main .strapline {
+  font-weight: 100;
+  line-height: 1.4rem;
+}
+.service-main .watermark {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  opacity: 0.04;
+  z-index: 0;
+}
+
+.service-main .watermark object {
+  height: 125px;
+  width: 125px;
 }
 
 .service-main .icon {
@@ -369,14 +387,28 @@ body {
   padding-bottom: 20px;
 }
 
-.service-main .service-header .icon + h3 {
+.service-main .service-header .icon + h4 {
   padding-left: 20px;
   align-self: center;
   text-align: start;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
 }
-.section:nth-child(even) .service-main {
+
+.service-main .service-header .icon + h4 span {
+  padding-right: 5px;
+  flex: 1;
+  text-transform: uppercase;
+}
+.service-main .service-header .icon + h4 span:last-child {
+  font-weight: 700;
+  color: red;
+}
+
+/* .section:nth-child(even) .service-main {
   background: #fafafe;
-}
+} */
 
 .slick-slider .slick-list div {
   display: flex;
@@ -511,6 +543,7 @@ form > div {
 .section-head h2 {
   text-align: center;
   width: 100%;
+  text-transform: uppercase;
 }
 .section:nth-child(odd) form input,
 .section:nth-child(odd) form textarea {
@@ -630,17 +663,18 @@ h2,
   text-decoration: none;
   width: auto;
   height: auto;
-  border: 1px solid #333;
+  border: 2px solid #ef5826;
   color: #333;
   position: relative;
   overflow: hidden;
   padding: 8px 20px;
   display: inline-block;
   font-weight: 600;
+  border-radius: 30px;
 }
 .see-more a:after {
   content: "";
-  background: #333;
+  background: #ef5826;
   position: absolute;
   top: -100%;
   left: 0;
@@ -1162,11 +1196,27 @@ code {
     height: 400px;
   }
 }
-
 .faq.section {
-  background: url("../images/red-squares-bg.png") no-repeat;
-  background-position-x: right;
-  background-size: 575px 250px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+.faq.section:before {
+  content: "";
+  background-image: url("../images/Physiotherapy-Strengthening-exercises-1024x324.jpg");
+  background-size: cover;
+  background-position-x: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.15;
 }
 
 .faq .section-head {
@@ -1175,10 +1225,24 @@ code {
 .faq .section-head h2 {
   text-align: left;
 }
-
-.faq .description {
-  width: 75%;
+.faq .layout {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-end;
 }
+.faq .see-more {
+  width: 370px;
+}
+
+@media only screen and (max-width: 991px) {
+  .faq .layout {
+    flex-direction: column;
+  }
+  .faq .see-more {
+    width: 100%;
+  }
+}
+
 .faq-list {
   margin: 0;
   padding: 0;

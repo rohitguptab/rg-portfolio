@@ -6,11 +6,6 @@ export default class footer extends Component {
     const { data, site } = this.props;
     return (
       <div className="site-footer" id="footer">
-        <section className="container">
-          Find out more
-          <Contact data={site.formspree}></Contact>
-        </section>
-
         <section className="connect">
           <ul className="social">
             <li>
