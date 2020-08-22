@@ -162,7 +162,7 @@ body {
 }
 
 .site-footer .connect {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #5d5d5d;
 }
 .site-footer .copyright {
   display: flex;
@@ -170,7 +170,7 @@ body {
   margin: 0 auto;
   font-size: 13px;
   letter-spacing: 0px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #5d5d5d;
 }
 .site-footer span {
   flex: 1;
@@ -1277,6 +1277,57 @@ code {
 }
 .site-footer .connect h4 span:last-child {
   font-weight: 400;
+}
+
+.contact-info {
+  display: flex;
+  border-top: 1px solid #5d5d5d;
+
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.contact-info .contact-phone {
+  flex: 1;
+  text-align: right;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.contact-info .contact-email {
+  text-align: left;
+  flex: 1;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.contact-info div {
+  padding: 40px 30px 20px;
+}
+.contact-info i {
+  font-size: 28px;
+}
+
+.contact .contact-info address,
+.contact-info span {
+  margin-bottom: 0;
+  color: white;
+}
+
+.contact-info a {
+  color: white;
+  padding-left: 5px;
+}
+
+.contact .contact-info a:hover {
+  color: var(--ired);
+}
+
+.contact .contact-address,
+.contact .contact-phone,
+.contact .contact-email {
+  margin-bottom: 20px;
 }
 
 .contact .layout {

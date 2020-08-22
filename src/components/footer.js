@@ -46,8 +46,22 @@ export default class footer extends Component {
               ></a>
             </li>
           </ul>
-        </section>
+          <div className="contact-info container">
+            <div className="contact-phone">
+              <i className="fa fa-phone"></i>
 
+              <a href="tel:+447929626123">+44 7929 626123</a>
+            </div>
+
+            <div className="contact-email">
+              <i className="far fa-envelope"></i>
+
+              <a href="mailto:hello@interactivephysio.com">
+                hello@interactivephysio.com
+              </a>
+            </div>
+          </div>
+        </section>
         <section className="copyright container">
           <span>Diana Designs</span>
           <span>&copy;{this.props.siteName} 2020</span>
