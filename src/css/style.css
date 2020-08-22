@@ -1240,6 +1240,8 @@ code {
   }
   .section.about:after {
     background-size: 100% 100%;
+    width: 100%;
+    opacity: 0.1;
   }
   .section.about .layout .content {
     padding-left: 0px;
@@ -1269,6 +1271,11 @@ code {
 
 .contact .submit {
   text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .contact .layout form {
+    width: 85%;
+  }
 }
 
 .slick-slider .slick-list div {
@@ -1385,6 +1392,17 @@ code {
   display: block;
   text-align: right;
 }
+
+@media only screen and (max-width: 767px) {
+  .quote p {
+    width: 75%;
+  }
+  .quotation-end {
+    margin-top: -10%;
+    margin-right: 0;
+  }
+}
+
 .page-description {
   font-weight: 100;
 }
