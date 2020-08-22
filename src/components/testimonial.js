@@ -32,13 +32,21 @@ export default class Testimonial extends Component {
                       objectFit="cover"
                       objectPosition="50% 50%"
                     />
-                    <div
-                      dangerouslySetInnerHTML={{
-                        __html: item.node.description.childMarkdownRemark.html,
-                      }}
-                    />
-                    <h3 className="name">{item.node.name}</h3>
-                    <span className="sub-name">{item.node.subTitle}</span>
+                    <h4>{item.node.subTitle}</h4>
+                    <div class="quote-box">
+                      <span class="quotation quotation-start">“</span>
+                      <p
+                        class="quote"
+                        dangerouslySetInnerHTML={{
+                          __html:
+                            item.node.description.childMarkdownRemark.html +
+                            ` <span class="author">` +
+                            item.node.name +
+                            `</span>
+                            <span class="quotation quotation-end">”</span>`,
+                        }}
+                      ></p>
+                    </div>
                   </div>
                 </div>
               );
