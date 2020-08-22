@@ -2,37 +2,51 @@ import React, { Component } from "react";
 
 export default class Contact extends Component {
   render() {
+    const { data, page } = this.props;
     return (
       <div className="contact section" id="Contact">
         <div className="container">
           <div className="section-head">
-            <h2 className="text-center">Contact</h2>
+            <h2 className="text-center">
+              <span>Contact</span>
+              <span>Us</span>
+            </h2>
           </div>
-          <form
-            action={`https://formspree.io/${this.props.data}`}
-            name="contact"
-            method="POST"
-            data-netlify="true"
-          >
-            <div>
-              <label>
-                Your Name: <input type="text" name="name" required />
-              </label>
-            </div>
-            <div>
-              <label>
-                Your Email: <input type="email" name="email" required />
-              </label>
-            </div>
-            <div>
-              <label>
-                Message: <textarea name="message" required></textarea>
-              </label>
-            </div>
-            <div>
-              <button type="submit">Send</button>
-            </div>
-          </form>
+
+          <div className="layout">
+            <form
+              action={`https://formspree.io/${data}`}
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
+              <div
+                className="description"
+                dangerouslySetInnerHTML={{
+                  __html:
+                    page.childContentfulPagesDescriptionTextNode.description,
+                }}
+              ></div>
+              <div>
+                <label>
+                  Your Name: <input type="text" name="name" required />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Your Email: <input type="email" name="email" required />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Message: <textarea name="message" required></textarea>
+                </label>
+              </div>
+              <div className="submit">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     );

@@ -158,17 +158,18 @@ body {
 
 .site-footer .connect {
   border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
 }
 .site-footer .copyright {
   display: flex;
   padding: 20px 0;
   margin: 0 auto;
-  font-size: 12px;
-  letter-spacing: 3px;
+  font-size: 13px;
+  letter-spacing: 0px;
+  border-top: 1px solid #ccc;
 }
 .site-footer span {
   flex: 1;
+  font-weight: 100;
 }
 .site-footer .copyright span:first-child {
   text-align: left;
@@ -406,10 +407,6 @@ body {
   color: red;
 }
 
-/* .section:nth-child(even) .service-main {
-  background: #fafafe;
-} */
-
 .slick-slider .slick-list div {
   display: flex;
   width: 100%;
@@ -514,9 +511,9 @@ form textarea {
 }
 form button {
   text-indent: -10px;
-  background: #333;
-  color: #fff;
-  box-shadow: 0 10px 50px rgba(58, 58, 58, 0.26);
+  background: #fff;
+  color: #333;
+  border-radius: 30px;
   line-height: 1px;
   padding: 23px;
   text-transform: capitalize;
@@ -524,11 +521,14 @@ form button {
   transition: all 0.3s linear;
   min-width: 186px;
   overflow: hidden;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   font-size: 15px;
-  border: none;
+
   display: inline-block;
+  border: 2px solid #ef5826;
+}
+form button:hover {
+  background: #ef5826;
+  color: #fff;
 }
 form > div {
   margin-bottom: 15px;
@@ -545,6 +545,17 @@ form > div {
   width: 100%;
   text-transform: uppercase;
 }
+
+.section-head span {
+  padding-right: 5px;
+  flex: 1;
+  text-transform: uppercase;
+}
+.section-head span:last-child {
+  font-weight: 700;
+  color: red;
+}
+
 .section:nth-child(odd) form input,
 .section:nth-child(odd) form textarea {
   background: #fff !important;
@@ -711,7 +722,6 @@ h2,
 }
 .site-footer {
   background: #333;
-
   text-align: center;
   color: #fff;
 }
@@ -1208,7 +1218,7 @@ code {
 
 .faq.section:before {
   content: "";
-  background-image: url("../images/Physiotherapy-Strengthening-exercises-1024x324.jpg");
+  background-image: url("../images/question-mark-1872634_1920.jpg");
   background-size: cover;
   background-position-x: center;
   position: absolute;
@@ -1222,16 +1232,15 @@ code {
 .faq .section-head {
   border-width: 0;
 }
-.faq .section-head h2 {
-  text-align: left;
-}
+
 .faq .layout {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   align-items: flex-end;
 }
 .faq .see-more {
-  width: 370px;
+  width: 460px;
+  margin-left: 30px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1240,6 +1249,9 @@ code {
   }
   .faq .see-more {
     width: 100%;
+  }
+  .faq .section-head h2 {
+    text-align: center;
   }
 }
 
@@ -1261,3 +1273,108 @@ code {
   margin: 0 auto;
   margin-top: 0.5rem;
 }
+.section.about {
+  position: relative;
+}
+.section.about:after {
+  content: "";
+  background-image: url(../images/team.jpg);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.15;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.section.about .layout {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.section.about .layout .content {
+  width: 100%;
+  padding-left: 65px;
+  padding-bottom: 30px;
+}
+
+.section.about .layout .see-more {
+  margin-top: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .section.about .layout {
+    flex-direction: column;
+  }
+  .section.about:after {
+    background-size: 100% 100%;
+  }
+  .section.about .layout .content {
+    padding-left: 0px;
+  }
+}
+
+.site-footer .connect h4 span {
+  padding-right: 5px;
+  flex: 1;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+}
+.site-footer .connect h4 span:last-child {
+  font-weight: 400;
+}
+
+.contact .layout {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact .layout form {
+  width: 66%;
+}
+
+.contact .submit {
+  text-align: right;
+}
+/* .contact .submit button {
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  border: 2px solid #ef5826;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+  padding: 8px 20px;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.contact .submit button:after {
+  content: "";
+  background: #ef5826;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.contact .submit button:hover:after {
+  top: 0;
+}
+.contact .submit button:hover {
+  color: #fff;
+}
+.contact .submit button span {
+  position: relative;
+  z-index: 1; 
+}*/

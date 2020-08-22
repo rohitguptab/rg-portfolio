@@ -7,6 +7,11 @@ export default class footer extends Component {
     return (
       <div className="site-footer" id="footer">
         <section className="connect">
+          <h4>
+            <span>Connect</span>
+            <span>with</span>
+            <span>us</span>
+          </h4>
           <ul className="social">
             <li>
               <a

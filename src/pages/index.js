@@ -81,7 +81,7 @@ const IndexPage = ({ data }) => (
       .map((t) => {
         return (
           <Faqs
-            data={
+            page={
               data.allContentfulPages.edges
                 .map(function(x) {
                   return x.node;
@@ -97,7 +97,20 @@ const IndexPage = ({ data }) => (
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Contact")
       .map((t) => {
-        return <Contact data={data.contentfulIds.formspree}></Contact>;
+        return (
+          <Contact
+            data={data.contentfulIds.formspree}
+            page={
+              data.allContentfulPages.edges
+                .map(function(x) {
+                  return x.node;
+                })
+                .filter(function(v) {
+                  return v.page === "Contact";
+                })[0]
+            }
+          ></Contact>
+        );
       })}
   </Layout>
 );

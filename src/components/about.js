@@ -6,19 +6,28 @@ export default class About extends Component {
     return (
       <div className="about section" id="About">
         <div className="container">
-          <div className="section-head">
-            <h2>Who We Are</h2>
-          </div>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: data.childContentfulPagesDescriptionTextNode.description,
-            }}
-          ></div>
+          <div className="layout">
+            <div className="content">
+              <div className="section-head">
+                <h2>
+                  <span>Who</span>
+                  <span>We</span>
+                  <span>Are</span>
+                </h2>
+              </div>
 
-          <div className="see-more">
-            <Link to="/about">
-              <span>Meet the team</span>
-            </Link>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html:
+                    data.childContentfulPagesDescriptionTextNode.description,
+                }}
+              ></div>
+            </div>
+            <div className="see-more">
+              <Link to="/about">
+                <span>Meet the team</span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
