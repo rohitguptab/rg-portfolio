@@ -24,8 +24,7 @@ const IndexPage = ({ data }) => (
     <Banner
       data={data.contentfulAboutMe}
       site={data.contentfulSiteInformation}
-      main={true}
-      image={data.contentfulAboutMe.bannerImage.fluid}
+      page={data.contentfulAboutMe}
     ></Banner>
 
     {data.contentfulSiteInformation.menus

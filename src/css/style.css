@@ -59,10 +59,25 @@ h5 {
 p {
   font-size: 14px;
   line-height: 1.6rem;
+  font-weight: 100;
 }
 main {
   margin-top: 55px;
 }
+@media only screen and (max-width: 767px) {
+  .hide-in-mobile {
+    display: none;
+  }
+}
+.hide-in-desktop {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .hide-in-desktop {
+    display: inline-block;
+  }
+}
+
 .banner {
   position: relative;
   height: 525px;
@@ -71,6 +86,42 @@ main {
 .banner.secondary {
   height: 450px;
   margin-bottom: 30px;
+}
+
+.banner .banner-details.secondary {
+  top: 75%;
+}
+.banner .banner-details.secondary .content {
+  width: 100%;
+  max-width: 1124px;
+}
+.banner .banner-details.secondary h1 {
+  font-size: 37px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: left;
+}
+.banner .banner-details.secondary h1:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 60px;
+  background-color: var(--ired);
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+.banner .banner-details.secondary h1 span {
+  color: var(--ired);
+}
+.banner .banner-details.secondary p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner .banner-details.secondary h1 {
+    font-size: 30px;
+  }
 }
 
 a:hover {
@@ -93,6 +144,11 @@ a:hover {
   -o-transform: translate(-50%, -50%);
   width: 90%;
   color: #fff;
+}
+.banner .banner-details .main-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .banner img.full {
   width: 100%;
@@ -1139,6 +1195,15 @@ code {
     font-size: 34px;
     margin-bottom: 10px;
   }
+
+  .banner .banner-details span.page-title {
+    font-size: 40px;
+  }
+
+  .banner .banner-details.secondary {
+    align-items: flex-start;
+    top: 80%;
+  }
   .banner .banner-details span {
     font-size: 19px;
     margin-bottom: 0;
@@ -1198,6 +1263,11 @@ code {
 .faq .see-more {
   width: 460px;
   margin-left: 30px;
+}
+
+.faqs-page .question-mark {
+  font-weight: 700;
+  color: var(--ired);
 }
 
 @media only screen and (max-width: 991px) {

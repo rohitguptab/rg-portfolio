@@ -19,14 +19,12 @@ export default class FAQs extends Component {
           data={data.contentfulAboutMe}
           site={data.contentfulSiteInformation}
           main={false}
-          image={data.allContentfulPages.nodes[0].bannerImage.fluid}
+          page={data.allContentfulPages.nodes[0]}
         ></Banner>
 
         <div className="container faqs-page" id="FAQs">
-          <div className="section-head">
-            <h1 className="line-heading h2">FAQs</h1>
-          </div>
           <div
+            className="hide-in-desktop"
             dangerouslySetInnerHTML={{
               __html:
                 data.allContentfulPages.nodes[0].description.childMarkdownRemark
@@ -39,7 +37,10 @@ export default class FAQs extends Component {
                 <li key={index} className="item">
                   <div className="inner">
                     <div className="faq">
-                      <h3 className="question">{item.node.question}</h3>
+                      <h3 className="question">
+                        {item.node.question.replace("?", "")}{" "}
+                        <span className="question-mark">?</span>
+                      </h3>
                       <span className="question">
                         <div
                           dangerouslySetInnerHTML={{

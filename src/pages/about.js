@@ -21,14 +21,13 @@ export default class AboutPage extends Component {
         <Banner
           data={data.contentfulAboutMe}
           site={data.contentfulSiteInformation}
-          main={false}
-          image={data.allContentfulPages.nodes[0].bannerImage.fluid}
+          page={data.allContentfulPages.nodes[0]}
         ></Banner>
 
         <div className="container about-page" id="About">
           <div className="section-head">
-            <h1 className="line-heading h2">Meet the Team</h1>
             <div
+              className="hide-in-desktop"
               dangerouslySetInnerHTML={{
                 __html:
                   data.allContentfulPages.nodes[0].description
