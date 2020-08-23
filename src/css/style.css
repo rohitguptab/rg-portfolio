@@ -378,6 +378,15 @@ body {
   opacity: 0.04;
   z-index: 0;
 }
+.services-row {
+  display: flex;
+}
+@media only screen and (max-width: 767px) {
+  .services-row {
+    flex-direction: column;
+  }
+}
+
 .overlay-link {
   z-index: 11;
   position: absolute;
@@ -1346,6 +1355,13 @@ code {
 @media only screen and (max-width: 767px) {
   .contact .layout form {
     width: 85%;
+  }
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-info div {
+    padding: 10px 5px 0px;
   }
 }
 

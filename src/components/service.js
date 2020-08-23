@@ -14,7 +14,7 @@ export default class service extends Component {
               __html: page.childContentfulPagesDescriptionTextNode.description,
             }}
           ></div>
-          <div className="row">
+          <div className="services-row">
             {data.edges
               .filter((f) => f.node.order > 0)
               .sort((a, b) => (a.node.order > b.node.order ? 1 : -1))
@@ -71,12 +71,11 @@ export default class service extends Component {
                 );
               })}
           </div>
-          <div className="row">
-            <div className="see-more">
-              <Link to="/services">
-                <span>Find out about our Services</span>
-              </Link>
-            </div>
+
+          <div className="see-more">
+            <Link to="/services">
+              <span>Find out about our Services</span>
+            </Link>
           </div>
         </div>
       </div>
