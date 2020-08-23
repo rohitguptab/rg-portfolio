@@ -332,7 +332,7 @@ body {
   position: absolute;
   bottom: -3px;
   left: 0;
-  background: #1b1b1b;
+  background: var(--ired);
   transition: 0.5s all;
 }
 .site-header .header-main .menu ul li a:hover:after {
