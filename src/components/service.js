@@ -22,7 +22,7 @@ export default class service extends Component {
                 let isProfessional = item.node.forHealthCareProfessionals;
 
                 return (
-                  <div key={index} className="col-md-4 mb-3">
+                  <div key={item + "-" + index} className="col-md-4 mb-3">
                     <a
                       href={"/services#" + item.node.title.split(" ").join("_")}
                       className="overlay-link"
@@ -55,7 +55,7 @@ export default class service extends Component {
                         )}
                         <h4>
                           {item.node.title.split(" ").map((item, index) => {
-                            return <span>{item}</span>;
+                            return <span key={item + "-" + index}>{item}</span>;
                           })}
                         </h4>
                       </div>

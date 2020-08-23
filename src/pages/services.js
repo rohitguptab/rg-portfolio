@@ -31,8 +31,9 @@ export default class Services extends Component {
             }}
           />
           {data.allContentfulService.edges.map((item, index) => {
+            const ref = item.node.title.split(" ").join("_");
             return (
-              <div id={item.node.title.split(" ").join("_")}>
+              <div key={ref} id={ref}>
                 <h3>{item.node.title}</h3>
                 <div
                   dangerouslySetInnerHTML={{

@@ -12,7 +12,7 @@ export default class footer extends Component {
             <span>us</span>
           </h4>
           <ul className="social">
-            <li>
+            <li key="social-email">
               <a
                 className="far fa-envelope"
                 href={`mailto:` + data.email}
@@ -20,7 +20,7 @@ export default class footer extends Component {
               ></a>
             </li>
 
-            <li>
+            <li key="social-twitter">
               <a
                 className="fab fa-twitter"
                 href={data.twitter}
@@ -28,7 +28,7 @@ export default class footer extends Component {
                 rel="noopener noreferrer"
               ></a>
             </li>
-            <li>
+            <li key="social-insta">
               <a
                 className="fab fa-instagram"
                 href={data.instagram}
@@ -36,7 +36,7 @@ export default class footer extends Component {
                 rel="noopener noreferrer"
               ></a>
             </li>
-            <li>
+            <li key="social-linkedin">
               <a
                 className="fab fa-linkedin-in"
                 href={data.linkdin}

@@ -35,23 +35,23 @@ export default class Banner extends Component {
                 <div>{data.designation}.</div>
                 <ul className="sub-data">
                   {data.bannerList.map((item, index) => {
-                    return <li key={index}>{item}</li>;
+                    return <li key={index + "-" + item}>{item}</li>;
                   })}
                 </ul>
               </span>
             ) : (
-              <div class="content">
+              <div className="content">
                 <h1>
                   {page.pageTitle &&
                     page.pageTitle.split(" ").map((word, i, arr) => {
                       if (arr.length - 1 === i) {
-                        return <span>{word}</span>;
+                        return <span key={word}>{word}</span>;
                       } else {
                         return word + " ";
                       }
                     })}
                 </h1>
-                <span class="horizontal-line"></span>
+                <span className="horizontal-line"></span>
                 <div
                   className="hide-in-mobile"
                   dangerouslySetInnerHTML={{

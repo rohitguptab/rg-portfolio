@@ -24,7 +24,7 @@ export default class Testimonial extends Component {
           <Slider {...settings}>
             {data.edges.map((item, index) => {
               return (
-                <div key={index} className="testimonials-item">
+                <div key={item + "-" + index} className="testimonials-item">
                   <div className="testi-inner">
                     <Img
                       className="avatar"
@@ -33,10 +33,10 @@ export default class Testimonial extends Component {
                       objectPosition="50% 50%"
                     />
                     <h4>{item.node.subTitle}</h4>
-                    <div class="quote-box">
-                      <span class="quotation quotation-start">“</span>
+                    <div className="quote-box">
+                      <span className="quotation quotation-start">“</span>
                       <p
-                        class="quote"
+                        className="quote"
                         dangerouslySetInnerHTML={{
                           __html:
                             item.node.description.childMarkdownRemark.html +
