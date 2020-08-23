@@ -112,6 +112,8 @@ main {
 }
 .banner .banner-details.secondary h1 span {
   color: var(--ired);
+  font-size: 37px;
+  font-weight: 700;
 }
 .banner .banner-details.secondary p {
   font-size: 16px;

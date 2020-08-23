@@ -5,6 +5,7 @@ export default class Banner extends Component {
   render() {
     const { data, site, page } = this.props;
     const isMain = !page.page;
+
     return (
       <div className={classNames("banner", { secondary: !isMain })} id="home">
         <Img
@@ -41,10 +42,14 @@ export default class Banner extends Component {
             ) : (
               <div class="content">
                 <h1>
-                  {page.page
-                    .split(" ")
-                    .splice(-1)
-                    .join("<span>")}
+                  {page.pageTitle &&
+                    page.pageTitle.split(" ").map((word, i, arr) => {
+                      if (arr.length - 1 === i) {
+                        return <span>{word}</span>;
+                      } else {
+                        return word + " ";
+                      }
+                    })}
                 </h1>
                 <span class="horizontal-line"></span>
                 <div

@@ -150,6 +150,7 @@ export const pageQuery = graphql`
       edges {
         node {
           page
+          pageTitle
           childContentfulPagesDescriptionTextNode {
             description
           }

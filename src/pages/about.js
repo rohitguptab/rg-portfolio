@@ -74,6 +74,7 @@ export const pageQuery = graphql`
           }
           description
         }
+        pageTitle
         page
         bannerImage {
           fluid(maxWidth: 1500) {

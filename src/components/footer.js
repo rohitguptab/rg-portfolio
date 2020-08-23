@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import Contact from "./contact";
 
 export default class footer extends Component {
   render() {
-    const { data, site } = this.props;
+    const { data } = this.props;
     return (
       <div className="site-footer" id="footer">
         <section className="connect">
