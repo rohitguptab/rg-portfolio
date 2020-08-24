@@ -1,3 +1,26 @@
+@font-face {
+  src: url("webfonts/Roboto/Roboto-Black-webfont.woff") format("woff"),
+    url("webfonts/Roboto/Roboto-Black.ttf") format("truetype");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  src: url("webfonts/Roboto/Roboto-Regular-webfont.woff") format("woff"),
+    url("webfonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("webfonts/Roboto/Roboto-Thin-webfont.woff") format("woff"),
+    url("webfonts/Roboto/Roboto-Thin.ttf") format("truetype");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+}
+
 :root {
   --ired: #f05726;
 }
