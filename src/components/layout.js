@@ -6,8 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Header from "./header";
 import Footer from "./footer";
 
-import "../css/style.css";
-import "../css/font-awesome.css";
+import "../scss/style.scss";
 
 if (typeof window !== "undefined") {
   require("smooth-scroll")('a[href*="#"]');

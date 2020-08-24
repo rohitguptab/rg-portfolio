@@ -1,0 +1,136 @@
+.about-details .name {
+  margin-bottom: 10px;
+  display: block;
+}
+.about-details .sub-position {
+  margin-bottom: 10px;
+  display: block;
+}
+.about-details .details {
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #000;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.about-details .details li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.about-details .details li p {
+  margin: 0;
+}
+.about-details .details li strong {
+  width: 160px;
+}
+.about-details .socials ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.about-details .socials ul li {
+  margin-right: 10px;
+}
+.about-details .socials ul li a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+}
+.about-details .socials ul li a:before {
+  position: relative;
+  z-index: 1;
+}
+.about-details .socials ul li a:after {
+  content: "";
+  background: #333;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  height: 100%;
+  width: 100%;
+}
+.about-details .socials ul li a:hover:after {
+  top: 0;
+}
+.about-details .socials ul li a:hover {
+  color: #fff;
+}
+
+.about-main .left .gatsby-image-wrapper {
+  width: 100%;
+  height: 550px;
+}
+.about-main .left .gatsby-image-wrapper img {
+  object-position: top center !important;
+}
+.slick-slider .slick-list .avatar {
+  width: 100px;
+  height: 100px;
+}
+.about-details p img {
+  width: 45px;
+}
+
+@media only screen and (max-width: 480px) {
+  .about-main .left .gatsby-image-wrapper {
+    height: 400px;
+  }
+}
+
+.section.about {
+  position: relative;
+}
+.section.about:after {
+  content: "";
+  background-image: url(../images/team.jpg);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.section.about .layout {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.section.about .layout .content {
+  width: 100%;
+  padding-left: 65px;
+  padding-bottom: 30px;
+}
+
+.section.about .layout .see-more {
+  margin-top: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .section.about .layout {
+    flex-direction: column;
+  }
+  .section.about:after {
+    background-size: 100% 100%;
+    width: 100%;
+    opacity: 0.1;
+  }
+  .section.about .layout .content {
+    padding-left: 0px;
+  }
+}

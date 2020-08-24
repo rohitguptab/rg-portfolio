@@ -1,0 +1,195 @@
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+main {
+  margin-top: 55px;
+}
+
+pre {
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  background: #fafafe;
+}
+
+a:hover {
+  color: var(--ired);
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--ired);
+}
+h2 {
+  font-size: 28px;
+  line-height: 34px;
+  color: #363636;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 10px;
+}
+p {
+  font-size: 14px;
+  line-height: 1.6rem;
+  font-weight: 100;
+}
+
+.site-container {
+  padding: 100px 0 20px 0;
+}
+
+.section {
+  padding: 55px 0 50px;
+}
+.section:nth-child(even) {
+  background: #fff;
+}
+
+.section-head {
+  margin: 20px 0;
+  border: 1px solid #fafafe;
+  border-left-width: 0;
+  border-right-width: 0;
+  padding-top: 10px;
+}
+.section-head h2 {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.section-head span {
+  padding-right: 5px;
+  flex: 1;
+  text-transform: uppercase;
+}
+.section-head span:last-child {
+  font-weight: 700;
+  color: var(--ired);
+}
+
+.section:nth-child(odd) form input,
+.section:nth-child(odd) form textarea {
+  background: #fff !important;
+}
+
+h2,
+.line-heading {
+  display: inline-block;
+  position: relative;
+}
+
+.line-heading:after {
+  content: "";
+  width: 25px;
+  height: 1px;
+  display: inline-block;
+  position: absolute;
+  background: var(--ired);
+  top: 100%;
+  left: 0;
+}
+.see-more {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+.see-more a {
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  border: 2px solid var(--ired);
+  color: #333;
+  position: relative;
+  overflow: hidden;
+  padding: 8px 20px;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.see-more a:after {
+  content: "";
+  background: var(--ired);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.see-more a:hover:after {
+  top: 0;
+}
+.see-more a:hover {
+  color: #fff;
+}
+.see-more a span {
+  position: relative;
+  z-index: 1;
+}
+
+.quote-box {
+  width: 40%;
+  position: relative;
+}
+.quote p {
+  margin-left: 10%;
+  text-align: justify;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quotation {
+  color: var(--ired);
+  font-size: 80px;
+  z-index: 10;
+}
+
+.quotation-start {
+  position: relative;
+  top: -20px;
+}
+
+.quotation-end {
+  position: absolute;
+  right: 0;
+  margin-top: -5%;
+  margin-right: -10%;
+}
+
+.author {
+  font-weight: bold;
+  display: block;
+  text-align: right;
+}
+
+@media only screen and (max-width: 991px) {
+  .quote p {
+    width: 75%;
+  }
+  .quotation-end {
+    margin-top: -10%;
+    margin-right: 0;
+  }
+}
+
+.page-description {
+  font-weight: 100;
+}

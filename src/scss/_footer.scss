@@ -1,0 +1,88 @@
+.site-footer .container {
+  padding: 0;
+}
+.site-footer section {
+  padding: 20px 0;
+}
+
+.site-footer .connect {
+  border-top: 1px solid #5d5d5d;
+}
+
+.site-footer .copyright {
+  display: flex;
+  padding: 20px 0;
+  margin: 0 auto;
+  font-size: 13px;
+  letter-spacing: 0px;
+  border-top: 1px solid #5d5d5d;
+}
+.site-footer span {
+  flex: 1;
+  font-weight: 100;
+}
+.site-footer .copyright span:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+.site-footer .copyright span:last-child {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.site-footer .social {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+.site-footer .social li {
+  margin: 0 10px;
+}
+.site-footer .social li a {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  font-size: 20px;
+}
+.site-footer .social li a:after {
+  content: "";
+  border-radius: 50%;
+  border: 2px solid transparent;
+  -webkit-transition: 0.3s all;
+  position: absolute;
+  left: 0;
+  transition: 0.3s all;
+  height: 100%;
+  width: 100%;
+}
+.site-footer .social li a:before {
+  position: relative;
+  z-index: 1;
+}
+.site-footer .social li a:hover:after {
+  border: 2px solid #fff;
+}
+.site-footer {
+  background: #333;
+  text-align: center;
+  color: #fff;
+}
+
+.site-footer .connect h4 span {
+  padding-right: 5px;
+  flex: 1;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+}
+.site-footer .connect h4 span:last-child {
+  font-weight: 400;
+}

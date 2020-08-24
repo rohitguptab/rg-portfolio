@@ -1,0 +1,29 @@
+.heavy {
+  font-weight: 900;
+}
+.light {
+  font-weight: 100;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+@media only screen and (max-width: 767px) {
+  .hide-in-mobile {
+    display: none;
+  }
+}
+.hide-in-desktop {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .hide-in-desktop {
+    display: inline-block;
+  }
+}

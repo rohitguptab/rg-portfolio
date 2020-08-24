@@ -1,0 +1,125 @@
+.contact-info {
+  display: flex;
+  border-top: 1px solid #5d5d5d;
+
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.contact-info .contact-phone {
+  flex: 1;
+  text-align: right;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.contact-info .contact-email {
+  text-align: left;
+  flex: 1;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.contact-info div {
+  padding: 40px 30px 20px;
+}
+.contact-info i {
+  font-size: 20px;
+}
+
+.contact .contact-info address,
+.contact-info span {
+  margin-bottom: 0;
+  color: white;
+}
+
+.contact-info a {
+  color: white;
+  padding-left: 5px;
+}
+
+.contact .contact-info a:hover {
+  color: var(--ired);
+}
+
+.contact .contact-address,
+.contact .contact-phone,
+.contact .contact-email {
+  margin-bottom: 20px;
+}
+
+.contact .layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact .layout form {
+  width: 66%;
+}
+
+.contact .submit {
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .contact .layout form {
+    width: 85%;
+  }
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-info div {
+    padding: 10px 5px 0px;
+  }
+}
+
+form label {
+  width: 100%;
+}
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  background: #fafafe !important;
+  z-index: 2;
+  position: relative;
+  line-height: 18px;
+  font-size: 16px;
+  -webkit-transition: none 0s ease 0s;
+  transition: none 0s ease 0s;
+  border: 1px solid hsla(0, 0%, 80%, 0.37);
+  margin: 10px 0 0;
+}
+form textarea {
+  height: 100px;
+}
+form button {
+  text-indent: 0px;
+  background: #fff;
+  color: #333;
+  border-radius: 30px;
+  line-height: 1px;
+  padding: 20px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  min-width: 140px;
+  overflow: hidden;
+  font-size: 15px;
+
+  display: inline-block;
+  border: 2px solid var(--ired);
+}
+form button:hover {
+  background: var(--ired);
+  color: #fff;
+}
+form > div {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,72 @@
+.faq.section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+.faq.section:before {
+  content: "";
+  background-image: url("../images/question-mark-1872634_1920.jpg");
+  background-size: cover;
+  background-position-x: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.15;
+}
+
+.faq .section-head {
+  border-width: 0;
+}
+
+.faq .layout {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: flex-end;
+}
+.faq .see-more {
+  width: 460px;
+  margin-left: 30px;
+}
+
+.faqs-page .question-mark {
+  font-weight: 700;
+  color: var(--ired);
+}
+
+@media only screen and (max-width: 991px) {
+  .faq .layout {
+    flex-direction: column;
+  }
+  .faq .see-more {
+    width: 100%;
+  }
+  .faq .section-head h2 {
+    text-align: center;
+  }
+}
+
+.faq-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.faq-list .item {
+  margin-bottom: 1.5rem;
+}
+
+.faq-list .item .divider {
+  border-bottom: 1px solid #dadada;
+  width: 40%;
+  height: 1px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
