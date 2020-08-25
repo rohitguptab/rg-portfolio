@@ -11,6 +11,7 @@ import Testimonial from "../components/testimonial";
 import Contact from "../components/contact";
 import Faqs from "../components/faqs";
 import About from "../components/about";
+import Pricing from "../components/pricing";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
@@ -86,6 +87,12 @@ const IndexPage = ({ data }) => (
             }
           ></Faqs>
         );
+      })}
+
+    {data.contentfulSiteInformation.menus
+      .filter((item) => item === "Pricing")
+      .map((t) => {
+        return <Pricing data={data.allContentfulPricing}></Pricing>;
       })}
 
     {data.contentfulSiteInformation.menus
@@ -246,6 +253,21 @@ export const pageQuery = graphql`
       logo {
         file {
           url
+        }
+      }
+    }
+    allContentfulPricing {
+      edges {
+        node {
+          features
+          price
+          timeUnit
+          title
+          description {
+            childMarkdownRemark {
+              html
+            }
+          }
         }
       }
     }
