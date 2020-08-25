@@ -121,6 +121,27 @@
   width: 100%;
 }
 
+.about-position {
+  h2 {
+    text-align: left;
+  }
+}
+
+.about-image {
+  img {
+    min-width: 260px;
+    border-radius: 50%;
+    border: 3px solid var(--ired);
+  }
+}
+
+.about-details {
+  display: flex;
+  text-align: left;
+  .about-image {
+    padding-right: 20px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .section.about .layout {
     flex-direction: column;
@@ -132,5 +153,17 @@
   }
   .section.about .layout .content {
     padding-left: 0px;
+  }
+
+  .about-details {
+    flex-direction: column;
+    .about-image {
+      padding-right: 0;
+      padding-bottom: 20px;
+      text-align: center;
+      img {
+        min-width: 100px;
+      }
+    }
   }
 }

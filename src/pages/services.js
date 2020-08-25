@@ -83,6 +83,9 @@ export const pageQuery = graphql`
     }
     contentfulAboutMe {
       bannerImage {
+        file {
+          url
+        }
         fluid(maxWidth: 1500) {
           base64
           aspectRatio
@@ -105,6 +108,9 @@ export const pageQuery = graphql`
         }
         pageTitle
         bannerImage {
+          file {
+            url
+          }
           fluid(maxWidth: 1500) {
             base64
             aspectRatio

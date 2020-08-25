@@ -171,6 +171,9 @@ export const pageQuery = graphql`
       }
 
       bannerImage {
+        file {
+          url
+        }
         fluid(maxWidth: 1500) {
           base64
           aspectRatio

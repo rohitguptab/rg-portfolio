@@ -34,15 +34,11 @@ export default class AboutPage extends Component {
                     .childMarkdownRemark.html,
               }}
             />
-            <div className="left col-md-5 col-lg-4 mb-3">
-              <Img
-                fixed={data.contentfulAboutMe.photo.fluid}
-                objectFit="cover"
-                objectPosition="top center"
-              />
-            </div>
-            <div className="left col-md-7 col-lg-8">
-              <div className="about-details">
+            <div className="about-details">
+              <div className="about-image">
+                <img src={data.contentfulAboutMe.photo.file.url} />
+              </div>
+              <div className="about-position">
                 <h2 className="sub-position">
                   {data.contentfulAboutMe.designation}.
                 </h2>
@@ -77,6 +73,9 @@ export const pageQuery = graphql`
         pageTitle
         page
         bannerImage {
+          file {
+            url
+          }
           fluid(maxWidth: 1500) {
             base64
             aspectRatio

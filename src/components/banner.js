@@ -8,12 +8,7 @@ export default class Banner extends Component {
 
     return (
       <div className={classNames("banner", { secondary: !isMain })} id="home">
-        <Img
-          className="full"
-          fixed={page.bannerImage.fluid}
-          objectFit="cover"
-          objectPosition="50% 50%"
-        />
+        <img className="full" src={page.bannerImage.file.url} />
 
         <div className="container">
           <div className={classNames("banner-details", { secondary: !isMain })}>
