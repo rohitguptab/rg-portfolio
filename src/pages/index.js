@@ -92,7 +92,16 @@ const IndexPage = ({ data }) => (
     {data.contentfulSiteInformation.menus
       .filter((item) => item === "Pricing")
       .map((t) => {
-        return <Pricing data={data.allContentfulPricing}></Pricing>;
+        return (
+          <div>
+            <Pricing data={data.allContentfulPricing}></Pricing>
+            <div className="see-more clearfix">
+              <a href="/services#pricing">
+                <span>More Details</span>
+              </a>
+            </div>
+          </div>
+        );
       })}
 
     {data.contentfulSiteInformation.menus

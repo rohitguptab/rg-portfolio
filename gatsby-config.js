@@ -7,7 +7,6 @@ if (process.env.ENVIRONMENT !== "production") {
 const { spaceId, accessToken } = process.env;
 
 module.exports = {
-  pathPrefix: `/`,
   siteMetadata: {
     title: `Interactive Physio`,
     description: `Interactive Physiotherapy service for Your recovery Home`,
@@ -27,8 +26,8 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId: "j2xr2f1tr781",
-        accessToken: "zv__7iM1jXwF7NB2YNPmKVFj68ZJ2fWA4-UKiOKL514",
+        spaceId,
+        accessToken,
       },
     },
     `gatsby-transformer-sharp`,

@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Banner from "../components/banner";
+import Pricing from "../components/pricing";
 
 export default class Services extends Component {
   render() {
@@ -45,6 +46,12 @@ export default class Services extends Component {
             );
           })}
         </div>
+
+        {data.contentfulSiteInformation.menus
+          .filter((item) => item === "Pricing")
+          .map((t) => {
+            return <Pricing data={data.allContentfulPricing}></Pricing>;
+          })}
       </Layout>
     );
   }
@@ -97,7 +104,21 @@ export const pageQuery = graphql`
         }
       }
     }
-
+    allContentfulPricing {
+      edges {
+        node {
+          features
+          price
+          timeUnit
+          title
+          description {
+            childMarkdownRemark {
+              html
+            }
+          }
+        }
+      }
+    }
     allContentfulPages(filter: { page: { eq: "Services" } }) {
       nodes {
         description {
