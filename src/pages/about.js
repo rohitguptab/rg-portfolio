@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 
 import { graphql } from "gatsby";
-import Img from "gatsby-image";
-
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Banner from "../components/banner";
@@ -36,7 +34,10 @@ export default class AboutPage extends Component {
             />
             <div className="about-details">
               <div className="about-image">
-                <img src={data.contentfulAboutMe.photo.file.url} />
+                <img
+                  src={data.contentfulAboutMe.photo.file.url}
+                  alt={"Image of " + data.contentfulSiteInformation.name}
+                />
               </div>
               <div className="about-position">
                 <h2 className="sub-position">

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
 
-import styled from "@emotion/styled";
-import { css } from "@emotion/core";
+// import styled from "@emotion/styled";
+// import { css } from "@emotion/core";
 
 export default class About extends Component {
   render() {

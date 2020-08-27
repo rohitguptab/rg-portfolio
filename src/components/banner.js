@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Img from "gatsby-image";
 import classNames from "classnames";
 export default class Banner extends Component {
   render() {
@@ -8,7 +7,11 @@ export default class Banner extends Component {
 
     return (
       <div className={classNames("banner", { secondary: !isMain })} id="home">
-        <img className="full" src={page.bannerImage.file.url} />
+        <img
+          className="full"
+          alt={page.bannerImage.description}
+          src={page.bannerImage.file.url}
+        />
 
         <div className="container">
           <div className={classNames("banner-details", { secondary: !isMain })}>

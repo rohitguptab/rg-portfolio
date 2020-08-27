@@ -190,6 +190,7 @@ export const pageQuery = graphql`
         file {
           url
         }
+        description
         fluid(maxWidth: 1500) {
           base64
           aspectRatio
