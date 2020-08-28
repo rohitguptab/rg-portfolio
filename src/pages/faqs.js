@@ -34,7 +34,7 @@ export default class FAQs extends Component {
           <ul className={`faq-list`}>
             {data.allContentfulFaq.edges.map((item, index) => {
               return (
-                <li key={index} className="item">
+                <li key={"faq-" + index} className="item">
                   <div className="inner">
                     <div className="faq">
                       <h3 className="question">
