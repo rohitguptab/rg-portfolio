@@ -34,7 +34,7 @@ export default class Services extends Component {
           {data.allContentfulService.edges.map((item, index) => {
             const ref = item.node.title.split(" ").join("_");
             return (
-              <div key={ref} id={ref}>
+              <section key={ref} id={ref}>
                 <h3>{item.node.title}</h3>
                 <div
                   dangerouslySetInnerHTML={{
@@ -42,7 +42,7 @@ export default class Services extends Component {
                   }}
                 />
                 <span className="divider"></span>
-              </div>
+              </section>
             );
           })}
         </div>

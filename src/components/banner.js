@@ -14,7 +14,12 @@ export default class Banner extends Component {
         />
 
         <div className="container">
-          <div className={classNames("banner-details", { secondary: !isMain })}>
+          <div
+            className={classNames("banner-details", {
+              secondary: !isMain,
+              container: !isMain,
+            })}
+          >
             {isMain ? (
               <span className="main-title">
                 {site.logo.file.url ? (

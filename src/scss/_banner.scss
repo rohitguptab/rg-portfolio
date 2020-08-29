@@ -51,6 +51,9 @@
     padding: 0;
   }
 }
+.banner .banner-details.secondary {
+  padding: 0;
+}
 
 .banner .banner-details {
   position: absolute;
@@ -66,7 +69,7 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  width: 90%;
+
   color: #fff;
 }
 .banner .banner-details .main-title {
