@@ -35,7 +35,7 @@ export default class Services extends Component {
             const ref = item.node.title.split(" ").join("_");
             return (
               <section key={ref} id={ref}>
-                <h3>{item.node.title}</h3>
+                <h2>{item.node.title}</h2>
                 <div
                   dangerouslySetInnerHTML={{
                     __html: item.node.description.childMarkdownRemark.html,
