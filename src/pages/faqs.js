@@ -31,10 +31,29 @@ export default class FAQs extends Component {
                   .html,
             }}
           />
-          <ul className={`faq-list`}>
+
+          <ul className={`faq-question-list`}>
             {data.allContentfulFaq.edges.map((item, index) => {
               return (
                 <li key={"faq-" + index} className="item">
+                  <div className="inner">
+                    <div className="faq">
+                      <span className="question">
+                        <div>
+                          <a href={"#faq-" + index}>{item.node.question}</a>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+
+          <ul className={`faq-list`}>
+            {data.allContentfulFaq.edges.map((item, index) => {
+              return (
+                <li key={"faq-" + index} className="item" id={"faq-" + index}>
                   <div className="inner">
                     <div className="faq">
                       <h3 className="question">

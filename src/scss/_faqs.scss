@@ -38,6 +38,7 @@
 .faqs-page .question-mark {
   font-weight: 700;
   color: var(--ired);
+  font-size: 2.4rem;
 }
 
 @media only screen and (max-width: 991px) {
@@ -59,7 +60,7 @@
 }
 
 .faq-list .item {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .faq-list .item .divider {
@@ -68,5 +69,12 @@
   height: 1px;
   display: block;
   margin: 0 auto;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
+}
+
+ul.faq-question-list {
+  padding-left: 20px;
+  margin-bottom: 30px;
+  list-style: square;
+  line-height: 3rem;
 }
