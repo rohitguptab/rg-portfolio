@@ -53,10 +53,12 @@ export default class Services extends Component {
           .filter((item) => item === "Pricing")
           .map((t) => {
             return (
-              <Pricing
-                key="pricing-section"
-                data={data.allContentfulPricing}
-              ></Pricing>
+              <div className="services-pricing">
+                <Pricing
+                  key="pricing-section"
+                  data={data.allContentfulPricing}
+                ></Pricing>
+              </div>
             );
           })}
       </Layout>
