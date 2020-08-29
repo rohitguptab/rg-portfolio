@@ -108,6 +108,8 @@
   display: flex;
   list-style: none;
   margin: 0 0 30px 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .banner .banner-details .sub-data li {
   padding: 0 15px;

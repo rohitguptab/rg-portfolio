@@ -277,7 +277,7 @@ h2,
 .pricing-table,
 .services-row {
   .row-item {
-    width: 300px;
+    width: 360px;
   }
 }
 @media (min-width: 1200px) {
@@ -288,6 +288,23 @@ h2,
     }
   }
 }
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  .pricing-table,
+  .services-row {
+    .row-item {
+      width: 300px;
+    }
+  }
+}
+@media only screen and (min-width: 568px) and (max-width: 991px) {
+  .pricing-table,
+  .services-row {
+    .row-item {
+      width: 500px;
+    }
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .pricing-table,
   .services-row {
@@ -295,7 +312,6 @@ h2,
     flex-direction: column;
     .row-item {
       margin-bottom: 40px;
-      width: 500px;
     }
   }
 }
