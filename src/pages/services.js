@@ -50,7 +50,12 @@ export default class Services extends Component {
         {data.contentfulSiteInformation.menus
           .filter((item) => item === "Pricing")
           .map((t) => {
-            return <Pricing data={data.allContentfulPricing}></Pricing>;
+            return (
+              <Pricing
+                key="pricing-section"
+                data={data.allContentfulPricing}
+              ></Pricing>
+            );
           })}
       </Layout>
     );

@@ -25,7 +25,7 @@
   padding: 40px 30px 20px;
 }
 .contact-info i {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .contact .contact-info address,
@@ -89,8 +89,6 @@ form textarea {
   background: #fafafe !important;
   z-index: 2;
   position: relative;
-  line-height: 18px;
-  font-size: 16px;
   -webkit-transition: none 0s ease 0s;
   transition: none 0s ease 0s;
   border: 1px solid hsla(0, 0%, 80%, 0.37);
@@ -104,14 +102,12 @@ form button {
   background: #fff;
   color: #333;
   border-radius: 30px;
-  line-height: 1px;
-  padding: 20px;
+  padding: 8px 30px;
   text-transform: capitalize;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  min-width: 140px;
+
   overflow: hidden;
-  font-size: 15px;
 
   display: inline-block;
   border: 2px solid var(--ired);

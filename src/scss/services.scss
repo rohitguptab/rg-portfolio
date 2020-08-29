@@ -12,7 +12,6 @@
 
 .service-main .strapline {
   font-weight: 100;
-  line-height: 1.4rem;
 }
 .service-main .watermark {
   position: absolute;
@@ -23,6 +22,9 @@
 }
 .services-row {
   display: flex;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
 }
 @media only screen and (max-width: 767px) {
   .services-row {

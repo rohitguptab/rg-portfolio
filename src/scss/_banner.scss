@@ -2,6 +2,7 @@
   position: relative;
   height: 525px;
   overflow: hidden;
+  line-height: 3.6rem;
 }
 .banner.secondary {
   height: 450px;
@@ -17,7 +18,7 @@
   padding: 0 20px;
 }
 .banner .banner-details.secondary h1 {
-  font-size: 37px;
+  font-size: 3.8rem;
   font-weight: 600;
   text-transform: uppercase;
   text-align: left;
@@ -33,18 +34,17 @@
 }
 .banner .banner-details.secondary h1 span {
   color: var(--ired);
-  font-size: 37px;
+  font-size: 3.8rem;
   font-weight: 700;
 }
 .banner .banner-details.secondary p {
-  font-size: 16px;
   font-weight: 400;
 }
 
 @media only screen and (max-width: 767px) {
   .banner .banner-details.secondary h1,
   .banner .banner-details.secondary h1 span {
-    font-size: 30px;
+    font-size: 3rem;
   }
 
   .banner .banner-details.secondary .content {
@@ -83,13 +83,13 @@
 }
 
 .banner .banner-details span {
-  font-size: 25px;
+  font-size: 2.4rem;
   margin-bottom: 20px;
   text-shadow: 1px 1px 4px #333;
   text-align: center;
 }
 .banner .banner-details h1 {
-  font-size: 60px;
+  font-size: 6rem;
   margin-top: 0;
   margin-bottom: 20px;
   text-align: center;
@@ -113,7 +113,7 @@
 .banner .banner-details .sub-data li {
   padding: 0 15px;
   position: relative;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-shadow: 1px 1px 4px #333;
 }
 .banner .banner-details .sub-data li:after {
@@ -132,7 +132,7 @@
   display: none;
 }
 .banner .banner-details .companyName span {
-  font-size: 60px;
+  font-size: 6rem;
 }
 .banner .banner-details .companylogo {
   height: 150px;
@@ -156,12 +156,12 @@
     height: 200px;
   }
   .banner .banner-details h1 {
-    font-size: 34px;
+    font-size: 3.6rem;
     margin-bottom: 10px;
   }
 
   .banner .banner-details span.page-title {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   .banner .banner-details.secondary {
@@ -169,7 +169,7 @@
     top: 80%;
   }
   .banner .banner-details span {
-    font-size: 19px;
+    font-size: 1.8rem;
     margin-bottom: 0;
   }
 }

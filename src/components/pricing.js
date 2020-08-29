@@ -9,7 +9,7 @@ export default class Pricing extends Component {
         <div className="container pricing-table">
           {data.edges.map((item, index) => {
             return (
-              <div className="pricing_item" key={item + "-" + index}>
+              <div className="row-item" key={item + "-" + index}>
                 <div className="generic_content clearfix">
                   <div className="generic_head_price clearfix">
                     <div className="generic_head_content clearfix">
