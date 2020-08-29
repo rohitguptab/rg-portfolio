@@ -75,7 +75,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allContentfulService {
+    allContentfulService(sort: { order: ASC, fields: order }) {
       edges {
         node {
           strapLine
@@ -109,7 +109,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allContentfulPricing {
+    allContentfulPricing(sort: { order: ASC, fields: order }) {
       edges {
         node {
           features

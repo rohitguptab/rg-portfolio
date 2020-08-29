@@ -203,7 +203,7 @@ export const pageQuery = graphql`
       }
       bannerList
     }
-    allContentfulService {
+    allContentfulService(sort: { order: ASC, fields: order }, limit: 3) {
       edges {
         node {
           title
@@ -266,7 +266,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allContentfulPricing {
+    allContentfulPricing(sort: { order: ASC, fields: order }) {
       edges {
         node {
           features
