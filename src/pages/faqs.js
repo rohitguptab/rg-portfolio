@@ -66,7 +66,9 @@ export default class FAQs extends Component {
                             __html: item.node.ans.childMarkdownRemark.html,
                           }}
                         />
-                        <span className="divider"></span>
+                        {index !== data.allContentfulFaq.edges.length - 1 && (
+                          <span className="divider"></span>
+                        )}
                       </span>
                     </div>
                   </div>

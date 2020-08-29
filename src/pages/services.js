@@ -41,7 +41,9 @@ export default class Services extends Component {
                     __html: item.node.description.childMarkdownRemark.html,
                   }}
                 />
-                <span className="divider"></span>
+                {index !== data.allContentfulService.edges.length - 1 && (
+                  <span className="divider"></span>
+                )}
               </section>
             );
           })}
