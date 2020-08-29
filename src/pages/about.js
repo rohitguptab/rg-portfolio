@@ -25,7 +25,7 @@ export default class AboutPage extends Component {
         <div className="container about-page" id="About">
           <div className="section-head">
             <div
-              className="hide-in-desktop"
+              className="hide-in-desktop page-introduction"
               dangerouslySetInnerHTML={{
                 __html:
                   data.allContentfulPages.nodes[0].description

@@ -194,7 +194,12 @@ h2,
     margin-right: 0;
   }
 }
-
+.page-introduction {
+  margin-bottom: 30px;
+  p {
+    font-weight: 400;
+  }
+}
 .page-description {
   font-weight: 100;
 }

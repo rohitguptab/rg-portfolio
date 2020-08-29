@@ -24,7 +24,7 @@ export default class Services extends Component {
 
         <div className="container services-page" id="services">
           <div
-            className="hide-in-desktop"
+            className="hide-in-desktop page-introduction"
             dangerouslySetInnerHTML={{
               __html:
                 data.allContentfulPages.nodes[0].description.childMarkdownRemark

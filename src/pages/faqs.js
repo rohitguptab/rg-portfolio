@@ -24,7 +24,7 @@ export default class FAQs extends Component {
 
         <div className="container faqs-page" id="FAQs">
           <div
-            className="hide-in-desktop"
+            className="hide-in-desktop page-introduction"
             dangerouslySetInnerHTML={{
               __html:
                 data.allContentfulPages.nodes[0].description.childMarkdownRemark
