@@ -212,3 +212,10 @@ h2,
   margin: 0 auto;
   margin-top: 2rem;
 }
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
