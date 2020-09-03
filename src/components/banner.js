@@ -4,6 +4,7 @@ export default class Banner extends Component {
   render() {
     const { data, site, page } = this.props;
     const isMain = !page.page;
+    const showSummary = page.page !== "Data" && page.page !== "Privacy";
 
     return (
       <div className={classNames("banner", { secondary: !isMain })} id="home">
@@ -55,12 +56,14 @@ export default class Banner extends Component {
                     })}
                 </h1>
                 <span className="horizontal-line"></span>
-                <div
-                  className="hide-in-mobile"
-                  dangerouslySetInnerHTML={{
-                    __html: page.description.childMarkdownRemark.html,
-                  }}
-                />
+                {showSummary && (
+                  <div
+                    className="hide-in-mobile"
+                    dangerouslySetInnerHTML={{
+                      __html: page.description.childMarkdownRemark.html,
+                    }}
+                  />
+                )}
               </div>
             )}
           </div>
