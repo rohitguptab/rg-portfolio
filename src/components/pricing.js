@@ -20,14 +20,20 @@ export default class Pricing extends Component {
                     </div>
 
                     <div className="generic_price_tag clearfix">
-                      <span className="price">
-                        <span className="sign">£</span>
-                        <span className="currency heavy">
-                          {item.node.price}
-                        </span>
+                      {item.node.price > 0 ? (
+                        <span className="price">
+                          <span className="sign">£</span>
+                          <span className="currency heavy">
+                            {item.node.price}
+                          </span>
 
-                        <span className="month">/{item.node.timeUnit}</span>
-                      </span>
+                          <span className="month">/{item.node.timeUnit}</span>
+                        </span>
+                      ) : (
+                        <span className="price">
+                          <span className="currency heavy">Free</span>
+                        </span>
+                      )}
                     </div>
                   </div>
 
