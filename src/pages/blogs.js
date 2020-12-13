@@ -30,7 +30,7 @@ export default class Blogs extends Component {
                 return (
                   <li key={index} className="item">
                     <div className="inner">
-                      <Link className="link" to={item.node.slug} />
+                      <Link className="link" to={`/${item.node.slug}`} />
                       {item.node.featureImage ? (
                         <Img
                           fluid={item.node.featureImage.fluid}

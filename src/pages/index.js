@@ -24,45 +24,45 @@ const IndexPage = ({ data }) => (
     {data.contentfulSiteInformation.menus
       .filter(item => item === "About")
       .map(t => {
-        return <About data={data.contentfulAboutMe}></About>;
+        return <About key="About" data={data.contentfulAboutMe}></About>;
       })}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Service")
       .map(t => {
-        return <Service data={data.allContentfulService}></Service>;
+        return <Service key="Service" data={data.allContentfulService}></Service>;
       })}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Blogs")
       .map(t => {
-        return <Blogs data={data.allContentfulBlogs}></Blogs>;
+        return <Blogs key="Blogs" data={data.allContentfulBlogs}></Blogs>;
       })}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Work")
       .map(t => {
-        return <Work data={data.allContentfulWorks}></Work>;
+        return <Work key="Work" data={data.allContentfulWorks}></Work>;
       })}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Testimonials")
       .map(t => {
         return (
-          <Testimonial data={data.allContentfulTestimonials}></Testimonial>
+          <Testimonial key="Testimonial" data={data.allContentfulTestimonials}></Testimonial>
         );
       })}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Photos")
       .map(t => {
-        return <Photos data={data.contentfulPhotos}></Photos>;
+        return <Photos key="Photos" data={data.contentfulPhotos}></Photos>;
       })}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Contact")
       .map(t => {
-        return <Contact data={data.contentfulAboutMe.gmail}></Contact>;
+        return <Contact key="Contact" data={data.contentfulAboutMe.gmail}></Contact>;
       })}
   </Layout>
 );
