@@ -7,7 +7,7 @@ export default class Banner extends Component {
     return (
       <div className="banner">
         <Img
-          fixed={data.bannerImage.fluid}
+          fluid={data.bannerImage.fluid}
           objectFit="cover"
           objectPosition="50% 50%"
         />

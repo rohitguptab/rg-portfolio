@@ -46,7 +46,7 @@ export default class Photos extends Component {
                 return (
                   <div key={index} className="photos-item">
                     <Img
-                      fixed={item.fluid}
+                      fluid={item.fluid}
                       objectFit="cover"
                       objectPosition="50% 50%"
                     />

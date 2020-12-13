@@ -44,14 +44,14 @@ export default class Header extends Component {
                     });
                   }}
                 >
-                  <li>
+                  <li key="home">
                     <Link to="/#home">Home</Link>
                   </li>
                   {data.menus
                     .filter(item => item === "About")
                     .map(t => {
                       return (
-                        <li>
+                        <li key="About">
                           <Link to={`/#About`}>About</Link>
                         </li>
                       );
@@ -60,7 +60,7 @@ export default class Header extends Component {
                     .filter(item => item === "Service")
                     .map(t => {
                       return (
-                        <li>
+                        <li key="Service">
                           <Link to={`/#Service`}>Service</Link>
                         </li>
                       );
@@ -69,7 +69,7 @@ export default class Header extends Component {
                     .filter(item => item === "Blogs")
                     .map(t => {
                       return (
-                        <li>
+                        <li key="Blogs">
                           <Link to={`/#Blogs`}>Blogs</Link>
                         </li>
                       );
@@ -79,7 +79,7 @@ export default class Header extends Component {
                     .filter(item => item === "Work")
                     .map(t => {
                       return (
-                        <li>
+                        <li key="Work">
                           <Link to={`/#Work`}>Work</Link>
                         </li>
                       );
@@ -88,7 +88,7 @@ export default class Header extends Component {
                     .filter(item => item === "Testimonials")
                     .map(t => {
                       return (
-                        <li>
+                        <li key="Testimonials">
                           <Link to={`/#Testimonials`}>Testimonials</Link>
                         </li>
                       );
@@ -97,7 +97,7 @@ export default class Header extends Component {
                     .filter(item => item === "Photos")
                     .map(t => {
                       return (
-                        <li>
+                        <li key="Photos">
                           <Link to={`/#Photos`}>Photos</Link>
                         </li>
                       );
@@ -106,7 +106,7 @@ export default class Header extends Component {
                     .filter(item => item === "Contact")
                     .map(t => {
                       return (
-                        <li>
+                        <li key="Contact">
                           <Link to={`/#Contact`}>Contact</Link>
                         </li>
                       );
@@ -122,14 +122,14 @@ export default class Header extends Component {
                     });
                   }}
                 >
-                  <li>
+                  <li key="home">
                     <Link to="/#home">Home</Link>
                   </li>
                   {data.menus
                     .filter(item => item === "Blogs")
                     .map(t => {
                       return (
-                        <li>
+                        <li key="blogs">
                           <Link to="/blogs">Blogs</Link>
                         </li>
                       );
@@ -138,7 +138,7 @@ export default class Header extends Component {
                     .filter(item => item === "Photos")
                     .map(t => {
                       return (
-                        <li>
+                        <li key="photos">
                           <Link to="/photos">Photos</Link>
                         </li>
                       );
