@@ -28,7 +28,7 @@ export default class Testimonial extends Component {
                   <div className="testi-inner">
                     <Img
                       className="avatar"
-                      fixed={item.node.avatarImage.fluid}
+                      fluid={item.node.avatarImage.fluid}
                       objectFit="cover"
                       objectPosition="50% 50%"
                     />
