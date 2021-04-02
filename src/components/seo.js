@@ -38,7 +38,7 @@ function SEO({ description, lang, meta, keywords, title, data }) {
               },
               {
                 name: `twitter:creator`,
-                content: data.contentfulSiteInformation.twiteerHandle
+                content: data.contentfulSiteInformation.twitterHandle
               },
               {
                 name: `twitter:title`,
@@ -86,7 +86,7 @@ const detailsQuery = graphql`
     contentfulSiteInformation {
       siteName
       siteDescription
-      twiteerHandle
+      twitterHandle
     }
   }
 `;

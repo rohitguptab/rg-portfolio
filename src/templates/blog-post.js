@@ -18,11 +18,11 @@ export default class blogPost extends Component {
     };
 
     const siteurl = this.props.data.contentfulSiteInformation.siteUrl + "/";
-    const twiteerhandle = this.props.data.contentfulSiteInformation
-      .twiteerHandle;
+    const twitterhandle = this.props.data.contentfulSiteInformation
+      .twitterHandle;
     const socialConfigss = {
       site: {
-        siteMetadata: { siteurl, twiteerhandle }
+        siteMetadata: { siteurl, twitterhandle }
       },
       title: data.title,
       slug: data.slug
@@ -66,7 +66,7 @@ export default class blogPost extends Component {
             </div>
             <Share
               socialConfig={{
-                ...socialConfigss.site.siteMetadata.twiteerhandletitle,
+                ...socialConfigss.site.siteMetadata.twitterhandletitle,
                 config: {
                   url: `${siteurl}${socialConfigss.slug}`,
                   title: `${socialConfigss.title}`
@@ -110,7 +110,7 @@ export const pageQuery = graphql`
     }
     contentfulSiteInformation {
       siteUrl
-      twiteerHandle
+      twitterHandle
     }
   }
 `;
