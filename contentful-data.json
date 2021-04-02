@@ -751,8 +751,8 @@
           "linkType": "Asset"
         },
         {
-          "id": "twiteerHandle",
-          "name": "Twiteer Handle",
+          "id": "twitterHandle",
+          "name": "Twitter Handle",
           "type": "Symbol",
           "localized": false,
           "required": false,
@@ -1289,7 +1289,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "twiteerHandle",
+          "fieldId": "twitterHandle",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
@@ -1981,7 +1981,7 @@
             }
           }
         },
-        "twiteerHandle": {
+        "twitterHandle": {
           "en-US": "@rohitguptab"
         },
         "siteDescription": {
